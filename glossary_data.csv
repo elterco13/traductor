@@ -1,0 +1,1463 @@
+term,pos,notes,is_case_sensitive,translation_nl
+Accelerometer,noun,A sensing device that measures a vehicle's acceleration.,TRUE,Snelheidsmeter
+Accident Mitigation,noun,Actions taken to reduce the chances of an accident occurring.,FALSE,Ongevallenbeperking
+Activate,verb,Enable a previously deactivated geofence to resume monitoring.,FALSE,
+Active Devices Report,noun,A report that summarizes the list of devices that are active at the time of generating the report.,FALSE,Actieve Apparatenrapport
+Active Usage,verb,"When the app is actively being used for its main functions, such as tracking the driver or scanning for nearby devices.",FALSE,
+Active Vehicle Device Association Report,noun,A report that summarizes the list of vehicles that are active at the time of generating the report along with device association information. See Device Association.,FALSE,Associatierapport voor Actieve Voertuigapparatuur
+Add Comment,verb,A feature that allows users to add additional information or responses to the issues listed in the device's Issues Tab.,FALSE,Reactie toevoegen
+Add Drivers in Bulk,verb,"A process for entering and saving information for multiple drivers at once, using a bulk upload feature.",FALSE,Bestuurders in bulk toevoegen
+Add Individual Driver,verb,A process for entering and saving information for a single driver in the system.,FALSE,Bestuurder individueel toevoegen
+Add Notes,verb,A box where users can write detailed information about their feedback or issues.,FALSE,opmerkingen toevoegen
+Add to Cart,verb,An option to select and store a video for further processing or downloading.,TRUE,In Winkelwagen
+Add to Coaching,verb,The option to add an alert to a driver's coaching session for further review.,TRUE,Toevoegen aan Coaching
+Advanced Driver Assistance Systems (ADAS),noun,Technology that helps drivers avoid accidents and improve safety while driving.,TRUE,Geavanceerde Bestuurders hulpsystemen (ADAS)
+Advisory Alerts,noun,Alerts that provide recommendations for safer driving but do not indicate a violation.,FALSE,Waarschuwingen
+After Lane Change Alert,verb,An alert triggered when a driver doesnâ€šÃ„Ã´t maintain a safe distance after changing lanes.,FALSE,Waarschuwing na rijstrookverandering
+alert,verb,Real-time driving events captured by the Driverâ€šÃ„Â¢i device that provide visibility to driving behavior and incidents that may need quick action.,TRUE,waarschuwing
+Alert / Event ID,verb,,FALSE,Waarschuwing/gebeurtenis-id
+Alert Banner,noun,"Displays the alert description (name, severity, caution), awarded DriverStars, vehicle speed, posted speed limit, and relative speed (REL) in a fleet management system.",FALSE,Waarschuwingsbanner
+Alert Button,noun,A button on the Driverâ€šÃ„Â¢i device used to trigger a Driver Initiated Alert.,FALSE,Waarschuwingsknop
+Alert Card,noun,"A visual representation of a driver's alert within the system, showing whether an alert has been fully or partially viewed by the driver..",FALSE,Waarschuwingskaart
+Alert Cause,noun,The specific reason or situation that triggered an alert.,TRUE,Waarschuwingsoorzaak
+Alert Conversion Report,noun,A report that summarizes the Alerts that are converted to DriverStars or Neutral Events. See DriverStars and Neutral Events.,FALSE,Waarschuwingsconversierapport
+Alert Counts,noun,The total number of notifications or warnings generated due to events or issues.,FALSE,Aantal Waarschuwingen
+Alert Duration,noun,"The length of time the alert was active, depending on specific filters applied to the alert.",FALSE,Waarschuwingsduur
+Alert Feedback,noun,Comments or decisions made by safety managers after reviewing driver alerts.,FALSE,Feedback Waarschuwing
+Alert Filter Panel,noun,A tool in fleet management systems that enables filtering alerts based on driver star ratings.,FALSE,Waarschuwingsfilterpaneel
+Alert Frequency,noun,"The number of times a specific alert (e.g., speeding or distracted driving) occurs over a set period.",FALSE,Waarschuwingsfrequentie
+Alert Geofence,noun,A tool to customize alert settings based on specific geographic areas.,FALSE,Waarschuwing Geofence
+Alert Groups,verb,"Categories of alerts grouped based on the type of safety issues, helping to identify recurring safety problems",FALSE,Waarschuwingsgroepen
+Alert icons,verb,Alert icons are small symbols used to represent specific types of driving-related alerts visually.,FALSE,Waarschuwingspictogrammen
+Alert ID,verb,A unique identifier assigned to each alert for easy tracking and reference.,FALSE,Waarschuwings-id
+Alert Id,verb,,FALSE,Waarschuwings-id
+Alert List,verb,"A list of specific alerts that are eligible for review and coaching, configured by the manager.",FALSE,Waarschuwingslijst
+Alert Map,verb,A visual representation showing alerts triggered by drivers over a selected period.,FALSE,Waarschuwingskaart
+Alert Panel,verb,A section showing all the alerts included in a coaching session.,FALSE,Waarschuwingspaneel
+Alert Preview Video,verb,"A short video preview related to the alert, allowing the driver or manager to see an example of the event that triggered the alert.",FALSE,Waarschuwingsvoorbeeld video
+Alert Review,verb,The process of reviewing an alert to determine its validity. This process can be initiated by either the driver or safety manager.,FALSE,Waarschuwing
+Alert Risk Profile,verb,A summary of safety risks associated with a fleet or driver based on alert data.,FALSE,Waarschuwingsrisicoprofiel
+Alert Search Function,noun,"A tool within the system that allows users to filter and locate specific types of alerts based on criteria such as behavior, severity, or frequency.",FALSE,Waarschuwingszoekfunctie
+Alert Severity Levels,verb,"A classification that indicates how serious or risky an alert is, guiding the priority of coaching required.",FALSE,Urgentieniveaus waarschuwingen
+Alert Sub Type,verb,"A more specific classification within an alert type, providing further details (e.g., ""Severe"" or ""Minor"").",FALSE,Waarschuwingssubtype
+Alert Subtype,verb,,FALSE,Waarschuwingssubtype
+Alert Timestamp,verb,The Date and Time when the Alert was detected.,FALSE,Tijdstempel Waarschuwing
+Alert Type,verb,"The category of an alert, such as speeding or distracted driving.",TRUE,Waarschuwingstype
+Alert Video,verb,"A recording showing instances of alerts like hard acceleration, with a graph for analysis.",TRUE,Waarschuwingsvideo
+Alert Video Fetch Algorithm,verb,"A process that determines which videos are shown, giving priority to high-severity alerts over lower-severity ones.",FALSE,Ophaalalgoritme voor Waarschuwingsvideo's
+Alert Video Modal,verb,"A window in the player that shows driver details, video options, and other alert-related actions.",FALSE,Waarschuwing Videomodel
+Alert Video Player,noun,"A tool to play recorded videos from various cameras, primarily used to review driving footage for training, evidence, and security purposes.",FALSE,Waarschuwingsvideospeler
+Alert Video Throttling Algorithm,verb,"A system used to manage the display of alerts efficiently on the portal, ensuring only necessary information is shown.",FALSE,Waarschuwingsalgoritme voor het afsnijden van video's
+Alert Videos,noun,"displays all the Alert Videos that have multiple camera views (Inward, Outward, Left, and Right).",TRUE,Waarschuwingsvideo's
+Alerts,verb,,TRUE,Waarschuwingen
+Alerts Before Collision,verb,Notifications triggered just before a collision to provide additional context.,TRUE,Botswaarschuwingen
+Algorithm,verb,A set of rules or steps a computer follows to detect unsafe driving behaviors.,FALSE,
+All Alerts Button,verb,A button that opens a list of all alerts generated by the driver.,TRUE,"Knop ""Alle Waarschuwingen"""
+All Alerts Report,noun,â€šÃ„ÃºAll Alertsâ€šÃ„Ã¹ Report displays the complete list of Alerts for the Fleet for the selected duration and report configuration.,TRUE,"Rapport ""Alle Waarschuwingen"""
+All Drivers Score Comparison,verb,A tab comparing the performance scores of all drivers to identify trends or outliers.,TRUE,"Scorevergelijking ""Alle Bestuurders"""
+Altitude,verb,"The height of an object or point above a given reference, usually above sea level.",TRUE,hoogte
+Analyzed Minutes,noun,The amount of driving time required to calculate GreenZone Scores.,TRUE,Geanalyseerde Minuten
+Annotations,verb,"Notes or markers added to videos to highlight specific driving events or objects detected by the system, like vehicles or road signs.",TRUE,Annotaties
+App Notifications,verb,Alerts shown within a mobile or desktop application.,FALSE,app-meldingen
+Apply Filters,verb,A button to confirm and apply your selected filters to the events list.,FALSE,Filters Toepassen
+Apr,noun,Month,FALSE,Apr
+Assign and Associate Page,noun,A page where managers can assign drivers to trips or alerts that lack driver information.,FALSE,Toewijs- en Koppelingspagina
+Assign Drive Time,noun,The process of linking a driver to unassigned drive times.,TRUE,Rijtijd Toewijzen
+Assignment Pending,verb,Status shown when the driver assignment is being updated and has not yet taken effect.,TRUE,Opdracht in Behandeling
+Attach an Image,verb,A feature that lets users upload pictures to help explain their feedback.,TRUE,Afbeelding Toevoegen
+Attentiveness Streak,noun,Maintaining focus while driving consistently over time.,FALSE,Alertheid reeks
+Attributes,verb,"Specific parameters like Driver Score or Green Minutes %, used for generating custom reports.",FALSE,
+Audio Recording,verb,A feature that lets you record sounds inside the vehicle to provide extra details about driving events.,FALSE,
+Audio Recording Configuration,noun,Settings that enable or disable audio recording for alert videos.,FALSE,Configuratie Audio-Opname
+Aug,noun,,FALSE,Aug
+Authentication,noun,A process to verify a user's identity using a username and password.,FALSE,Authenticatie
+Auto Populated,verb,Information that is automatically filled in by the system based on the selected alert or vehicle.,FALSE,Auto ingevuld
+Automated Coaching,noun,"A process where certain aspects of coaching are automated, such as sending alerts to drivers without requiring manual intervention.",FALSE,Geautomatiseerd coachen
+Automated Coaching Session,noun,A session automatically created for a driver based on pre-configured alerts or recommendations.,FALSE,Geautomatiseerde coachingsessie
+Automated Coaching Sessions,noun,"Training or feedback sessions that are automatically created based on the driverâ€šÃ„Ã´s performance, helping them improve their driving.",FALSE,Geautomatiseerde coachingsessies
+Available on Request,verb,A status indicating that a video must be specifically requested before it can be viewed.,TRUE,Op Aanvraag Beschikbaar
+Average Following Distance (AFD),noun,"The average amount of time it takes for a driver to reach the vehicle ahead, calculated over a set period.",TRUE,Gemiddelde Volgafstand (AFD)
+Average GreenZone Score,noun,A higher GreenZone score indicates safe driving behavior.,FALSE,Gemiddelde GreenZone-Score
+Backing||BACKING,noun,Generated when the vehicle goes in reverse at a high speed for more than the pre-defined duration.,TRUE,
+Backing Alert,noun,A warning given when a vehicle reverses too fast for too long.,FALSE,
+Bad Mount Alert,noun,A warning when the tracking device isnâ€šÃ„Ã´t securely attached to the vehicle.,FALSE,Waarschuwing Voor Slechte Montage
+Barrier,verb,A physical gate or arm used to block traffic at a railroad crossing when a train is passing.,FALSE,
+Base Alert,verb,A single type of alert that is not combined with any other alert.,FALSE,Basiswaarschuwing
+Base Alerts,verb,"Alerts generated from fundamental driving behavior issues, such as speeding or distracted driving.",FALSE,Basiswaarschuwingen
+Baseline,verb,"The reference level on the alert video graph, used to compare spikes during incidents like hard braking.",FALSE,Basislijn
+Baseline (Graph),verb,The central line on the yellow trace graph; deviations above or below indicate left or right turns.,FALSE,Basislijn (grafiek)
+Battery Health,verb,"The condition or performance level of the phone's battery, which can affect its ability to hold charge or its overall efficiency.",TRUE,Batterijstatus
+Beacon,noun,,TRUE,Baken
+Beacons,noun,"Wireless transmitters that use low-energy Bluetooth technology to send signals to other smart devices that are nearby, such as the Driverâ€šÃ„Â¢i Camera. Beacons are used to associate a Driver to the vehicle during their drive time.",TRUE,Bakens
+Bearing,verb,The direction or path along which something moves or along which it is located.,FALSE,Lager
+Beta Alert,verb,New alert that is under evaluation and can be used for coaching but does not impact GreenZone score.,FALSE,Beta-waarschuwing
+Blind Spots,verb,Areas around a vehicle that the driver cannot see using mirrors.,TRUE,Dode Hoeken
+Bluetooth,noun,"A wireless technology that allows the app to communicate with nearby devices, such as tracking the driver.",FALSE,Bluetooth
+Bluetooth Permission,verb,A setting that allows the app to connect to devices using Bluetooth.,FALSE,Bluetooth-toestemming
+Blur,verb,,FALSE,Vervagen
+Bookmark,verb,The option to save an event for later reference or discussion.,FALSE,Bladwijzer
+Bookmark an Event,verb,Mark an event as important to easily find and view it later.,FALSE,Een evenement opslaan als bladwijzer
+Bookmarked Events,verb,Alerts marked as important for easy reference during coaching.,FALSE,Evenementen met bladwijzers
+Bounding Box,verb,"Colored boxes (red, yellow, or green) seen in video annotations, showing the following distance.",FALSE,Begrenzende box
+Braking Intensity,noun,"How hard the brakes are applied, measured in G-force.",FALSE,Remintensiteit
+Browser Notifications,verb,Alerts shown directly on your web browser.,FALSE,
+Bulk Edit Driver,noun,"A feature that allows users to update details for multiple drivers at once, rather than editing each driver individually.",FALSE,
+Bulk Upload,verb,Adding multiple geofences at once using a pre-filled CSV file.,FALSE,
+Camera Configuration,noun,"Camera configuration settings that are applicable at the Fleet level. Fleets can enable or disable the left, right, and inward cameras on the D-410 device and inward camera on the D-210 device. Additional cameras can be configured if the user has Driverâ€šÃ„Â¢i Hubx.",TRUE,Cameraconfiguratie
+Camera Obstruction,noun,,TRUE,Camera-Obstructie
+Camera Views,verb,"Different perspectives (e.g., outward, inward, left, right) available for reviewing recorded videos.",FALSE,cameraweergaven
+Camera-Obstruction,noun,,TRUE,Camera-Obstructie
+CAN Connection Issues,verb,"Problems in connecting devices to a vehicle's CAN bus, preventing data reading. Some issues may resolve automatically, while others require customer action or Netradyne support.",FALSE,
+CAN Connectivity,noun,A system ensuring proper connection between vehicle components and the Driver.i device to meet compliance requirements.,FALSE,
+Canadian French,noun,Language,FALSE,
+Card View,verb,A detailed summary of driver alerts displayed in an organized card format.,FALSE,Kaartweergave
+Cards,verb,Visual sections on the dashboard summarizing specific information and providing access to detailed data.,FALSE,
+Cargo Tanker,noun,"A large truck designed to transport liquids or gases, such as gasoline, which can carry hazardous materials.",FALSE,
+Cart,verb,A section where selected videos are stored temporarily before completing a request.,FALSE,
+Cause,verb,"The reason behind an alert being triggered, such as a violation or unsafe behavior.",FALSE,
+Checkpoint,verb,A progress milestone in a streak that tracks safe driving for a set amount of time.,FALSE,checkpoint
+Chronological Order,noun,"Arranged in the sequence of time, showing events from the earliest to the latest.",FALSE,chronologische volgorde
+Circle Geofence,noun,A geofence defined by a central point with a radius to form a circular boundary.,FALSE,Cirkel Geofence
+City,noun,The city where the geofence is located.,FALSE,
+Class 6-8 Vehicles,verb,Heavy-duty vehicles classified based on their weight,FALSE,
+Coachable Events,verb,"Events that can put the driver or the vehicle at risk while driving. Also called Alerts, these events impact the GreenZone Score negatively.",TRUE,Coachbare Gebeurtenissen
+Coaching Completed,verb,Indicates that the driver has reviewed the alert and completed the coaching process.,FALSE,Coaching Voltooid
+Coaching Configurations,verb,"Settings that allow safety managers to customize how coaching sessions are structured, such as choosing which alerts to share and when they are shared.",FALSE,Coachingsconfiguraties
+Coaching Manager,verb,"The person responsible for reviewing, assigning, and conducting coaching sessions with drivers.",FALSE,Manager Coaching
+Coaching Need,verb,Identifying which drivers require guidance based on their alerts or driving behavior.,FALSE,Coachen
+Coaching Parameters,verb,"Criteria used to decide if a driver needs coaching, like score thresholds.",FALSE,Coachingsparameters
+Coaching Review,verb,A review of the Coaching Session by the Manager that marks the session complete.,FALSE,Coaching Beoordelen
+Coaching Session Configuration,noun,The settings used by Safety Managers to set up coaching sessions. This can include adding specific alerts from the Events screen or selecting other options to tailor the session.,FALSE,Configuratie Coachingsessie
+Coaching Session Notes,verb,"Written records made during or after a coaching session that summarize key points, such as alerts, driver responses, and improvement plans.",FALSE,Opmerkingen coachingsessie
+Coaching Sessions,verb,"A training session for drivers, which includes alert examples and driving statistics. Coaching Sessions are focused on helping Fleets improve driver performance.",TRUE,Coachingsessies
+Coaching Status,verb,"The current progress of coaching related to an alert, indicating whether the driver has reviewed it, completed it, or requires further coaching.",FALSE,Coachingsstatus
+Collision Management,noun,"The process of analyzing and handling incidents where vehicles are involved in crashes, even minor ones.",FALSE,Botsingsbeheer
+Collision Warning,noun,"Generated when the driver is 2.6 seconds ahead of an impending collision with any stopped, slowly moving, or braking vehicle in front.",TRUE,Botswaarschuwing
+Collison-Warning,noun,,FALSE,botswaarschuwing
+Comments Section,noun,A text box where users can write their suggestions or explain their feedback.,FALSE,Reactiegedeelte
+Comments Tab,verb,"A section where managers can add notes related to an alert, visible to drivers in the Driverâ€šÃ„Â¢i App.",FALSE,Reactietabblad
+Commercial Motor Vehicle,verb,"Large vehicles used for business purposes, such as transporting goods or passengers.",FALSE,commercieel motorvoertuig
+Compare Driver Groups,verb,Feature that helps compare selected Driver Group(s) in a Fleet.,FALSE,Bestuurdersgroepen Vergelijken
+Comparison,verb,Checking the difference between the current and previous scores for a driver or fleet.,FALSE,vergelijking
+Completed Coaching Sessions (Managed and Virtual):,verb,Comparing the number of completed Coaching Sessions helps Fleet managers understand their training effectiveness and identify areas where additional coaching may be needed for drivers in the Groups.,FALSE,Voltooide coachingsessies (geleid en virtueel):
+Completed Session,noun,A coaching session that has been fully reviewed and marked as completed by the driver.,TRUE,Voltooide Sessie
+Completed Tab,verb,A section showing disputes that have been reviewed and resolved.,FALSE,Tabblad Voltooid
+Compliance Rate,verb,The percentage of times a driver or fleet follows the rules compared to all attempts.,FALSE,Nalevingspercentage
+Compliance Trends,noun,Comparison between the Fleet and the drivers' performance based on Alert Type Compliance. This can be accessed from the GreenZone Statistics page in IDMS Portal.,FALSE,Naleving Trends
+Compound Alert,verb,A combination of two Base Alerts that occurred closely together in the same minute.,FALSE,Samengestelde Waarschuwing
+Compound Driver Distraction Alerts,noun,,FALSE,Samengestelde Waarschuwingen voor Afgeleide Bestuurder
+Compound Harsh Handling Alerts,noun,,FALSE,Samengestelde waarschuwingen voor Ruw Rijden
+Configuration Parameters,verb,Settings that can be adjusted to customize the alerts and cameras for a fleet.,FALSE,
+Configurations,verb,configuration page enables the customers to perform fleet level configuration for certain features of the Netradyne Portal.,FALSE,
+Congested Highways,verb,"Busy roads with heavy traffic, making navigation and parking challenging.",FALSE,overvolle snelwegen
+Contextual Understanding,verb,The ability to analyze what happened before and after an alert to understand the situation better.,FALSE,contextueel begrip
+Control of the Vehicle,verb,The ability to steer and maneuver the vehicle safely while driving.,FALSE,besturing van het voertuig
+Corrective Actions,verb,Steps that can be taken based on dashboard insights to address identified operational or administrative issues.,FALSE,corrigerende maatregelen
+Corrective Window,verb,The time a driver has to adjust their behavior after hearing an alert before a dashboard notification is issued.,FALSE,correctievenster
+Create a New Request,verb,A section where users can request additional video footage by providing necessary details.,TRUE,Nieuw Verzoek Aanmaken
+Create New Request,verb,An option in the portal to generate a new driver report based on selected criteria.,TRUE,Nieuw Verzoek Aanmaken
+Created (Driver Status),verb,"Indicates that a driver has been successfully added to the system, but may not yet be fully operational or active.",FALSE,Aangemaakt (Bestuurderstatus)
+Created Separation by Slowing Down,noun,"A DriverStar awarded when the driver reduces speed to maintain safe distance, contributing positively to the GreenZone score.",FALSE,Scheiding creÃ«ren door te vertragen
+Credentials,verb,"A set of information, like a username and password, used for login.",FALSE,
+CSV (Comma-Separated Values),verb,"A file format that stores data in a plain text, table-like structure with values separated by commas.",FALSE,CSV (Comma-Separated Values)
+CSV File,verb,A file format used to upload or manage multiple geofences at once.,FALSE,CSV-bestand
+Custom Date,verb,A specific date range chosen by the user.,FALSE,
+Custom Date Filter,noun,A tool to select specific weeks or months to view accurate GreenZone Scores.,FALSE,
+Custom Filter,noun,A feature allowing reports to be generated for specific drivers meeting certain conditions.,FALSE,
+Custom Geofences,verb,Geofences created to match specific needs or requirements of a fleet.,FALSE,
+Customer Action,noun,"The response of a customer regarding the return of a defective device, which can include actions like confirming return, requesting a call, or being unreachable.",FALSE,
+Cyclists,verb,"People riding bicycles, who may also be crossing intersections.",FALSE,
+D-430/D-450 Devices,verb,Specific models of Driverâ€šÃ„Â¢i devices that detect severe drowsiness.,FALSE,D-430/D-450-Apparaten
+Daily,verb,Time frequency,FALSE,
+Dashboard||dashboard,noun,Module in the Netradyne Portal that allows the user to gain insights into the Fleet performance and operational updates.,FALSE,
+Dashboard Advisory Alert,noun,"A visual or audio notification on the dashboard, advising the driver about safety-related events.",FALSE,Dashboardwaarschuwing
+Dashboard Alert,noun,Dashboard Alert is generated if the driver does not act upon the In-Cab Audio Alert within a pre-configured time.,FALSE,Dashboardwaarschuwing
+Date and Period Filter,noun,"A tool to choose the time frame (weekly, monthly, or custom) for viewing compliance data.",FALSE,Datum- en periodefilter
+Date Range,verb,The specific time period for which data is displayed on the chart.,FALSE,
+Day,verb,Time frequency,FALSE,
+Days,verb,Time frequency,FALSE,
+Deactivate,verb,Temporarily disable a geofence so it no longer monitors the area.,FALSE,
+Deactivated Driver,noun,"Drivers that are no longer associated with the fleet are moved to deactivated state. Deactivated drivers can be activated at any point of time, if required.",TRUE,Gedeactiveerde Bestuurder
+Deactivated Geofence,noun,A geofence that is turned off or no longer in use.,FALSE,Geofence gedeactiveerd
+Dec,verb,Monthly,FALSE,Dec
+Deceleration,noun,The rate at which a vehicle slows down.,FALSE,Vertraging
+Decreased Control,verb,Difficulty in steering or managing the vehicle while reversing.,FALSE,Verminderde controle
+Default Settings,verb,"Pre-configured values applied automatically if specific details are not provided (e.g., radius of 50m).",TRUE,Standaardinstellingen
+Defensive Driving,verb,"Techniques used to anticipate and react to potential hazards on the road, aiming to reduce accidents and improve safety.",FALSE,Defensief rijden
+Defensive Driving Techniques,verb,"Methods and strategies aimed at preventing accidents or reducing risks, such as maintaining safe following distance or avoiding distractions.",FALSE,Technieken voor defensief rijden
+Delete Invalid Entries,verb,The option to remove incorrect data entries before uploading the correct ones.,FALSE,Ongeldige invoer verwijderen
+Demerit Points,verb,"Points added to a driverâ€šÃ„Ã´s record for violations, which can lead to penalties or license suspension.",FALSE,Punten
+Device Health,noun,"Condition of the device. Device Health can help identify devices that did not respond for more than 24 hours, devices that have issues reported, and devices to be returned (RMA devices).",FALSE,Apparaatstatus
+Device Health Report,verb,A report that summarizes the health condition of the device.,FALSE,Apparaatstatusrapport
+Device Health Section,noun,Part of the Fleet Admin page providing insights into device health and facilitating proactive maintenance.,FALSE,Sectie Apparaatstatus
+Disabled Coaching for Unknown Driver,noun,Indicates that coaching is unavailable for an alert because the driver is unknown or cannot be identified.,FALSE,Gehandicaptencoaching voor onbekenden Bestuurder
+Disc Brake Icon,verb,A symbol in the alert video indicating the start of a hard braking event.,FALSE,Schijfrem Icoon
+Dispute,verb,A challenge made by a driver or manager if they think an alert is incorrect or unfair.,FALSE,
+Dispute Category,verb,"A classification for the type of dispute raised (e.g., invalid alert, extenuating circumstances).",FALSE,Geschilcategorie
+Dispute ID,verb,"A unique identifier assigned to each dispute made against an alert, allowing it to be tracked and reviewed separately.",FALSE,Geschil-id
+Disrupt Traffic Flow,verb,Actions like running a red light that interfere with the smooth movement of vehicles.,FALSE,De verkeersstroom verstoren
+Distance Greater than 45m,verb,Refers to when the vehicle travels over 45 meters after passing the red light before a second alert is generated.,FALSE,Afstand groter dan 45m
+Distracted Driving,verb,"A behavior where a driverâ€šÃ„Ã´s attention is diverted from the road, often due to phone use, eating, or other distractions, resulting in alerts.",FALSE,
+Download Video Icon,verb,A button used to save the video to a computer or device.,FALSE,Video-icoon downloaden
+Downward Spikes,verb,Dips on the alert video graph indicating periods of hard acceleration.,FALSE,Neerwaartse pieken
+Drinking,verb,,FALSE,Drinken
+Drive Time,verb,The sum of all driving minutes constitutes theâ€šÃ„Ã˜drive time,TRUE,Rijtijd
+Drive Time Assignment,noun,Assigning a specific driving session to a driver based on recorded data.,TRUE,Rijtijdtoewijzing
+Driver,noun,An individual who is driving the vehicle.,FALSE,bestuurder
+Driver & Fleet Score,verb,A score that shows how well a driver or the entire fleet is performing over time.,FALSE,Bestuurder- & Wagenparkscore
+Driver Activity (App),verb,"Driver Activity (App) tab focuses on driver-specific information. It displays the driver's unique ID, full name, and group information.",FALSE,Bestuurdersactiviteit (App)
+Driver Assignment,noun,A method to capture and assign the drive time to the driver. There are various methods of Driver Assignment that can be used by the Fleets.,FALSE,Bestuurdersopdracht
+Driver Assignment Workflow,verb,Steps involved in linking or reassigning drivers to specific drive times.,FALSE,workflow voor Bestuurdersopdrachten
+Driver Autonomy,verb,"The ability of drivers to make independent decisions about their performance and safety, often through tools like self-coaching.",FALSE,Autonomie Bestuurder
+driver behavior,verb,"Comparing driver performance across Groups can help identify patterns and develop Coaching Sessions to improve driver skills, leading to enhanced safety and efficiency.",TRUE,bestuurdersgedrag
+Driver Card,verb,"A detailed view in the system showing specific information about a driverâ€šÃ„Ã´s alerts, GreenZone score, and feedback provided during a coaching session.",FALSE,Bestuurdersoverzicht
+Driver Chart,verb,Charts on the Driver Profile page that represent events generated by the driver in graphical format.,FALSE,Bestuurdersgrafiek
+Driver Communications,verb,,FALSE,Bestuurderscommunicatie
+Driver Disputes,verb,"A page in the coaching sessions section that allows Safety Managers to view all feedback and disputes related to alerts issued for drivers, enabling efficient review and decision-making.",FALSE,Bestuurdersgeschillen
+Driver Disputes Page,verb,A central location for Safety Managers to see and review feedback or disputes about alerts.,FALSE,Pagina met geschillen Bestuurder
+Driver Distraction,noun,"Alert that detects when the driver is distracted for more than a few seconds. Driverâ€šÃ„Â¢i currently detects talking on phone, looking at phone, or looking down and considers them as driver distractions.",TRUE,Afgeleide Bestuurder
+Driver Filter Panel,verb,A tool to compare one driverâ€šÃ„Ã´s score with the average fleet score.,FALSE,Filterpaneel Bestuurder
+Driver Group,verb,,FALSE,Bestuurdersgroep
+Driver Groups,verb,Feature that helps manage a large number of drivers by segregating them into groups.,FALSE,Bestuurdersgroepen
+Driver Initiated,verb,,FALSE,Geactiveerd door Bestuurder
+Driver Initiated Alert,noun,A safety alert manually triggered by the driver.,FALSE,Door de Bestuurder Geactiveerde Waarschuwing
+Driver Initiated Alerts,noun,Alerts generated when the driver or passenger presses a button on the device to report a hazardous situation on the road.,FALSE,Door de Bestuurder Geactiveerde Waarschuwingen
+Driver Insight Report,noun,Driver Insight Report provides a comprehensive analysis of individual driver details for a selected duration.,FALSE,Bestuurdersinzichtrapport
+Driver Insights,verb,Useful information derived from analyzing driver behavior to improve safety and performance.,FALSE,Bestuurdersinzichten
+Driver Name,noun,The name of the driver associated with the alert.,TRUE,Naam Bestuurder
+Driver Notification,noun,"Drivers are notified when a comment or alert is shared with them via the Driverâ€šÃ„Â¢i App. They can view the alert, watch the related video, acknowledge the feedback, or reply with comments.",FALSE,Melding Bestuurder
+Driver Page,verb,A portal page where detailed information about individual drivers or the entire fleet can be accessed.,FALSE,Bestuurderspagina
+Driver Patterns,verb,"Repeated behaviors or trends in a driverâ€šÃ„Ã´s performance, like frequent speeding.",FALSE,
+Driver Performance,noun,"An assessment of a driverâ€šÃ„Ã´s behavior and safety metrics, including GreenZone score, alerts, and DriverStars.",FALSE,
+Driver Profile,verb,A detailed screen showing information about a driver's driving performance and most frequent alerts.,TRUE,Bestuurdersprofiel
+Driver Ranking,verb,"A system that ranks drivers based on their performance, such as safety or efficiency.",FALSE,Bestuurdersrangschikking
+Driver Report,verb,A detailed report that provides insights into the performance and behavior of all drivers in a fleet.,FALSE,Bestuurdersrapport
+Driver Response,noun,"The feedback or plan for improvement provided by a driver in response to coaching or alerts, typically shared through the system's comment section.",TRUE,Reactie van de Bestuurder
+Driver Retention,noun,"The ability to keep drivers employed and satisfied, reducing turnover by recognizing and rewarding their performance.",TRUE,Bestuurdersbehoud
+Driver Score,verb,"Driver Score is a numerical representation of a driver's overall performance, considering factors such as Alerts generated and DriverStars awarded.",FALSE,Driver Score
+Driver Side Button Alert,verb,An alert triggered by the driver pressing the alert button on the Driverâ€šÃ„Â¢i device.,FALSE,Bestuurder Waarschuwing zijknop
+Driver Statistics Report,noun,A report that displays Driver Details and Alert Statistics for drivers.,FALSE,Bestuurderstatistieken
+Driver Status Report,noun,A report that summarizes details about the drivers active at the time of generating the report and drivers who were deactivated during the previous week.,FALSE,Bestuurder Statusrapport
+Driver Streaks,noun,Driver Streaks are designed to recognize and reward consistent safe driving practices. They serve as a performance measurement tool that motivates drivers to continually exhibit safe behaviors on the road.,FALSE,Bestuurdersreeksen
+Driver.i Installer App,noun,An application providing diagnostics to troubleshoot CAN connectivity issues by identifying missing or disconnected data points.,FALSE,Driverâ€¢i Installatieprogramma
+Driver.i Metrics,verb,"This section provides a graphical representation of GreenZone Score, Total Number of DriverStars, Total Number of Alerts generated for the selected duration.",FALSE,Driverâ€¢i Metriek
+Driver.i Team,verb,The group responsible for reviewing feedback and ensuring alerts are accurate and useful.,FALSE,Driverâ€¢i Team
+Driver-Distracted Following-Distance,noun,,FALSE,Volgafstandsovertreding door Afgeleide Bestuurder
+Driver-Distracted--Hard-Brake,noun,,FALSE,Hard Remmen door Afgeleide Bestuurder
+Driver-Distracted--Hard-Turn,noun,,FALSE,Scherpe Bocht door Afgeleide Bestuurder
+Driver-Distracted--Speeding,noun,,FALSE,
+Driver-Distracted--Stop-Sign,noun,,FALSE,Bestuurder Afgeleid - Stopteken
+Driver-Distracted--Traffic-Light,noun,,FALSE,Bestuurder Afgeleid - verkeerslicht
+Driver-Distracted--Weaving,noun,,FALSE,Bestuurder Afgeleid - Ritsen
+Driver-Distraction,noun,,FALSE,
+Driver-Drowsiness,noun,,FALSE,Vermoeide Bestuurder
+Driver-Initiated,verb,,FALSE,Door de Bestuurder geÃ¯nitieerd
+Drivers,verb,,FALSE,bestuurders
+Drivers & Fleet Goal,verb,A tab that tracks progress toward performance goals for drivers and fleets.,FALSE,Bestuurders & Wagenpark Doel
+Drivers Legacy,verb,,FALSE,Bestuurders Erfenis
+Drivers not part of any Group,verb,Lists active drivers in the fleet not assigned to any Group.,FALSE,Bestuurder maakt geen deel uit van een groep
+Drivers Page,verb,A section in the Portal where Safety Managers view details about drivers in their fleet.,FALSE,Bestuurders Pagina
+Drivers Screen,verb,A screen that shows the performance and alerts of drivers in a fleet.,FALSE,Bestuurders Scherm
+DriverStar,verb,DriverStars are awarded to drivers in recognition of great driver performance and are intended to encourage drivers to practice safe driving behavior.,FALSE,DriverStar
+Driver-Star,verb,,FALSE,Driver-Star
+DriverStar Events,verb,Positive driving events used to highlight good performance alongside areas needing improvement.,FALSE,DriverStar-Gebeurtenissen
+DriverStar Streak,verb,A type of DriverStar that is awarded when a driver completes 75Â¬â€ FullÂ¬â€ Stops in a row. The DriverStar Steak is issued 24 hours after the 75 stops are identified to allow sufficient time for Driver Assignment. A custom video is played congratulating the Driver on completing 75 full stops in a row.,FALSE,DriverStar Streak
+DriverStar Subtypes,verb,"Recognitions given to drivers for good driving behavior, intended to encourage safe driving.",FALSE,DriverStar-Subtypes
+DriverStars||Driver stars||Driver Stars,verb,,FALSE,DriverStars||Driver stars||Driver Stars
+Driving Conditions,verb,"Weather conditions at the time of a collision, like clear, fog, or rain.",FALSE,Rijomstandigheden
+Driving Minute,noun,A Driving Minute includes any time in which theâ€šÃ„Ã˜vehicleâ€šÃ„Ã˜speedâ€šÃ„Ã˜reaches 2 mph for at least one second.,FALSE,
+Driving Trip,verb,A period of time when the vehicle is in motion and being driven.,FALSE,
+Drop-down List,verb,A menu that allows you to select options such as specific time periods for filtering data.,TRUE,Keuzelijst
+Drowsiness Detection,noun,Identifying when a driver appears sleepy or tired while driving.,TRUE,Vermoeidheidsdetectie
+Drowsy,adjective,,TRUE,Vermoeid
+Duration Drop-down Menu,verb,A list where you can select the time range for the graph.,FALSE,Drop-downmenu Duur
+Duration Selected,verb,The specific time period chosen for analyzing driver alerts or performance data.,FALSE,Duur Geselecteerd
+Durational Alerts,verb,"Alerts that are generated periodically if an issue persists (e.g., every minute or every 10 minutes).",FALSE,Tijdelijke waarschuwingen
+Edge Computing,verb,"Processing data closer to where it is generated (e.g., in the vehicle), instead of sending it to a centralized server.",FALSE,Randcomputing
+Efficient,verb,Achieving goals quickly and with minimal waste of time or resources.,FALSE,
+Ejected,verb,"Being thrown out of the vehicle, usually due to lack of seatbelt usage or a violent crash.",FALSE,
+ELD Integration,noun,"The connection of an Electronic Logging Device (ELD) to the system, which provides driver assignment data for device status updates.",FALSE,ELD-Integratie
+Elevated Temperatures,verb,"Cargo that is transported while being kept hot, such as asphalt.",FALSE,
+Email Link for Setup,verb,An email sent to the driver containing a link to set their app password.,FALSE,e-maillink voor installatie
+Email Notifications,verb,Alerts sent to your email address.,FALSE,
+Email Reminders,verb,"Notifications sent to customers to remind them of pending actions, such as returning a faulty device.",FALSE,
+Email Sharing,verb,"If the driver is not using the Driverâ€šÃ„Â¢i App, alerts can be shared via email with a time-limited link.",FALSE,delen via e-mail
+Emergency Response Team,verb,A group responsible for analyzing accident data and coordinating responses during emergencies.,FALSE,Noodhulpteam
+End Driving Session,verb,A feature in the app that the driver taps when they finish their trip to mark the end of their driving session.,FALSE,Einde Rit
+Engine Vibration Alert,noun,"A warning for excessive shaking in a vehicleâ€šÃ„Ã´s engine, often in heavy vehicles.",FALSE,Motortrillingswaarschuwing
+Enhanced Privacy,verb,A feature that disables some inward camera recordings but is overridden during Driver Initiated Alerts.,FALSE,Privacymodus
+Error-Events,verb,,FALSE,foutmeldingen
+Event Access,verb,Permission for drivers to view specific incidents or videos related to their driving.,FALSE,Gebeurtenistoegang
+Event Access Page,verb,"A page where you can view or download videos once they are processed and uploaded, associated with a specific event or alert.",FALSE,Gebeurtenistoegangspagina
+Event Access Video,verb,A video recorded by the system for a driving event that did not create an alert.,FALSE,Gebeurtenistoegangsvideo
+Event Distribution Analysis,verb,A tab that breaks down the types and frequency of events (like alerts) across the fleet.,FALSE,Distributie Gebeurtenis Analyse
+Event Footage,verb,"The video or other media content associated with an alert, showing the specific incident or behavior that triggered the alert.",TRUE,Gebeurtenisbeelden
+Event ID,noun,"A unique identifier assigned to each event or alert in the system, used to track and review alerts efficiently.",FALSE,Gebeurtenis-id
+Event Summary,verb,"A summary of alerts and driver performance, presented in chart formats",FALSE,Samenvatting van Gebeurtenis
+Event Type Chart,verb,A Pie Chart or Bubble Chart that displays the number of alerts graphically for individual drivers or all drivers to give an overview of the overall performance of the Fleet.,FALSE,Gebeurtenistype Grafiek
+Event Video,verb,"A video recording of a particular driving event, often showing the context of an alert or behavior, which can be played for review.",FALSE,Video Gebeurtenis
+Event Vs Time Chart,verb,A graphical representation of Fleet performance that displays the number of alerts over time. The alert count is grouped by severity and type.,FALSE,Gebeurtenis vs. tijdgrafiek
+Events Panel,verb,Highlights the aggregated real-time alerts based on the violation types and DriverStars. Events Panel is available on the Fleet Performance page in Dashboard.,FALSE,Gebeurtenissenpanel
+Events Screen,verb,A section in the app that shows a list of all events (such as alerts and driver performance indicators) recorded within a specific time frame.,FALSE,sectie Gebeurtenissen
+Events vs Time,verb,"A graphical representation of events (Alerts, Recognitions, Notifications) over a time period, used to analyze trends and patterns in fleet performance.",FALSE,
+Evidence,noun,Recorded videos used to resolve disputes or incidents by showing proof of events.,FALSE,
+Excessive Idling,verb,,TRUE,overmatig stationair draaien
+Excessive Yawn,verb,"Yawning three times in five minutes while driving, detected as a moderate sign of drowsiness.",FALSE,
+Excessive Yawning,verb,,FALSE,overmatig gapen
+Executive Reports,verb,"Summaries of Fleet and Driver performance, including rankings, risks, and recommendations.",FALSE,Samenvattende Verslagen
+Executive Summary,verb,"This section provides information about the overall demographics, such as Number of Vehicles, Distance, Total Traffic Lights, Total Stop Signs, Total Driving Time, and Total Traffic Time.",FALSE,Samenvattend Verslag
+Executive Summary Report,noun,"A detailed report summarizing fleet performance, driver rankings, alert profiles, and coaching recommendations, generated on a weekly or monthly basis.",FALSE,Samenvattend Rapport
+Exempt from Hours of Service (H.O.S.),noun,"Indicates whether a driver is exempt from the regulations that limit driving hours, typically for specific driver types or scenarios",FALSE,Vrijgesteld van diensturen (V.V.D.)
+Export to CSV,verb,A feature to download geofence data in CSV format for external use.,FALSE,Exporteren naar csv
+External Cameras,verb,"Additional cameras connected to the Driverâ€šÃ„Â¢i system, which can also be used for audio recordings.",TRUE,Externe Camera's
+Eye Behavior,verb,"How the eyes move or stay open, used to detect drowsiness, such as slow blinking or closed eyes.",FALSE,Ooggedrag
+Face Mask Compliance,noun,,FALSE,Naleving gezichtsmasker
+Face-Mask-Compilance,noun,,FALSE,Naleving Gezichtsmasker
+Feb,verb,,FALSE,Feb
+Feedback,verb,Comments or disputes submitted by drivers or managers about the validity of an alert.,TRUE,Feedback
+Feedback Tab,verb,A section to provide input or evaluations regarding an alert.,TRUE,Tabblad Feedback
+Field of Vision,verb,"The area visible in the camera view, showing detected vehicles, road signs, or traffic signals.",TRUE,Gezichtsveld
+Filter Options,verb,"Choices that allow users to sort and display alerts by their risk level (e.g., severe, moderate).",TRUE,Filteropties
+Filter Panel,verb,"A tool to sort and narrow down data, making it easier to focus on specific driver details.",FALSE,
+Fire Hazard,verb,A situation where there is a risk of fire.,FALSE,
+Flammable Cargo,noun,Materials like oil and gas that can easily catch fire.,FALSE,
+Fleet,noun,A group of vehicles associated with a Customer.,TRUE,Wagenpark
+Fleet Access,noun,The permissions or rights granted to a user to access and manage specific fleets in the system.,FALSE,wagenparktoegang
+Fleet Admin,noun,A page in the Dashboard that displays the summarized view of administrative issues that require the manager's attention,FALSE,Wagenparkadministratie
+Fleet Admin Dashboard,verb,"Displays a summarized view of Device Health, Provisioning & Configurations, Vehicles, and Groups for operational or administrative oversight.",FALSE,Dashboard voor Wagenparkadministratie
+Fleet Comparison,verb,A feature that allows the user to compare selected Fleets and generate a report.,FALSE,Wagenparkvergelijking
+Fleet Comparison Report,verb,,FALSE,Wagenparkvergelijkingsrapport
+Fleet Compliance,noun,How well a group of vehicles and their drivers follow safety regulations.,FALSE,Naleving Wagenpark
+Fleet Goal,noun,A configured value of GreenZone Score to identify the drivers who are performing well. The value can be configured in the range of 0 to 1000. Default value is set at 850. See GreenZone Score.,TRUE,Wagenparkdoel
+Fleet Goal and Fleet Average,verb,Fleet Goal and Fleet Average provide context for comparing the individual driver's performance against both the Fleetâ€šÃ„Ã´s objectives and the average performance of other drivers in the Fleet.,TRUE,Wagenparkdoel en Wagenparkgemiddelde
+Fleet Level,verb,A configuration that applies to all vehicles in a group managed by the same organization.,TRUE,Wagenparkniveau
+Fleet Management,noun,,TRUE,Wagenparkbeheer
+Fleet Managers,noun,"Individuals responsible for managing a fleet of vehicles and drivers, ensuring safety and performance.",TRUE,Wagenparkbeheerders
+Fleet Map,noun,,FALSE,Wagenpark Kaart
+Fleet Metrics,verb,Data and statistics that evaluate the overall safety and performance of a fleet of drivers.,FALSE,Wagenparkgegevens
+Fleet name,noun,,FALSE,Naam wagenpark
+Fleet Operations,verb,"The management and coordination of a group of vehicles, usually in a company or organization.",FALSE,Wagenparkoperaties
+Fleet or Netradyne Comments,verb,"Notes or feedback added by users from the Fleet or Netradyne, which stop the automated device state transition once added.",FALSE,Wagenpark of Netradyne Opmerkingen
+Fleet Performance,noun,Presents a high-level view of the overall efficiency and effectiveness of the fleet operations.,TRUE,Wagenparkprestaties
+Fleet Performance Dashboard,noun,"A tool used by Safety Managers to monitor and manage the safety metrics of a fleet, such as vehicles and drivers, providing insights for informed decision-making.",FALSE,Dashboard voor Wagenparkprestaties
+Fleet Report,verb,,FALSE,Wagenparkrapport
+Fleet Speed limit,verb,,FALSE,Wagenpark Snelheidslimiet
+Fleet statistics,verb,A summary of key performance metrics within a fleet management system,FALSE,Wagenparkstatistieken
+Fleet Tracking,verb,,TRUE,Wagenpark Volgen
+Fleet Trend,verb,A pattern showing how the fleet's performance changes over time.,TRUE,Wagenparktrend
+First Notice of Loss,noun,"Initial report containing key data about a collision, used for claims and investigations.",FALSE,Eerste kennisgeving van verlies
+Following Distance,noun,An alert that is raised if the driver did not maintain a safe distance with the vehicle ahead.,TRUE,Volgafstand
+Following Distance Insights,verb,Provides graphical representation of Average Following Distance distribution and the distribution of Following Distance Alert subtypes that were generated.,FALSE,Inzichten in Volgafstand
+Following-Distance,verb,,TRUE,Volgafstand
+Following-Distance--Hard-Brake,noun,,FALSE,Volgafstand--Hard remmen
+Field of View,noun,The visible area captured by the camera.,FALSE,gezichtsveld
+Frame-by-Frame Viewing,verb,A feature that lets users review the video one frame at a time for precise analysis.,FALSE,Beeld-per-beeld Bekijken
+Frequency of Alert Repetition,verb,Describes how often the system raises alerts when obstructions occur repeatedly during a trip.,FALSE,Herhalingsfrequentie van waarschuwingen
+Frequent Alerts,noun,"The most commonly occurring alerts, ranked in descending order to highlight critical safety issues.",TRUE,Meest Voorkomende Waarschuwingen
+Fri,verb,Month,FALSE,Vr
+From Front Alert,verb,"An alert triggered when a driver follows another vehicle too closely, not maintaining the recommended safe distance.",FALSE,Waarschuwing Volgafstand
+Fuel Impact,noun,,FALSE,Brandstofimpact
+Fuel-Impact,noun,,FALSE,Brandstofimpact
+Full Video,verb,"The complete video recorded for an event, including audio if available.",FALSE,Volledige video
+Fully Viewed,verb,Watching an alert video from start to end without skipping any part.,FALSE,Volledig bekeken
+G Value,verb,"A measure of acceleration relative to gravity, used to indicate the severity of a turn.",FALSE,G Waarde
+General Availability Alert,verb,"An upgraded alert that has been tested for its precision in Beta stage. Once a certain threshold is reached, the alert is upgraded and made available to all. It may start impacting the GreenZone Score.",FALSE,Algemeen beschikbaarheidsalarm
+Geo Location,verb,"The exact geographic position of the vehicle, including altitude, latitude, and longitude.",FALSE,Geo-locatie
+Geofence,noun,,FALSE,Geofence
+Geofence Activity Report,noun,"Geofence Activity Report offers a comprehensive view of vehicle activity within a designated virtual boundary, surrounding a specific geographical area.",FALSE,Geofence-Activiteitenrapport
+Geofencing,verb,Process of creating a perimeter or boundary for a certain geolocation per alert type so that any event generated in that geofence is suppressed.,FALSE,Geofencing
+Geographic Location,verb,"The specific place where something is situated, described by coordinates or other location-based data.",FALSE,
+Geotab,noun,Non-Translatable Words,FALSE,Geotab
+Geotab Compliance Suite,verb,A set of tools and software used to ensure that fleet operations comply with various transportation regulations.,FALSE,Geotab Nalevingsomgeving
+G-Force criteria,verb,"G-force, or gravitational force, indicates the intensity of forces experienced by an object due to sudden changes in motion or direction.",FALSE,G-krachten criteria
+G-force,verb,A measure of the force exerted during a collision or sudden impact.,FALSE,G-krachten
+Global Configuration,verb,Default settings that are configured for all vehicles in the Fleet.,FALSE,
+GPS Antenna,noun,"The component that receives signals from GPS satellites to determine the deviceâ€šÃ„Ã´s location, typically visible to the sky.",FALSE,
+Grace Period,verb,"The period of time in which drivers must review and act on alerts. If this time expires without the driver completing the task, the alert is added to their Managed Coaching Session.",FALSE,overgangsperiode
+Green Arrow Icon,verb,An icon used to expand an event to show more detailed information about the associated alert or DriverStar.,FALSE,Groene Pijl Pictogram
+Green Trace,verb,A line on the alert video graph that shows vehicle speed changes during an incident like hard braking.,FALSE,Groene Lijn
+GreenZone Average Fleet Score,noun,"The average of GreenZone Scores of all drivers in the Fleet, including unassigned drivers.",FALSE,Gemiddelde GreenZone-Wagenparkscore
+GreenZone Impact,verb,Refers to whether the alert affects the driverâ€šÃ„Ã´s GreenZone Score; in this case,FALSE,GreenZone-Impact
+GreenZone Notification,verb,Total percentage of drivers who have received notifications for a drop in score due to risky driving in the selected period. This can be accessed from the Fleet Performance tab on the Dashboard.,FALSE,GreenZone-Melding
+GreenZone Recognition,noun,Total percentage of drivers who have been awarded a recognition for safe driving in the selected period. This can be accessed from the Fleet Performance tab on the Dashboard.,FALSE,GreenZone-Erkenning
+GreenZone Score,noun,Score computed for the driver for a daily/weekly/monthly duration based on the Alerts/DriverStars generated by the driver.,FALSE,GreenZone-Score
+GreenZone Score Thresholds,verb,"Encourages drivers to meet or exceed fleet goals, promoting competition and improving overall fleet efficiency and safety.",FALSE,GreenZone-Scoringsdrempels
+GreenZone Statistics,verb,A dashboard showing charts with data on fleet and driver performance to assess effectiveness.,FALSE,GreenZone-Statistieken
+GreenZone Threshold,verb,Minimum value of GreenZone Score to identify drivers who are not performing well. The value can be configured in the range of 0 to 999. Default value is set at 600.,FALSE,GreenZone-Drempel
+Group Comparison,verb,,FALSE,Groepsvergelijking
+Group Comparison Report,verb,,FALSE,Groepsvergelijkingsrapport
+Group Hierarchy,verb,The organizational structure or group under which the vehicle or driver is categorized.,TRUE,GroepshiÃ«rarchie
+Group-level,verb,"The Group Comparison report displays the Group Granularity tab with the Group Name, Group Hierarchy Lineage, and other information listed in the table below.",FALSE,
+Groups,verb,"Information about groups of vehicles or drivers, categorized for efficient management and monitoring.",FALSE,
+Groups Section,verb,Displays issues related to group configurations in the Fleet Admin Dashboard.,FALSE,Groepsectie
+Groups with no Drivers,noun,Displays Groups without assigned drivers.,FALSE,Groepen zonder bestuurders
+Gyro,verb,A sensing device that is used to measure orientation and angular velocity.,FALSE,Gyroscoop
+GZ,noun,Non-Translatable Words,TRUE,GZ
+GZV4,noun,Non-Translatable Words,TRUE,GZV4
+Hard Acceleration,noun,,TRUE,Hard Optrekken
+Hard Braking,noun,,TRUE,Hard Remmen
+Hard Turn,noun,,FALSE,Scherpe Bocht
+Hard-Acceleration,noun,,FALSE,Hard Optrekken
+Hard-Braking,noun,,FALSE,Hard Remmen
+Hard-Turn,noun,,FALSE,Hard Draaien
+Hard-Turn--Hard-Brake,noun,,FALSE,Hard keren-Hard remmen
+Harsh Handling Alerts,noun,,FALSE,Waarschuwingen voor ruwe handelingen
+Hazardous Location,verb,,FALSE,Gevaarlijke locatie
+Hazardous Locations,noun,,FALSE,Gevaarlijke locaties
+Hazardous Materials (Hazmat),verb,,FALSE,Gevaarlijke materialen (Hazmat)
+Hazardous Road Conditions,verb,,FALSE,Gevaarlijke wegomstandigheden
+Head Posture,verb,,FALSE,Houding van het hoofd
+Health Emergency,verb,,FALSE,Gezondheidsnoodgeval
+Heavy Vehicle,verb,,FALSE,Zwaar voertuig
+Hierarchical View,verb,,FALSE,HiÃ«rarchische weergave
+Hierarchy,verb,,FALSE,
+Hierarchy-level,verb,,FALSE,
+High - G,verb,,FALSE,hoge G-krachten
+High Alert Rate,verb,,TRUE,Hoog Aantal Waarschuwingen
+High G,verb,,TRUE,Hoge G-krachten
+High G Alert,verb,,TRUE,Waarschuwing voor hoge G-krachten
+High Sensitivity,noun,,TRUE,Hoge Gevoeligheid
+HighG,noun,,FALSE,Hoge G
+High-G,noun,,FALSE,Hoge G
+High-G Alert,noun,,FALSE,waarschuwing voor hoge G-krachten
+Hour,noun,,FALSE,
+Hours,noun,,FALSE,
+Hover,noun,,FALSE,
+I am not driving,noun,,FALSE,
+ID,verb,,FALSE,
+IDMS Portal,noun,,FALSE,IDMS-portaal
+Netradyne Portal,noun,Non-Translatable Words,FALSE,Netradyne-Portaal
+Ignition,verb,The state of the vehicle being switched ON or OFF.,FALSE,
+Ignition Status,noun,"The state of the vehicleâ€šÃ„Ã´s ignition (ON or OFF), which is used as a signal to determine if the vehicle is being driven.",FALSE,Ontstekingsstatus
+Impactful Events,verb,Significant incidents or behaviors that negatively affect a driverâ€šÃ„Ã´s GreenZone Score.,TRUE,Belangrijke Gebeurtenissen
+Improve User Experience,verb,"Making changes to a product based on feedback to make it more intuitive, functional, and enjoyable for users.",FALSE,
+Inactive,adjective,Devices requiring further action by the fleet to resolve potential issues. Customers must check devices and provide requested information to the Netradyne Team.,FALSE,inactief
+In-Cab Audio Alerts,noun,"Audible notifications provided within a vehicle to inform drivers of real-time updates, warnings, or instructions for improved safety and compliance in fleet management systems.",FALSE,Cabine-Audiowaarschuwingen
+Incident||incident,noun,"An event or occurrence, such as a vehicle stopping in a hazardous location.",TRUE,
+Incident Analysis,verb,Reviewing events around an alert to investigate and determine causes or responsibilities.,FALSE,incidentanalyse
+Include Audio,verb,An option to add sound when sharing or downloading a recorded video.,FALSE,Inclusief Audio
+Independent Fleets,verb,"Separate groups or collections of vehicles managed independently, typically used by large organizations or resellers who need to keep different operations isolated from each other.",FALSE,Onafhankelijke wagenparken
+Individual Coaching Sessions,verb,"Short sessions, lasting 5-10 minutes, focusing on delivering concise and effective coaching.",FALSE,Individuele coachingsessies
+Inertial graphs,verb,"Visual representations of vehicle movement patterns, speed, and acceleration data, aiding in analyzing and optimizing fleet performance",FALSE,Traagheidsgrafieken
+Inertial Sensors,verb,Devices that measure motion and orientation to analyze driving behavior.,FALSE,Traagheidssensoren
+Info Icon,verb,An icon that provides additional information about the group or category the driver belongs to.,FALSE,Info-pictogram
+Info Tab,verb,"A section displaying detailed information about the alert, like vehicle data, risk type, and location.",FALSE,Tabblad Info
+Inherit,verb,"A setting that allows a driver to automatically use the same values or configurations as their parent fleet or group, such as carrier name or carrier number.",FALSE,Erven
+Installation Guide,noun,,FALSE,Installatiegids
+Interactive Platform,verb,"A system that allows drivers to engage with coaching content by providing feedback or comments, enhancing their involvement in the learning process.",FALSE,
+Interesting Events,verb,Any unusual or noteworthy occurrences on the road reported by the driver.,FALSE,
+Intersection,verb,A place where two or more roads meet or cross each other.,FALSE,
+Invalid Alerts,noun,Displays information about alerts that the Tenant SafetyUser or Tenant Safety Manager has determined to be invalid after reviewing the feedback.,FALSE,Ongeldige waarschuwingen
+Invalid Entries,verb,"Mistakes or missing information in the driver details, which need to be corrected before saving or uploading.",FALSE,Ongeldige invoer
+Inward Blurring,verb,Put definition,FALSE,Binnenwaartse vervaging
+Inward Camera View,verb,"The video footage from the camera facing inside the vehicle, capturing the driverâ€šÃ„Ã´s actions and behavior.",FALSE,
+Inward View,verb,A video perspective showing the driverâ€šÃ„Ã´s actions during a driver-related alert.,FALSE,
+Jan,verb,Month,FALSE,Jan
+Job Id,verb,,FALSE,Baan-id
+"JPEG, PNG, SVG",verb,Types of image formats for saving or printing the graph.,TRUE,"JPEG, PNG, SVG"
+Jul,verb,Month,FALSE,Jul
+Jun,verb,Month,FALSE,Jun
+Know Where They Stand,verb,Understand how their performance compares to that of fellow drivers.,FALSE,Weten waar ze staan
+Lane Change,verb,"When a vehicle moves into a different lane, which can sometimes cause unsafe following distances.",TRUE,Rijstrookwisseling
+Lane Change Alert,verb,A warning generated when a driver brakes hard after switching lanes to avoid a collision.,TRUE,Waarschuwing Rijstrookverandering
+Lane Conduct,verb,,FALSE,Rijstrookgedrag
+Lane Discipline,verb,Staying in your lane and driving responsibly without unnecessary lane changes.,FALSE,Rijstrookdiscipline
+Lane Violation,verb,,FALSE,Rijstrookovertreding
+Lane-Conduct,noun,,FALSE,Rijstrookgedrag
+Last 12 months,verb,,TRUE,Afgelopen 12 Maanden
+Afgelopen 3 Maanden,verb,Data from the past three months.,FALSE,Afgelopen 3 Maanden
+Last 30 Days,verb,A filter option to view driver details from the previous 30 days.,TRUE,Afgelopen 30 Dagen
+Last 6 Months,verb,Data from the past six months.,FALSE,Laatste 6 maanden
+Last Response Time and Location,verb,The last time the device communicated with the system and its location at that time.,TRUE,Recenste Reactietijd & -Locatie
+Last Updated,noun,,TRUE,Laatst Bijgewerkt
+Latitude,verb,The geographic coordinate that specifies the north-south position of the geofence.,FALSE,Breedtegraad
+Left Alert,verb,Generated when a vehicle makes a sharp left turn that exceeds the set threshold.,FALSE,Waarschuwing Links
+Legal Requirement,verb,"A rule or law that mandates certain actions, such as wearing a seatbelt while driving.",FALSE,
+Legend (Chart),noun,Labels above the chart that you can tap to filter specific details like your score or fleet average.,FALSE,Legenda (grafiek)
+Liability,verb,"Legal responsibility, often related to accidents or violations, which alerts help reduce by preventing risks.",FALSE,
+License Number,noun,An optional field where a driverâ€šÃ„Ã´s official driving license number can be entered.,FALSE,
+License Plate Number,noun,The registration number of a vehicle displayed on its license plate.,FALSE,
+Limited Visibility,noun,Not being able to see clearly due to blind spots or obstacles behind the vehicle.,FALSE,
+Live streaming,noun,"Live streaming is a valuable tool for fleet managers, providing real-time video of their vehicles on the road.",FALSE,
+Live Tracking,verb,Live Tracking feature allows fleet managers immediate access to the location and movements of their vehicles.,FALSE,Live Volgen
+Load Destabilization,verb,The risk of a heavy vehicle tipping over when carrying a load and turning abruptly.,FALSE,
+Loading/Unloading,noun,"Activities related to the process of loading or unloading cargo, which may cause low-impact events triggering alerts.",FALSE,
+Loading/Unloading Alert,noun,A warning when G-forces occur due to loading or unloading goods.,TRUE,Waarschuwing Laden/Lossen
+Location Permission,verb,A setting that allows the app to access your phone's location information.,FALSE,Locatie Toestemming
+Log In,verb,The process of entering credentials (username and password) to access an app or system.,FALSE,
+Login Screen,verb,The screen where you enter credentials to access an application.,FALSE,Login Scherm
+Logout,verb,,FALSE,Afmelden
+Longitude,verb,The geographic coordinate that specifies the east-west position of the geofence.,FALSE,Lengtegraad
+Looking at Phone,verb,A distraction caused when a driver holds and looks at a phone while driving.,FALSE,
+Looking Down,verb,"A type of distraction where a driverâ€šÃ„Ã´s head is down for a significant amount of time, affecting road focus.",FALSE,
+Lost or Disoriented,verb,"A situation where the driver feels lost or confused, often in unfamiliar or remote areas.",FALSE,
+Low Impact,noun,,TRUE,Lage Impact
+Low Impact Alert,noun,A notification triggered when the vehicle experiences a slight collision or force within specific G-Force thresholds (0.75G to 1.427G).,TRUE,Waarschuwing met Lage Impact
+Low Sensitivity,noun,"A setting that gives fewer alerts, ideal for experienced drivers.",FALSE,Lage gevoeligheid
+Low-G Alert,noun,"An alert generated for events within the specified G-Force range, often for minor impacts or other forceful movements like speed bumps or sharp turns.",FALSE,Lage-G-waarschuwing
+Low-Impact,noun,,FALSE,Weinig impact
+Lumia,verb,A component of certain devices that must also have a clear view of the sky for proper functioning.,FALSE,Lumia
+Macro Indicator,verb,"A measure used to track overall behavior, like the average following distance, over a longer period.",FALSE,Macro-indicator
+Managed Coaching,verb,"A type of driver coaching that is driven by the Safety Manager. Managers can review the alerts for each driver and add them to a coaching session based on GreenZone Score, Risk Level (Moderate or Severe) and/or frequency for a future discussion with the driver.",FALSE,Begeleide Coaching
+managed coaching session,verb,,TRUE,begeleide coachingsessie
+Managed Coaching Sessions Report,,A report that summarizes the coaching sessions for the selected duration.,TRUE,Rapport Begeleide Coachingsessies
+Managed Fleet,verb,,TRUE,Beheerd Wagenpark
+Manager Notification,verb,Managers receive notifications when the driver replies to shared comments.,FALSE,Kennisgeving Manager
+Manual Coaching,verb,A traditional coaching method requiring direct intervention from safety managers to review and provide feedback.,FALSE,Handmatig coachen
+Map View,verb,"Alert view that displays alerts based on alert locations, filtered by time or occurrence and alert types.",FALSE,Kaart Bekijken
+Mar,noun,Month,FALSE,Mar
+Mark All as Read,verb,An option to mark all notifications as read.,FALSE,Alles Markeren Als Gelezen
+Master Disconnect Switch,verb,Switches that are provided in vehicles to preserve battery life and prevent theft or tampering. They work by cutting off the connection between battery and fuses that power the vehicle.,FALSE,
+Max Speed,verb,The highest speed the vehicle reached during the recorded event.,FALSE,Maximale snelheid
+May,verb,Month,FALSE,
+Medium Sensitivity,verb,A balanced alert setting suitable for mixed traffic conditions.,FALSE,gemiddelde gevoeligheid
+Menu Icon,noun,A button (usually in the top corner) that opens the appâ€šÃ„Ã´s menu.,FALSE,menupictogram
+Miles by Jurisdiction Report,noun,Miles by Jurisdiction Report displays the Total Miles driven by a vehicle in an individual jurisdiction (state/province) for the indicated duration.,FALSE,Rapport Kilometers per Jurisdictie
+Min Speed,verb,The lowest speed the vehicle reached during the recorded event.,FALSE,Min snelheid
+Minute,verb,,FALSE,
+Minutes,verb,,FALSE,
+Minutes Analysed,verb,Safely driven minutes as compared to a driver's total drive time.,FALSE,geanalyseerde minuten
+Moderate,adjective,,TRUE,gemiddeld
+Moderate Alert,noun,Alerts that are configured to trigger when the driver exceeds the alert threshold by a small (moderate) margin.,FALSE,gemiddelde waarschuwing
+Moderate Alerts,noun,Notifications for less critical but still significant safety issues that need monitoring.,FALSE,gemiddelde waarschuwingen
+Moderate Backing Alert,noun,A warning when reversing at more than 7 mph for over 3 seconds.,FALSE,gemiddelde achteruitrijdwaarschuwing
+Moderate Impact,verb,,FALSE,gemiddelde invloed
+Moderate Impact Alert,noun,"A warning for medium-level accidents, like hitting another vehicle at low speeds.",FALSE,waarschuwing met matige impact
+Moderate Potential Impact,verb,A collision event detected with a G-force between 1.43G to 3.00G.,FALSE,matige potentiÃ«le botsing
+Moderate Risk,verb,A classification of alerts indicating a moderate level of risk associated with the driver's behavior.,FALSE,gemiddeld risico
+Mon,verb,,FALSE,Ma
+Monetary Fines,verb,"Financial penalties imposed on drivers for breaking traffic rules, like running a red light.",FALSE,
+Month||month,verb,,FALSE,
+Monthly||monthly,verb,,FALSE,
+Monthly Chart,verb,A graph that shows performance data for each month.,FALSE,Maandgrafiek
+Months,verb,,FALSE,
+More Actions,verb,A menu option to reject or modify alerts into DriverStars or Neutral Events.,TRUE,Meer Acties
+Most Frequent Alerts,noun,Alerts that a driver triggers most often during a selected time period.,TRUE,Meest Voorkomende Waarschuwingen
+Most Impacting Events,verb,"The events or behaviors that have the largest effect on a driverâ€šÃ„Ã´s performance, usually highlighted for corrective action or review.",TRUE,Belangrijkste Gebeurtenissen
+Motivational Tool,verb,"An instrument, such as the GreenZone Score, used to encourage drivers to improve their performance by providing feedback and recognition based on their behavior.",FALSE,Motiverend hulpmiddel
+Multi Video,verb,A video combining multiple camera views into one for sharing.,FALSE,Meerdere video's
+Multi-View Video,verb,"A high-definition video with four different camera angles: Outward, Left, Right, and Inward, showing a full view of the alert event.",FALSE,Video met meerdere weergaven
+NA (Not Available),verb,Indicates insufficient driving data to calculate the GreenZone Score.,FALSE,NB (Niet beschikbaar)
+Near Miss,verb,A situation where a collision is narrowly avoided.,FALSE,Bijna Mis
+Netradyne University,verb,,FALSE,Netradyne Universiteit
+Neutral,noun,,FALSE,Neutraal
+Neutral Events,verb,Normal driver actions that meet the established compliance thresholds for specific types of behavior.,TRUE,Neutrale Gebeurtenissen
+Neutral-Events,verb,,FALSE,Neutrale gebeurtenissen
+No Stop,verb,A severe sign violation where the vehicle fails to stop at a stop sign and continues moving at a speed greater than 7 mph.,FALSE,Geen Stop
+No U-Turn Sign,verb,A traffic sign indicating that making a U-turn at that location is not allowed.,FALSE,Geen U-bocht bord
+Nominal Usage,verb,"Refers to a small or minimal amount of battery consumption, even when the app is running in the background.",FALSE,Nominaal gebruik
+Non-Confrontational Approach,verb,"A method of addressing issues or improving performance without causing conflict, focusing on communication and support rather than punishment.",FALSE,Niet-confrontationele aanpak
+Non-Designated Area,verb,A place not officially marked or approved for parking vehicles.,FALSE,Niet-aangewezen gebied
+Non-functional,verb,Devices still installed in vehicles despite being non-functional. They must be uninstalled and returned to Netradyne for replacement.,FALSE,
+Normal Braking,verb,,FALSE,Normaal remmen
+Notes,verb,"Custom user-added information about the device, accessory, or vehicle to share with other users.",FALSE,
+Notification,verb,An alert sent to the driver via the Driverâ€šÃ„Â¢i App to inform them of a new weekly review session or pending tasks.,FALSE,
+Notification Percentage,noun,The proportion of drivers notified about risky driving behaviors during a selected period.,FALSE,Meldingspercentage
+Notification Preference,verb,Feature that allows users to select how and when they want to be notified when various events occur within a time period.,FALSE,Meldingsvoorkeuren
+Notification Preferences,noun,Settings to customize how and when notifications are received.,FALSE,Meldingsvoorkeuren
+Nov,verb,Month,FALSE,Nov
+Obstructed,verb,Indicates that the camera was obstructed for the specified duration.,FALSE,Obstructie
+Oct,verb,Month,FALSE,Okt
+One-Minute Video,verb,A short video captured and uploaded to the portal whenever the alert button is pressed.,FALSE,video van Ã©Ã©n minuut
+Online Help,verb,,FALSE,Online hulp
+Open Settings,verb,A command that takes you to your phoneâ€šÃ„Ã´s settings to adjust permissions for the app.,FALSE,Instellingen openen
+Optimal Conditions,verb,Driving without any major incidents or risky behaviors.,FALSE,Optimale omstandigheden
+Optimizing Driving Performance,verb,"Improving the way drivers operate vehicles, making them safer and more efficient.",FALSE,Rijprestaties optimaliseren
+Orderly Conduct,noun,Following rules and behaving in a way that maintains safety and structure on the road.,FALSE,Ordelijk gedrag
+OS Version,verb,"The version of the operating system (iOS, Android, etc.) running on the phone, which can impact the app's performance and battery consumptio",FALSE,OS versie
+Other Vehicle Cut In Front Alert,verb,"An alert triggered when another vehicle suddenly cuts into the driverâ€šÃ„Ã´s lane, causing the driver to brake hard.",FALSE,Ander voertuig snijdt voor alarm
+Out of Warranty,verb,"A status indicating that a device is no longer covered by its warranty, meaning the manufacturer will not replace or repair it for free.",TRUE,Buiten Garantie
+Outward Blurring,verb,Put definition,FALSE,
+Outward Camera View,verb,"The video footage from the camera facing outside the vehicle, capturing road conditions and surroundings.",FALSE,Uitzicht naar buiten camera
+Outward View,verb,A video perspective showing the road and surroundings during a driving-related alert.,FALSE,Uitzicht naar buiten
+Over Speeding %,verb,Over Speeding Percentage (%) is the percentage of the total amount of time for which alert(s) were generated divided by total drive time.,FALSE,% Snelheidsovertredingen
+Overspeeding Alert,noun,"Generated when the vehicle is speeding beyond the specified speed limits. The speed limit of the road can be fetched from multiple sources, such as third-party service providers, speed limit signs, and Netradyne speed limit database.",TRUE,Waarschuwing Snelheidsoverschrijding
+Parked,verb,"Helps optimize vehicle usage, reduce fuel consumption, and minimize idle time, which can lead to significant cost savings.",FALSE,
+Driving Time,noun,,FALSE,
+Partially Viewed,verb,"Watching only part of an alert video, not completing it.",FALSE,Gedeeltelijk bekeken
+Passenger Side Button Alert,noun,An alert triggered by a passenger pressing the alert button on the Driverâ€šÃ„Â¢i device.,FALSE,Knopwaarschuwing passagierszijde
+Passenger Sliding,verb,The movement of unsecured passengers in a vehicle due to sudden braking or high G-forces.,FALSE,Bijrijder Verschuift
+Passenger-Carrying Vehicle,verb,"A vehicle that transports people, such as buses or taxicabs.",FALSE,Voertuig voor bijrijdersvervoer
+Password,verb,"A secure code used by drivers to access the app, either set by themselves or provided by the manager.",FALSE,
+Password Management,verb,"The process of creating, storing, and resetting passwords to access secure systems.",FALSE,
+Password Policy,noun,"Rules for creating strong passwords, such as length and character requirements.",FALSE,
+Peak Times,verb,Specific times when certain types of events or alerts occur more frequently.,FALSE,
+Penalties,verb,"Consequences for not following traffic laws, such as fines or losing a driverâ€šÃ„Ã´s license.",FALSE,
+Pending Coaching,verb,Indicates that the coaching session for the alert is still in progress and has not been completed yet.,TRUE,In Afwachting van Coaching
+Pending Installation Devices,verb,Devices received by the Fleet from Netradyne that are yet to be installed in the vehicles.,FALSE,In afwachting van installatieapparaten
+Pending Session,verb,"A coaching session that has not yet been completed by the driver, marked as incomplete in the system.",FALSE,Lopende sessie
+Pending Tab,verb,A section on the Driver Disputes page showing disputes that are still being evaluated.,FALSE,Tabblad In afwachting van
+Performance Evaluation,verb,The process of reviewing a driverâ€šÃ„Ã´s driving record and improvement.,FALSE,Beoordelingsevaluatie
+Periodic Wakeup,noun,"A signal sent by a device at regular intervals, indicating the device is still operational, but may not be receiving regular driving data.",FALSE,Periodiek ontwaken
+Permissible Area,verb,"A location where certain actions, like a U-turn, are allowed because it is safe and does not disrupt traffic.",FALSE,Toegestaan gebied
+Personal Conveyance,verb,"Refers to a vehicle's use for personal, non-work-related travel, which may or may not be allowed depending on the driver's status.",FALSE,Persoonlijk vervoer
+Pilot Alerts,noun,Alerts that do not have the right precision and hence are not made customer visible.,FALSE,Proef Waarschuwingen
+Placarded Hazmat,verb,Hazardous materials transported in quantities large enough to require warning labels or signs on the vehicle.,FALSE,Gevaarlijk geparkeerd
+Placeholder Vehicle,verb,Vehicles with devices that responded in the last 30 days but were not associated with the vehicle at that time in the Portal.,FALSE,Tijdelijk Voertuig
+Play Event Video,verb,"An option to watch the video recorded during an event, showing different camera views.",FALSE,Video afspelen
+Plot Score Option,verb,A setting on the score chart to display the Projected Score as a dotted line for easy comparison with actual scores.,FALSE,Ingeschatte Score optie
+Point of Impact,noun,"The part of the vehicle that was hit during the collision (e.g., front, back, left side).",FALSE,Inslagpunt
+Polygon Geofence,verb,A geofence defined by multiple connected latitude and longitude points forming a closed shape.,FALSE,Polygoon Geofence
+Poor Performance,noun,The minimum GreenZone Score required to avoid being rated as a poor performer.,TRUE,Slechte Prestaties
+Pop-up Message,noun,"A brief notification that appears on the screen to confirm an action or provide information, like confirming that the video request was successfully sent.",FALSE,Pop-upbericht
+Positive Driving Behavior,verb,Safe or commendable driving actions identified by the Driverâ€šÃ„Â¢iÂ¬Ã† device.,FALSE,Positief rijgedrag
+Positive Driving:,verb,Lists the count of DriverStars awarded to drivers.,FALSE,Positief rijden:
+Positive Events,verb,See DriverStars.,FALSE,Positieve gebeurtenissen
+Posted Speed Limit,verb,The maximum allowed driving speed displayed on road signs.,TRUE,OfficiÃ«le Snelheidslimiet
+Potential Collision,noun,A situation where a crash might occur if no corrective action is taken.,TRUE,PotentiÃ«le Botsing
+Potential GreenZone Score,noun,The possible or projected GreenZone Score that can be scored by drivers if they had avoided the alerts generated by them.,TRUE,PotentiÃ«le GreenZone-Score
+Potential-Collision,verb,,TRUE,PotentiÃ«le Botsing
+Potentially Dangerous Situations,verb,Unsafe driving conditions or habits that could lead to accidents or violations.,TRUE,Potentieel Gevaarlijke Situaties
+Pre-defined Features List,verb,"A list of features already specified in the system, from which users can select to report issues or suggest improvements.",FALSE,Lijst met vooraf gedefinieerde functies
+Pre-paid Return Label,verb,"A return label that is provided by the Driver.i team for sending back the faulty device, with no cost to the customer.",FALSE,Vooraf betaald retouretiket
+Preset Filters,verb,Predefined conditions used to display only relevant data when navigating through the dashboard.,FALSE,Vooraf ingestelde filters
+Prev,verb,,FALSE,Prev
+Previous Minute,verb,A feature that lets users view video footage of the minute before or after an alert occurred.,FALSE,vorige minuut
+Next Minute,noun,,FALSE,volgende minuut
+Primary Video,verb,"A standard definition video from a single camera angle, relevant to the alert, such as from the front or back of the vehicle.",FALSE,Primaire video
+Print and Download,verb,Options to save or print the chart in different image formats.,FALSE,Print en Downloaden
+Privacy,verb,Conducting coaching in a confidential environment to respect the driver's privacy.,FALSE,Privacy
+Privacy Icon,verb,An icon shown on the app video indicating that Privacy Mode is active and no inward recording is happening.,FALSE,Privacy Pictogram
+Privacy Mode,verb,Mode in which the inward video files (if an inward recording is enabled) will not be stored in the device. The video file cannot be retrieved.,FALSE,Privacymodus
+Proactive Driver Actions,verb,"Actions taken by drivers to prevent unsafe situations, like slowing down or adjusting their position to avoid accidents.",TRUE,Proactieve Bestuurdersacties
+Proactive Measures,verb,Steps taken in advance to prevent parking-related hazards in the future.,FALSE,Proactieve maatregelen
+Problem Spot,verb,A location where multiple alerts or incidents frequently occur.,FALSE,Probleemgebied
+Projected Score,verb,Projected Score indicates the score the driver could have obtained if the High Impact Alerts were not generated.,FALSE,Verwachte score
+Provisioning,verb,Setting up or enabling a feature in a system.,FALSE,Bevoorrading
+Provisioning & Configurations,verb,A section in the Fleet Admin Dashboard for managing and monitoring Driver.i devices to ensure optimal functionality and fleet health.,FALSE,Bevoorrading & Configuraties
+Proximity,verb,"The closeness of one vehicle to another, affecting the following distance.",FALSE,nabijheid
+Quarter,noun,,FALSE,kwartaal
+Quaterly,noun,,FALSE,elk kwartaal
+Radius,verb,The distance from the center to the edge of a circular geofence.,FALSE,straal
+Railroad Crossing,verb,Generated if the driver did not stop at the railroad crossing sign and kept driving at a speed greater than 7mph or rolled through at a slower speed.,FALSE,spoorwegovergang
+Railroad Crossing Alert,verb,A warning when the vehicle doesnâ€šÃ„Ã´t slow down or stop at railway crossings.,FALSE,Spoorwegovergangswaarschuwing
+Railroad-Crossing,verb,,FALSE,spoorwegovergang
+Rank of the Driver,verb,"The position of a driver in comparison to others, often based on their performance, such as GreenZone Score and other factors.",FALSE,rang van de bestuurder
+Reaction Delay,noun,"The delay in response time when a driver is distracted, making it more likely to miss potential hazards.",FALSE,reactievertraging
+Reaction Time,verb,"The time it takes for a driver to respond to a situation, which slows down with distractions.",FALSE,reactietijd
+Real-time Access,verb,Allows for real-time decisions to improve overall driver score and driver ranking.,FALSE,real-time toegang
+Real-Time Alerts,noun,"Immediate notifications sent as soon as a driving event happens, allowing for quick action or attention.",FALSE,waarschuwingen in real-time
+Real-Time Feedback,verb,"Instant feedback given to the driver during the trip, shown in the video annotations.",FALSE,feedback in real-time
+Real-Time Information,verb,Data provided instantly to allow quick decisions or actions.,FALSE,real-time informatie
+Rear-End Collisions,noun,Accidents that occur when a vehicle following behind cannot stop in time and crashes into the vehicle ahead.,FALSE,aanrijdingen van achteren
+Rear-view Mirrors,verb,Mirrors inside the car used to see the area behind the vehicle.,TRUE,Achteruitkijkspiegels
+Reason for Request,verb,The justification or explanation provided by the user for requesting a specific video.,TRUE,Reden voor Aanvraag
+Reassign Drive Time,verb,The process of correcting driver information for a specific alert.,TRUE,Rijtijd Opnieuw Toewijzen
+Reassigned Drive Time,verb,"A situation where driving hours are attributed to a different driver, which does not affect previously created virtual coaching sessions.",FALSE,opnieuw toegewezen rijtijd
+Recognition Culture,verb,A workplace environment that emphasizes acknowledging and rewarding positive actions.,FALSE,cultuur van erkenning
+Recognition Percentage,verb,The proportion of drivers recognized for safe driving behavior during a selected period. Recognition occurs when daily scores exceed a set threshold.,FALSE,erkenningspercentage
+Recognition Program,verb,An initiative to reward high-performing drivers based on performance data from the GreenZone.,FALSE,Erkenningsprogramma
+Recommended Coaching,verb,"A feature that automatically assigns coaching sessions based on the driverâ€šÃ„Ã´s driving behavior, simplifying the coaching process.",TRUE,Aanbevolen Coaching
+Recommended Coaching Sessions,verb,Suggested training sessions for drivers based on their driving behavior to improve safety and performance.,TRUE,Aanbevolen Coachingsessies
+Red - Minor Alert,noun,An alert triggered when the light turns red after the vehicle has already entered the intersection.,FALSE,Rood - Lichte waarschuwing
+Red Zone,verb,A severe-risk situation where the Following Distance is 0.6 seconds or less for 10 seconds.,FALSE,Rode zone
+Refresh,verb,,FALSE,Vernieuwen
+Refresh the Screen,verb,Swipe down to update the data on the screen.,FALSE,Het scherm verversen
+Registered Email Address,verb,"The email linked to your account, used for communications like password reset links.",FALSE,Geregistreerd e-mailadres
+Registered E-mail ID,verb,The email address linked to the user account for receiving notifications and reports.,FALSE,Geregistreerd e-mail-ID
+Reject Alert,noun,An option to remove an incorrectly triggered or irrelevant alert so it doesnâ€šÃ„Ã´t affect driver or fleet metrics.,FALSE,Waarschuwing afwijzen
+Reject Event,verb,"An action to dismiss an alert, convert it to neutral, or change it to a DriverStar.",FALSE,Gebeurtenis afwijzen
+Rejected Alerts Report,noun,A report that summarizes the alerts rejected by the Fleet for the selected duration.,FALSE,Afgewezen waarschuwingen Rapport
+Relative Speeding,verb,"The vehicle's speed compared to other vehicles on the road, used for internal tracking but does not affect app features.",FALSE,Relatieve snelheid
+Relative Speeding (REL),verb,Relative Speeding indicates the average relative speed of the vehicle with respect to other vehicles. This data is used for internal logging purposes and does not impact any of the Driveri features.,FALSE,Relatieve snelheidsoverschrijding (REL)
+Relative-Speeding,verb,,FALSE,Relatieve snelheid
+Remote Coaching,verb,Utilizes the Driverâ€šÃ„Â¢i App to share performance information with drivers.,FALSE,Coaching op afstand
+Repercussions,verb,"Negative results or outcomes from an action, such as penalties for violating traffic rules.",FALSE,Gevolgen
+Replacement Device Process,verb,"The procedure for sending a new device to replace the faulty one, including installation and vehicle-device association steps.",FALSE,Proces voor vervangend apparaat
+Report a Bug,verb,An option to inform the app team about errors or problems in the app.,FALSE,Een Bug Melden
+Report Criteria,verb,Conditions or filters applied to generate specific driver reports.,FALSE,rapportcriteria
+Report generated for,verb,,FALSE,rapport gegenereerd voor
+Report generated on,verb,,FALSE,rapport gegenereerd op
+Reports Central,verb,,FALSE,Rapportencentrale
+Request Driver Report,verb,Feature that allows the user to request a customized driver report based on specific criteria.,FALSE,Bestuurdersrapport Aanvragen
+Request Full Video,verb,An option to retrieve the complete video footage of an incident.,FALSE,Volledige Video Aanvragen
+Request Id,verb,,FALSE,Aanvraag-id
+Request Video,verb,"The action of asking for a video to be made available for viewing, especially when it's marked as ""Available on Request.""",TRUE,Video Aanvragen
+Requested Driver Reports,noun,"A section that displays the status of all requested driver reports, including pending and ready-to-download reports.",TRUE,Aangevraagde Bestuurdersrapporten
+Requested Video,verb,A recorded video requested for review of a driving incident.,TRUE,Videoaanvragen
+Requested-Video,verb,,FALSE,Aangevraagd-Video
+Rerouting,verb,Changing the planned path of a vehicle to avoid problem areas.,FALSE,Omleiding
+Reset Chart,verb,A feature to revert the Driver Score Chart to its original view.,FALSE,Reset grafiek
+Reset Filter,verb,A button to remove all changes and go back to the default filter settings.,TRUE,Filter Resetten
+Reset Password,noun,The process of creating a new password when you forget the old one.,TRUE,Wachtwoord Opnieuw Instellen
+Resolve Issue,verb,The action taken to mark an issue as resolved once it has been addressed.,FALSE,
+Response Time,verb,The time taken to react to an incident or alert.,FALSE,
+Restricted Hours Driving Report,verb,A report that depicts the total number of minutes of vehicle movement in restricted hours. It summarizes off-time vehicle movement.,FALSE,Rijverslag beperkte uren
+Return Confirmed,verb,A status indicating that the customer has confirmed they have returned the defective device.,FALSE,Retourzending Bevestigd
+Reversing Camera,verb,A camera at the back of the vehicle that shows whatâ€šÃ„Ã´s behind on a screen inside the car.,FALSE,Omkeren camera
+Right Alert,verb,Generated when a vehicle makes a sharp right turn that exceeds the set threshold.,FALSE,Waarschuwing rechts
+Risk Assessment Chart,verb,"A chart that categorizes alerts based on their cause, like third-party incidents or others.",FALSE,Risicobeoordelingstabel
+Risk Level,verb,"The intensity of an alert, classified as either moderate or severe.",FALSE,Risiconiveau
+Risk Profile,verb,"Lists the various alerts generated within the Fleet, classifying them based on their severity and potential impact on safety and operations.",FALSE,Risicoprofiel
+Risk Profiles,verb,Assessments of how likely a driver or fleet is to encounter safety incidents based on behavior.,FALSE,Risicoprofielen
+Risk Type,verb,"The category of risk associated with the driving alert, such as speeding or harsh braking.",FALSE,Risicotype
+RMA Address Form,verb,A form used to provide the address for the return label or replacement device shipment.,FALSE,RMA-adresformulier
+RMA Initiated,verb,A notification about starting a Return Merchandise Authorization (RMA) process for a device.,FALSE,RMA geÃ¯nitieerd
+Roadside Parking,verb,"Parking a vehicle on the side of the road, often due to lack of space at rest stops or truck areas.",TRUE,Parkeren Langs de Weg
+Roadside Parking Alert,verb,A warning triggered when a vehicle is parked in a risky or non-designated spot on the roadside.,TRUE,Waarschuwing voor Parkeren Langs de Weg
+Rolling Stop,verb,Slowing down the vehicle but not stopping completely.,TRUE,Rollende Stop
+Rollovers,verb,"When a vehicle tips over onto its side or roof, often caused by sudden sharp turns at high speeds.",FALSE,Rollovers
+Rough Road Alert,noun,A warning for driving fast over uneven roads or potholes.,TRUE,Waarschuwing voor Ruwe Weg
+Rough Roads,verb,"Roads that may cause uneven driving conditions, leading to alerts for low impact due to bumps or irregular surfaces.",FALSE,
+Route Planning,verb,Creating an efficient path for vehicles to travel.,FALSE,
+Ruleset,verb,"A set of regulations regarding hours of service (H.O.S.) that must be followed by drivers, based on the selection in the system.",FALSE,Regelset
+Safe Speeding Streak,noun,"A streak achieved by maintaining safe speeds over time, currently not affecting the GreenZone score.",FALSE,
+Safety Buffer,verb,"The space a driver creates between their vehicle and others to avoid accidents, especially when another vehicle is merging or parked on the shoulder.",FALSE,Veiligheidsbuffer
+Safety Devices,noun,Equipment like safety triangles or flares used to warn other drivers about a stationary vehicle.,FALSE,Veiligheidsvoorzieningen
+Safety Improvements,verb,"Analyzing data from different Groups can reveal safety trends or issues, enabling Safety Managers to address them and improve the overall safety within the Fleet.",FALSE,Veiligheidsverbeteringen
+Safety Manager,noun,The person responsible for monitoring and improving driver safety and performance.,TRUE,Veiligheidsmanager
+Safety Manager Initiated DriverStar,noun,"A DriverStar awarded by a Safety or Fleet Manager when they convert a hard-to-interpret alert (such as hard braking) into a positive acknowledgment, recognizing that the action was made to avoid danger.",FALSE,DriverStar geÃ¯nitieerd door veiligheidsmanager
+Safety-Focused Culture,verb,An environment where safe driving habits are encouraged and rewarded.,FALSE,Veiligheidsgerichte cultuur
+Sat,noun,Week,FALSE,Zat
+Score Chart,verb,"Visual representations of GreenZone Scores over time (daily, weekly, or monthly).",FALSE,Scoretabel
+Score Trend,verb,"A graphical or numerical representation of a driver's performance over time, showing improvements or declines in key metrics.",FALSE,Score Trend
+Search Field,verb,A text box used to find specific geofences by name.,FALSE,
+Seat Belt Compliance,noun,Generated when the driver does not wear the seat belt at the starting of the trip.,TRUE,Naleving Veiligheidsgordel
+Seatbelt Non-Compliance,noun,When a driver or passenger doesnâ€šÃ„Ã´t wear a seatbelt while the vehicle is in motion.,TRUE,Niet-Naleving Veiligheidsgordel
+Seatbelt-Compilance,noun,,FALSE,Naleving Veiligheidsgordel
+Second||second,noun,Time,FALSE,
+Seconds||seconds,verb,Time,FALSE,
+Security Threat,verb,"Any potential danger, such as robbery or suspicious activity, that risks the safety of the driver or vehicle.",FALSE,Veiligheidsbedreiging
+Seek Bar,verb,A control to fast forward or rewind video playback.,FALSE,Zoekbalk
+Select Drivers,verb,A field allowing managers to pick specific drivers for whom automated coaching sessions will or wonâ€šÃ„Ã´t be created.,TRUE,Selecteer Bestuurders
+Self-Coaching,verb,"A feature that allows drivers to review and address alerts on their own, without requiring direct intervention from safety managers.",TRUE,Zelfcoaching
+Sensitivity Setting,verb,A feature to adjust how early or frequently collision alerts are given to drivers.,FALSE,Gevoeligheidsinstelling
+Sep,noun,,FALSE,Sep
+Separation by Slowing Down,verb,Acknowledgment given when a driver creates a safe distance by reducing speed.,FALSE,Scheiding door vertragen
+Separation Distance,verb,The safe distance maintained between vehicles to prevent accidents.,FALSE,Scheidingsafstand
+Sequence of Events,noun,"The order in which things happen, useful for identifying patterns or trends over time.",FALSE,Opeenvolging van gebeurtenissen
+Session,verb,A specific time period dedicated to coaching and discussing feedback with a driver.,FALSE,
+Session Discussion,verb,A documented summary of the coaching session used to guide and review discussions.,TRUE,Sessiebespreking
+Session ID,verb,A unique number assigned to each coaching session.,FALSE,sessie-id
+Session Notifications,verb,"Drivers are notified via the Driverâ€šÃ„Â¢i app about the weekly review session, which they must complete within a week.",FALSE,sessiemeldingen
+Session Time out,verb,,FALSE,Sessie Time-out
+Settings Screen,verb,A part of the app where you can adjust permissions and preferences.,FALSE,Scherminstellingen
+Severe,adjective,,TRUE,Ernstig
+Severe Alert,verb,Alerts that are configured to trigger when the driver exceeds the alert threshold by a large (severe) margin.,TRUE,Ernstige Waarschuwing
+Severe Alerts (Managed Coached and Virtual Coached),verb,This KPI breaks down the total Severe Alerts into those that have been addressed through Managed Coaching and Virtual Coaching.,FALSE,Ernstige waarschuwingen (Beheerde coaching en Virtuele coaching)
+Severe Backing Alert,noun,A warning when reversing at more than 10 mph for over 3 seconds.,FALSE,Ernstige Achteruitrijwaarschuwing
+Severe Camera Obstruction Duration Report,verb,"Severe Camera Obstruction Duration Report offers valuable insights into camera-related issues, helping Fleet Managers maintain the highest safety and operational standards.",FALSE,Rapport Duur Ernstige Cameraobstructie
+Severe Potential Impact,verb,A collision event detected with a G-force greater than 3.00G.,FALSE,Ernstige potentiÃ«le impact
+Severe Risk,verb,A classification of alerts indicating a high level of risk due to serious driving behavior issues.,TRUE,Ernstig Risico
+Severity,noun,"The level of seriousness of a driver alert (e.g., mild, moderate, or severe).",TRUE,Ernst
+Severity Margin,noun,Value that enables the system to decide if an alert is Severe or Moderate.,TRUE,Ernstmarge
+Shape,verb,The geometric outline (like a circle or polygon) of the geofence area.,FALSE,Vorm
+Share Link,verb,A feature to share alert videos as a link for others to view.,TRUE,Link Delen
+Share with Driver,verb,An option to share alert videos directly with drivers via their Driver-i app account.,FALSE,Met bestuurder delen
+Shared Events Screen,verb,"A screen showing all recorded driving events (Neutral Events, Alerts, and DriverStars).",FALSE,Scherm voor gedeelde gebeurtenissen
+Shipment Tracking,verb,A process of tracking the return shipment of a faulty device and the replacement shipment.,FALSE,Verzending traceren
+Show GreenZone Scores,verb,,FALSE,Toon GreenZone-Scores
+Show Unread Only,verb,An option to display only unread notifications.,FALSE,Alleen ongelezen tonen
+Show/Hide Icon,verb,A button to toggle visibility of the entered password on the login screen.,FALSE,Pictogram weergeven/verbergen
+Side Mirrors,verb,Mirrors on the outside of the car to see the sides and blind spots.,FALSE,Zijspiegels
+Sign Violation,verb,Ignoring traffic signs such as stop signs or yield signs.,FALSE,Verkeersbordovertreding
+Sign Violations||SIGN VIOLATIONS||SIGN-VIOLATION||Sign-Violations||Sign-Violation,noun,,FALSE,Verkeersbordovertredingen
+Sign/Signal Violations,verb,,FALSE,Verkeersbordovertredingen/signalen
+Sign/Signal Violations Alerts,verb,"Alerts generated when a driver violates traffic signs or signals, impacting safety",FALSE,Waarschuwingen voor Verkeersbordovertredingen/signalen
+Sign-Violations,verb,,FALSE,Verkeersbordovertredingen
+SIM Card Deactivation,verb,The process where the SIM card in the faulty device will no longer function 30 days after the RMA request is received.,FALSE,SIM-kaart deactiveren
+Single Video,noun,A video with one camera view shared individually.,FALSE,Enkele video
+Site Tour,noun,,FALSE,Rondleiding
+Sitting-Duck,verb,,FALSE,Schietschijf
+Situational Awareness,noun,"Being aware of what is happening around you while driving, which is reduced when distracted.",TRUE,Situatiebewustzijn
+Skidding,noun,"Losing control of the vehicle's movement, often due to sudden turns or slippery road conditions.",FALSE,Slippen
+Skip,verb,"The option to avoid filling out the feedback survey. If skipped once, it prompts again after 24 hours.",FALSE,Overslaan
+Smoking,noun,,FALSE,Roken
+Sort By Date,verb,"An option to organize events in order of time, from earliest to latest or vice versa.",FALSE,Sorteren op datum
+Spare,verb,Devices that are with the customer but for which SIM is not activated.,FALSE,Reserve
+Speed Bump Alert,verb,An alert triggered when a vehicle passes over a speed bump too quickly without slowing down.,FALSE,Verkeersdrempel waarschuwing
+Speed Bumps,verb,"Raised sections of a road designed to slow down traffic, which can sometimes trigger low impact alerts.",FALSE,verkeersdrempels
+Speeding,verb,"The act of driving above the posted speed limit, which can trigger alerts indicating potential danger.",TRUE,Snelheidsovertreding
+Speeding Violations,noun,Driving above the speed limit specified by the fleet for a prolonged time.,TRUE,Snelheidsovertredingen
+Speeding--Following-Distance,verb,,FALSE,Te snel rijden - Volgafstand
+Speeding--Hard-Brake,noun,,FALSE,Te hard rijden - Hard remmen
+Speeding--Hard-Turn,verb,,FALSE,Te snel rijden - Scherpe Bocht
+Speeding--Traffic-Light,verb,,FALSE,Te snel rijden - verkeerslicht
+Speeding-Violations,verb,,FALSE,Snelheidsovertredingen
+Speeding--Weaving,verb,,FALSE,Te hard rijden - Ritsen
+Spikes (Graph),verb,Sudden upward or downward movements in the yellow trace graph indicating sharp left or right turns.,FALSE,Pieken (grafiek)
+Spot Speeding,verb,Driving faster than the posted speed limit in a specific location.,FALSE,Snelheidsovertredingen
+Start and End Dates of the Trip,verb,Helps monitor trip duration and identify any deviations from the planned schedule.,FALSE,Begin- en einddatum van de reis
+Start Driving Session,verb,A feature in the app that the driver taps when they begin a trip to mark the start of their driving session.,FALSE,Start rij sessie
+State,verb,The state where the geofence is located.,FALSE,
+Stationary Period,verb,The duration for which a vehicle remains stopped or parked in one place.,FALSE,stilstandtijd
+Status,verb,"The outcome of a dispute review, which can be Accepted, Denied, Pending, or In Review.",FALSE,
+Stitch ID,verb,,FALSE,Samenvoeg id
+Stitch Video,verb,"Combining multiple camera views into a single, continuous video.",FALSE,Video samenvoegen
+Stitch Videos,verb,,FALSE,Video's samenvoegen
+Stitched Video Tab,verb,A section in the portal where stitched videos are stored and available for download or sharing.,FALSE,Tabblad Samengevoegde Video
+Stop Sign Alerts,noun,Alerts triggered when a driver fails to stop at a stop sign or does not follow the proper procedure,FALSE,Waarschuwingen stopborden
+Stop Sign Compliance,verb,Adhering to the rule of coming to a full stop at stop signs.,FALSE,Naleving stopborden
+Stop Sign Streak,noun,Successfully stopping at all stop signs over a period without violations.,FALSE,Stopbord reeks
+Stop Sign Streak Completed,verb,A recognition given to drivers who stop at 75 stop signs consecutively without missing any.,FALSE,Stopbord reeks Voltooid
+Stop Sign Violations||STOP SIGN VIOLATIONS||STOP SIGN VIOLATION||Stop Sign Violation||Stop Sign-Violation,noun,When drivers fail to completely stop at a stop sign.,TRUE,Overtredingen stopborden
+Stopped/Parked Location,verb,Helps ensure drivers adhere to designated parking areas and identify potential unauthorized stops or deviations from the planned route.,FALSE,Gestopt/geparkeerd
+Street & Number,noun,The specific address or location within the geofence.,FALSE,Straat & nummer
+Submit Feedback,verb,The action of entering answers to survey questions and sending them for review.,TRUE,Feedback Indienen
+Submit Request,verb,The action of sending a request to retrieve a specific video.,TRUE,Aanvraag Indienen
+Submit Review,verb,"A button used by managers to give feedback on an alert, deciding if itâ€šÃ„Ã´s valid or invalid.",TRUE,Beoordeling Indienen
+Subscribe to a Report,verb,The option to receive the report on a recurring basis (weekly or monthly) via email.,FALSE,Abonneren op een rapport
+Suggestion/Other,verb,Feedback option to share ideas for improvements or new features related to alerts.,FALSE,Suggestie/Ander
+Sun,noun,Weekly,FALSE,Zon
+Support Team,verb,The team you can contact for help with special requirements or permissions for audio recording.,FALSE,Ondersteuningsteam
+Support/Feedback,verb,,FALSE,Ondersteuning/Feedback
+Suppress Alerts,noun,Stop specific notifications from being sent in designated areas.,FALSE,Waarschuwingen onderdrukken
+Surveillance and Security,verb,Monitoring recorded footage to maintain safety and review incidents like accidents.,FALSE,Bewaking en beveiliging
+Survey Display,noun,"The appearance of the survey feedback on the screen after logging in, typically after 10 seconds.",FALSE,EnquÃªte weergave
+Survey Feedback Prompt,verb,A notification that encourages users to submit their feedback about the app.,FALSE,Feedback enquÃªte simuleren
+Survey Feedback,verb,"A method to gather user opinions and experiences about the app, which helps to improve the app over time.",FALSE,Feedback enquÃªte
+Swerve,noun,,FALSE,Uitwijken
+System Recommendations,verb,Suggested coaching sessions based on a driverâ€šÃ„Ã´s behavior and alert history.,FALSE,Aanbevelingen voor het systeem
+Tailgating,verb,"Driving too closely behind another vehicle, reducing reaction time to sudden stops or changes.",FALSE,Bumperkleven
+Talking on Phone,verb,A distraction caused when a driver holds a phone to their ear while driving.,FALSE,Telefoneren
+Tangible Example,verb,"A real-life instance, like a video, showing good driving behavior for learning purposes.",FALSE,Tastbaar voorbeeld
+Targeted Changes,verb,Specific updates made to a driver's details without affecting other records.,FALSE,Gerichte veranderingen
+Targeted Coaching,verb,Specific training to help a driver improve areas of weakness and reach their potential score.,TRUE,Gerichte Coaching
+Targeted Coaching Sessions,verb,Focused training sessions to address specific issues with underperforming drivers.,TRUE,Gerichte Coachingsessies
+Temporary Link,verb,A time-limited URL used to share videos with others.,FALSE,Tijdelijke link
+Tenant Safety Manager,noun,"Users who manage drivers, coach drivers, and generally have access to all safety-related data relating to the Driveri system.",FALSE,Tenant Safety Manager
+Tenant Super User,noun,Owners of the customer account who can perform all the actions that are allowed for a customer in IDMS.,FALSE,Tenant SuperUser
+Tenant SuperUser Role,noun,A user with special permissions to manage advanced settings like enabling audio recording.,FALSE,Tenant SuperUser-rol
+Testing Phase,verb,The trial period for a feature to identify and address any issues.,FALSE,
+Third Party,verb,"Alerts caused by actions of other people or vehicles, not the driver.",FALSE,
+Third Party Cut-In,verb,"When another vehicle suddenly moves into the lane, creating an unsafe following situation.",FALSE,Derde partij Cut-In
+Threshold,verb,"The specific level of G-force or braking force that triggers an alert, usually indicating the seriousness of the action.",FALSE,
+Thu,noun,Weekly,FALSE,Do
+Time Duration,verb,"The selected period (e.g., daily, weekly, or monthly) for which the driver report is generated.",FALSE,
+Time Interval,noun,The time period that must pass before a second violation can trigger a new alert (more than 5 seconds).,FALSE,
+Time Period Drop-down,verb,"A menu to select a specific time range for viewing driver data (e.g., daily, weekly, or custom).",FALSE,Drop-down Tijdsperiode
+Time-Based Filtering,verb,Sorting alerts by when they occurred to analyze events during specific time frames.,FALSE,Filtering op basis van tijd
+Time-limited Link,verb,A temporary link that can only be used for a specific period.,FALSE,Tijdgebonden Link
+Timeliness,verb,Ensuring coaching is conducted within a week of the alert to maximize its impact.,FALSE,Tijdigheid
+Time-to-Collision,noun,The estimated time remaining before a collision occurs with the vehicle in front.,FALSE,
+Toggle Button,verb,A control to switch between full-screen and default view for better viewing experience.,TRUE,Schakelknop
+Total,verb,,FALSE,
+Total Alert Count,noun,,TRUE,Totaal Aantal Waarschuwingen
+Total Minutes Analyzed,noun,The â€šÃ„ÃºMinutes Analyzedâ€šÃ„Ã¹ column on the Drivers page denotes the total number of driving minutes for the driver.,TRUE,Totaal Aantal Geanalyseerde Minuten
+Total Minutes Analyzed and Green Minutes%,verb,Total Minutes Analyzed and Green Minutes% offer insights into the proportion of time a driver spends driving within safe and efficient parameters.,FALSE,Totaal aantal geanalyseerde minuten en Green Minutes%
+Total Severe Alerts,verb,A high number of Severe Alerts may indicate poor driving habits or a lack of adherence to safety protocols.,FALSE,Totaal ernstige waarschuwingen
+Total Trip Duration,verb,Helps evaluate the efficiency of routes and identify any potential issues or delays that may impact overall Fleet performance.,FALSE,Totale reisduur
+Track RMA Device Status,noun,The ability to monitor the progress of a device's return and replacement through the RMA process.,FALSE,RMA-apparaatstatus volgen
+Traffic Flow,verb,"The movement of vehicles on the road, which can influence following distance.",FALSE,Verkeersstroom
+Traffic Laws,verb,"Rules that drivers must follow on the road, such as safe reversing.",FALSE,Verkeersregels
+Traffic Light Alert,verb,An alert triggered when a driver brakes hard to stop at a traffic light.,TRUE,Waarschuwing Verkeerslicht
+Traffic Light Signals,verb,Lights at intersections or crossings used to control traffic flow and improve road safety.,FALSE,Verkeerslichtsignalen
+Traffic Light Violation,noun,Failing to stop at a red light or proceeding before it's safe.,TRUE,Verkeerslichtovertreding
+Traffic Lights Alerts,verb,"Alerts triggered when a driver violates traffic light rules, such as running a red light or failing to stop.",FALSE,Waarschuwingen verkeerslichten
+Traffic-Light-Hard-Turn,verb,,FALSE,Verkeerslicht-Scherpe bocht
+Traffic-Light-Violations,verb,,FALSE,Verkeerslichtovertredingen
+Training and Improvement,verb,Using recorded footage to help drivers learn better driving behaviors.,FALSE,Training en verbetering
+Transfer of Devices,noun,Feature that helps customers to transfer Active and Inactive devices between the Fleets based on their accessibility.,FALSE,Overdracht van apparaten
+Trend Identification,verb,The process of spotting patterns or recurring behaviors in a specific area.,FALSE,Trendidentificatie
+Trend Line,noun,A line on a graph that shows changes in the driver's performance over time.,FALSE,Trendlijn
+Trend Type,verb,"For following distance, this can indicate either total trends or the average distances kept.",FALSE,Trendtype
+Trimmed Video,verb,"A shorter version of the video, focusing on a specific part of the event, with optional audio.",FALSE,Bijgesneden video
+TRUE,verb,,FALSE,WAAR
+Tue,verb,,FALSE,Di
+Turning Radius,verb,The smallest circular turn a vehicle can make.,FALSE,Draaicirkel
+Two-Factor Authentication,noun,"An additional security step requiring a code, apart from the password, for login.",FALSE,Tweestaps-authenticatie
+U turn,noun,,FALSE,U-bocht
+Unassigned Drive Time Report,noun,Unassigned Drive Time Report provides information about the unassigned drive time for all vehicles within a Fleet.,FALSE,Overzicht Niet-Toegewezen Rijtijd
+Under Investigation State,verb,A device status indicating that an issue is being examined manually. Devices in this state are not eligible for automatic updates.,FALSE,Staat: Wordt Onderzocht
+Ungroup,verb,To separate a grouped set of alerts into individual ones.,FALSE,Loskoppelen
+Unknown Driver,verb,A placeholder for drive times where no driver is assigned.,FALSE,Onbekende Bestuurder
+Unknown driver minutes,noun,,FALSE,onbekende bestuurdersminuten
+Un-Obstructed,verb,Indicates that the camera was not obstructed during the selected duration.,FALSE,Onbelemmerd
+Unpredictability,verb,"Actions that other drivers or pedestrians donâ€šÃ„Ã´t expect, causing confusion or danger.",FALSE,Onvoorspelbaarheid
+Unsafe Backing,noun,"Reversing without proper visibility or control, which can cause accidents.",FALSE,Onveilig achteruitrijden
+Unsafe Driving Behavior,verb,Actions by the driver that could lead to accidents or unsafe situations,FALSE,Onveilig rijgedrag
+Unsafe Following Distance,verb,"When the gap between vehicles is too small to stop safely, often measured in seconds.",FALSE,Onveilige volgafstand
+Unshare Alert,noun,An option to stop sharing a previously shared alert video with a driver.,FALSE,Stoppen met delen van waarschuwing
+Update Notification Preferences,verb,A button to save any changes made to notification settings.,TRUE,Voorkeuren Voor Meldingen Bijwerken
+Upload in Progress,verb,A status indicating that the alert video is still being uploaded and is not yet available for viewing.,TRUE,Wordt GeÃ¼pload
+Upward Arrow Icon,verb,A symbol in the alert video that indicates the start of a hard turn.,FALSE,
+Useful Alert,verb,Feedback option to indicate the alert was helpful or accurate.,FALSE,Nuttige waarschuwing
+User Feedback,verb,Insights provided by users to help identify areas of improvement in a product. It plays a crucial role in enhancing user experience.,FALSE,
+User Roles,verb,"The different access levels or permissions assigned to users, such as Safety Managers, Drivers, and Auditors, defining what actions they can perform regarding disputes and feedback.",FALSE,
+Username,verb,,FALSE,
+U-Turn,verb,,TRUE,U-Bocht
+U-Turn Alert,noun,A notification triggered when a driver makes a 180-degree turn in a place where U-turns are prohibited.,TRUE,Waarschuwing U-bocht
+U-Turn Violation,verb,Making an illegal or unsafe U-turn.,FALSE,Overtreding U-bocht
+Valid Alert,noun,An alert confirmed to show correct information about unsafe driving behavior.,FALSE,Geldige waarschuwing
+Valid Alerts,noun,Displays information about alerts that the Tenant SafetyUser or Tenant Safety Manager has determined to be valid after reviewing the feedback.,FALSE,Geldige waarschuwingen
+Valid Score,verb,A score that reflects a driverâ€šÃ„Ã´s performance and meets the criteria for generating reports.,FALSE,Geldige score
+Variance,verb,The difference or change in performance over a period.,FALSE,Variantie
+Vehicle,noun,,TRUE,Voertuig
+Vehicle and Driver Details,noun,Helps identify and track individual vehicles and drivers.,FALSE,voertuig- en bestuurdersdetails
+Vehicle Association,verb,The process of linking installed devices to specific vehicles in the Netradyne Portal for accurate tracking and data association.,FALSE,Voertuigkoppeling
+Vehicle Breakdown,noun,"A situation where the vehicle stops working, often requiring repair assistance.",FALSE,Pech met het voertuig
+Vehicle Class,noun,The class to which the vehicle belongs. The vehicle class is determined based on vehicle weight.,TRUE,Voertuigklasse
+Vehicle GVWR,verb,Gross Vehicle Weight Rating in lbs/kgs as specified by the vehicle manufacturer.,FALSE,Voertuig GVWR
+Vehicle Id,verb,,FALSE,Voertuig-id
+Vehicle Ignition,verb,"The system used to start the vehicle, which triggers the inward camera to resume recording once the ignition is on and the vehicle reaches 5 mph or more.",FALSE,
+Vehicle In Front Alert,noun,A warning triggered when a driver brakes hard to avoid hitting a stopped vehicle ahead.,TRUE,Waarschuwing voorligger
+Vehicle Level,verb,A configuration that applies only to a specific vehicle.,FALSE,Voertuigniveau
+Vehicle Locator,verb,Feature to locate all the vehicles for a Fleet.,TRUE,Voertuig Zoeken
+Vehicle Max G Force,verb,The highest G-force experienced by the vehicle during the collision.,TRUE,Max. G-kracht Voertuig
+Vehicle Merging,verb,"When another vehicle moves from an adjacent lane into the same lane as the driver, requiring the driver to adjust speed or position to avoid collision.",FALSE,Voertuig samenvoegen
+Vehicle Not Being Driven Until,verb,"An option to mark a vehicle as out of service until a specified time, helping to indicate that the vehicle is not in use.",FALSE,Voertuig niet besturen tot
+Vehicle Number,verb,"The number assigned to the vehicle involved in the alert, usually a license plate number.",FALSE,Voertuignummer
+Vehicle on Shoulder,verb,"A vehicle stopped on the side of the road, requiring others to maintain safe distance.",FALSE,Bumperklevend Voertuig
+Vehicle Utilization Report,noun,"This section provides a high-level summary of the Fleet, including details of Number of Vehicles, Distance, Total Traffic Lights, Total Stop Signs, Total Driving Time, and Total Traffic Time.",FALSE,Rapportage voertuiggebruik
+Vehicle-Device Association,verb,The process of linking the new device to the vehicleâ€šÃ„Ã´s system.,FALSE,Vereniging voertuig-apparaat
+Vehicles,noun,"Represents information and statistics related to the fleet's vehicles, such as status or maintenance needs.",FALSE,
+Vehicles not part of any Group,verb,Lists vehicles not assigned to any Group.,FALSE,
+Vertical Ellipsis,verb,"A menu icon with three dots, usually in the top-right corner, offering more options.",FALSE,
+Video,verb,,FALSE,
+Video & Map,verb,Features to watch alert videos and view the event location on a map.,FALSE,Video & Kaart
+Video Availability,noun,"A section that shows the status of the video related to an alert, indicating whether the video is ready, in progress, or unavailable.",TRUE,Videobeschikbaarheid
+Video Available,noun,A video of the driving event is ready to watch.,TRUE,Video Beschikbaar
+Video Duration,verb,Time interval for which the videos are requested.,FALSE,Duur van de video
+Video ID,noun,A unique identifier assigned to each video recorded by the system.,FALSE,Video-id
+Video Not Available,verb,"A status meaning that there is no video available for the specific alert, either due to technical issues or other reasons.",TRUE,Video Niet Beschikbaar
+Video Pending,verb,A status showing that the video request has been made and the video is being processed and uploaded.,TRUE,Video in Afwachting
+Video Request Quota,noun,Number of video requests permissible in a month.,TRUE,Videoverzoekquotum
+Video Status,verb,"Indicates whether the video is ready to view, being uploaded, or available on request.",FALSE,Videostatus
+Video Stitching,verb,This feature allows the users to combine up to 15 minutes of video (single camera view) in a single file that can be shared with other stakeholders for download.,FALSE,Video samenvoegen
+Video Stop Filter,verb,A feature that identifies where and when a vehicle stopped during its drive.,FALSE,Video Stop Filter
+Video Upload Request,noun,A process that sends a request to the system to retrieve and upload the selected video.,TRUE,Video uploaden
+Videos||videos,noun,,TRUE,
+View All,verb,An option to display all alerts,TRUE,Alles Bekijken
+View and Download Report,noun,The option to open and save the report for offline use.,FALSE,Rapport Bekijken en Downloaden
+View Coaching Details,verb,A clickable link to see more information about a specific coaching session.,FALSE,Coachingdetails Bekijken
+View Event Details,noun,"View detailed information about an Alert or DriverStar, including its unique Event ID.",FALSE,Gebeurtenisdetails Bekijken
+VIN (Vehicle Identification Number),verb,A unique code identifying a specific vehicle.,FALSE,VIN (Voertuig Identificatie Nummer)
+VIN Number,verb,Vehicle Identification Number of the vehicle.,FALSE,VIN-nummer
+Violation Distance,noun,The amount of distance the vehicle travels after a violation before a second alert is generated.,FALSE,Overtreding Afstand
+Violation Rate,noun,The percentage of times a rule is broken out of all opportunities to follow it.,FALSE,Overtredingspercentage
+Virtual Coaching,verb,Type of coaching where the system reviews all alerts and DriverStars generated by each driver in the previous week and recommends a small subset of alerts that can be reviewed by the driver to understand areas they can improve further.,TRUE,Virtuele Coaching
+Virtual Coaching Alerts,verb,Alerts designed for remote coaching discussions.,FALSE,Waarschuwingen voor Virtuele Coaching
+VLS,verb,"The Visual Login System (VLS) recognizes the driver by scanning the face of the person driving the vehicle using the inward camera, and then verifying this information against a database in Driver.i Cloud to identify the driver.",TRUE,VLS
+Weaving,noun,Generated when the driver makes three or more lane changes within 20 seconds.,TRUE,Overmatige Rijstrookwisselingen
+Weaving Alert,noun,A warning generated when a driver makes multiple quick lane changes in a short time.,TRUE,Waarschuwing voor Overmatige Rijstrookwisselingen
+Wed,verb,Weekly,FALSE,Woe
+Week||week,verb,Timeline Frequency,FALSE,
+Weekly||weekly,verb,Timeline Frequency,FALSE,
+Weekly Chart,verb,A graph that shows performance data for each week.,TRUE,Wekelijkse Grafiek
+Weekly Report,verb,A summary of driver performance and activity during a specific week.,TRUE,Wekelijks Rapport
+Weekly Review Session,verb,"A session generated every Monday, where drivers review feedback, DriverStars, and alerts from the previous week to improve their driving habits.",TRUE,Wekelijkse Evaluatiesessie
+Weekly Review Sessions,verb,Gain awareness about impactful driving behaviors affecting their score.,TRUE,Wekelijkse Evaluatiesessies
+What's New,noun,,FALSE,Nieuw
+Widget,verb,"A small interactive feature in software, showing specific information like coaching sessions.",FALSE,Widget
+WKT (Well-Known Text),noun,"A format for representing geographic shapes like points, lines, and polygons in text.",FALSE,BT (Bekende Tekst)
+Yard Moves,verb,"Refers to the activity of moving a vehicle within a yard or parking area, which may be subject to specific regulations for drivers.",FALSE,Aantal verplaatste meters
+Yawning,verb,"Opening the mouth wide to breathe in deeply, often a sign of being tired or sleepy.",FALSE,
+Year,verb,Weekly,FALSE,
+Yearly,verb,Timeline Frequency,FALSE,
+Yellow Trace,verb,A graph line in the alert video showing the direction and intensity of a vehicleâ€šÃ„Ã´s turn.,FALSE,
+Yellow Vertical Line,verb,A marker on the graph indicating when a coaching session happened.,FALSE,
+Yellow Zone,verb,A moderate-risk situation where the Following Distance is 1.2 seconds.,FALSE,
+Zipcode,verb,The postal code of the area where the geofence is set.,FALSE,
+RMA,noun,Non-Translatable Words,TRUE,RMA
+IDMS,noun,Non-Translatable Words,TRUE,IDMS
+GVWR,noun,Non-Translatable Words,TRUE,GVWR
+IAM,noun,Non-Translatable Words,TRUE,IAM
+FOV,noun,Non-Translatable Words,TRUE,FOV
+OTA,noun,Non-Translatable Words,TRUE,OTA
+OBD,noun,Non-Translatable Words,TRUE,OBD
+ISP,noun,Non-Translatable Words,TRUE,ISP
+MSP,noun,Non-Translatable Words,TRUE,MSP
+CAN,noun,Non-Translatable Words,TRUE,
+DRP,noun,Non-Translatable Words,TRUE,DRP
+GND,noun,Non-Translatable Words,TRUE,GND
+CAV,noun,Non-Translatable Words,TRUE,CAV
+LDW,noun,Non-Translatable Words,TRUE,LDW
+OEM,noun,Non-Translatable Words,TRUE,OEM
+FMCSA,noun,Non-Translatable Words,TRUE,FMCSA
+SKU,noun,Non-Translatable Words,TRUE,SKU
+AFD,noun,Non-Translatable Words,TRUE,AFD
+RFID,noun,Non-Translatable Words,TRUE,RFID
+REL,noun,Non-Translatable Words,TRUE,REL
+ACC,noun,Non-Translatable Words,TRUE,ACC
+AUX,noun,Non-Translatable Words,TRUE,AUX
+Intelligent Driver Monitoring System,noun,Non-Translatable Words,FALSE,Intelligent Bestuurders bewakingssysteem
+Average Following Distance,noun,Average time a vehicle in the same lane is followed (in traffic).,TRUE,Gemiddelde Volgafstand
+GreenZone,noun,Non-Translatable Words,FALSE,GreenZone
+API,noun,Non-Translatable Words,TRUE,
+VIN,noun,Non-Translatable Words,TRUE,
+VLS,noun,Non-Translatable Words,TRUE,
+IMU,noun,Non-Translatable Words,TRUE,
+HTTPS,noun,Non-Translatable Words,TRUE,
+JSON,noun,Non-Translatable Words,TRUE,
+HTTP,noun,Non-Translatable Words,TRUE,
+REST,noun,Non-Translatable Words,TRUE,
+GPS,noun,Non-Translatable Words,TRUE,
+AWS,noun,Non-Translatable Words,TRUE,AWS
+KMS,noun,Non-Translatable Words,TRUE,KMS
+ARN,noun,Non-Translatable Words,TRUE,ARN
+Amazon S3,noun,Non-Translatable Words,TRUE,Amazon S3
+kph/kmph,noun,Non-Translatable Words,TRUE,kph/kmph
+mph,noun,Non-Translatable Words,TRUE,mph
+LED,noun,Non-Translatable Words,TRUE,LED
+IOS,noun,Non-Translatable Words,TRUE,IOS
+Wi-Fi,noun,Non-Translatable Words,TRUE,Wi-Fi
+ELD,noun,Non-Translatable Words,TRUE,ELD
+HoS,noun,Non-Translatable Words,TRUE,HoS
+FNOL,noun,Non-Translatable Words,TRUE,FNOL
+RODS,noun,Non-Translatable Words,TRUE,RODS
+Application Programming Interface,noun,Non-Translatable Words,FALSE,Application Programming Interface
+Vehicle Identification Number,noun,Non-Translatable Words,FALSE,Vehicle Identification Number
+Visual Login System,noun,Non-Translatable Words,FALSE,Visual Login System
+Inertial Measurement Unit,noun,Non-Translatable Words,FALSE,Inertial Measurement Unit
+Hypertext Transfer Protocol Secure,noun,Non-Translatable Words,FALSE,Hypertext Transfer Protocol Secure
+JavaScript Object Notation,noun,Non-Translatable Words,FALSE,JavaScript Object Notation
+Hypertext Transfer Protocol,noun,Non-Translatable Words,FALSE,Hypertext Transfer Protocol
+Representational State Transfer,noun,Non-Translatable Words,FALSE,Representational State Transfer
+Global Positioning System,noun,Non-Translatable Words,FALSE,Global Positioning System
+Amazon Web Services,noun,Non-Translatable Words,FALSE,Amazon Web Services
+Amazon Simple Storage Service,noun,Non-Translatable Words,FALSE,Amazon Simple Storage Service
+Kilometers per hour,noun,Non-Translatable Words,FALSE,Kilometers per hour
+Miles per hour,noun,Non-Translatable Words,FALSE,Miles per hour
+Light Emitting Diode,noun,Non-Translatable Words,FALSE,Light Emitting Diode
+iPhone Operating System,noun,Non-Translatable Words,FALSE,iPhone Operating System
+Wireless Fidelity,noun,Non-Translatable Words,FALSE,Wireless Fidelity
+Webhook,noun,Non-Translatable Words,FALSE,Webhook
+Electronic Logging Device,noun,Non-Translatable Words,FALSE,Electronic Logging Device
+Hours of Service,noun,Non-Translatable Words,FALSE,Hours of Service
+Record of Duty Status,noun,Non-Translatable Words,FALSE,Record of Duty-Status
+Driver.i Device Association,noun,A one-to-one mapping between a vehicle and device.,FALSE,Driverâ€¢i Apparaatassociatie
+Driver.i Device Installation Report,verb,A report summarizing the installation details of devices on fleet vehicles and diagnostics data for a specified period.,FALSE,Driverâ€¢i Apparaat installatierapport
+Driver.i Device Inventory Report,verb,Device Inventory Report is a comprehensive summary that displays device information associated with a specific order.,FALSE,Driverâ€¢i Apparaatinventarisatierapport
+Driver.i Device Shipment Details,verb,Information about when the device was shipped to the fleet or user.,FALSE,Driverâ€¢i apparaatverzending details
+Driver.i Device,verb,The electronic system or device installed in a vehicle that tracks and generates alerts based on the driver's behavior.,TRUE,Driverâ€¢i-Apparaat
+Driver Performance Ranking,verb,Evaluates individual drivers based on their GreenZone Scores,FALSE,Prestatieclassificatie Bestuurder
+Driver's Alert Page,verb,A page listing all alerts for a specific driver during a selected time period.,FALSE,Waarschuwingspagina Bestuurder
+Driver's Latest Coaching Session,verb,A quick link to the most recent coaching session (manual or virtual) for a driver.,FALSE,Meest Recente Coachingsessie Bestuurder
+Driver's Score Trend,verb,,FALSE,Scoreverloop Bestuurder
+Driver.i Device Id,verb,,FALSE,Driverâ€¢i Apparaat-id
+Driver.i Device Summary,verb,,FALSE,Driverâ€¢i-Apparaatoverzicht
+Driver.i Hubx,verb,Non-Translatable Words,FALSE,Driverâ€¢i Hubx
+Driver.i Portal,noun,"The platform or interface where safety managers can monitor driver behavior, assign coaching, and track performance metrics.",FALSE,Driverâ€¢i-Portaal
+Driver.i Store,noun,,FALSE,Driverâ€¢i Winkel
+"Greyed-out ""G"" Icon",verb,An indicator that a GreenZone Score is available for the selected time period.,FALSE,"Uitgegrijsde ""G""-pictogram"
+Inward Complete - Bad FOV,verb,Alert for camera view blockage caused by a foreign object.,FALSE,Binnenwaarts Compleet - Slechte FOV
+Inward Complete - Bad Mount,verb,Alert for incorrect camera installation or mounting.,FALSE,Binnenwaarts Compleet - Slechte montage
+m/s,verb,"A unit of acceleration, meters per second squared, indicating how quickly speed changes.",FALSE,m/s
+Manager's Comments,noun,Feedback or notes from a manager regarding a specific event or driving behavior.,FALSE,Opmerkingen van de manager
+Visual Login System Training,verb,A system that automatically assigns drivers to alerts based on visual data.,FALSE,Training visueel Login systeem
+Return Merchandise Authorization,,,FALSE,Retourzendingsautorisatie
+Gross Vehicle Weight Rating,,,FALSE,Bruto voertuiggewicht
+Identity and Access Management,,,FALSE,Identiteits- en toegangsbeheer
+Over The Air,,,FALSE,Via de lucht
+On,,,FALSE,
+Internet Service Provider,,,FALSE,Internetprovider
+Managed Service Provider,,,FALSE,Beheerde Serviceleverancier
+Controller Area Network,,,FALSE,
+Data Retention Policy,,,FALSE,Beleid gegevensbewaring
+Ground,,,FALSE,Basis
+Collision Avoidance,,,FALSE,Botsing vermijden
+Lane Departure Warning,,,FALSE,Waarschuwing voor onbedoeld verlaten van de rijstrook
+Original Equipment Manufacturer,,,FALSE,Oorspronkelijke onderdelen fabrikant
+Federal Motor Carrier Safety Administration,,,FALSE,Federale Motorvoertuigen Veiligheidsadministratie
+DOT US Department of Transportation,,,FALSE,DOT US Departement voor Transport
+Stock Keeping Unit,,,FALSE,
+Average Following Distance,,,FALSE,
+Radio Frequency Identification,,,FALSE,Radiofrequentie-identificatie
+Relative Speed,,,TRUE,Relatieve Snelheid
+Accessory,,,FALSE,
+Auxillary,,,FALSE,
+Key Management Service,noun,Non-Translatable Words,FALSE,Key Management Service
+Amazon Resource Names,noun,Non-Translatable Words,FALSE,Amazon Resource Names
+DHUB,noun,Non-Translatable Words,TRUE,DHUB
+VBUS,noun,Non-Translatable Words,TRUE,VBUS
+Kilometers,noun,Non-Translatable Words,TRUE,
+Miles,noun,Non-Translatable Words,TRUE,
+Driverâ€¢i Assistant||Driver.i Assistant,,,FALSE,Driverâ€¢i Assistant||Driver.i Assistant
+Intelligent Driving Monitoring System||Intelligent Driving Monitoring System (IDMS),,,TRUE,Intelligent Driving Monitoring System||Intelligent Driving Monitoring System (IDMS)
+to,noun,,FALSE,
+Green Minutes||Green Minutes %||Green Min||(Green Mins %),,Proprietary term,TRUE,Green Minutes||Green Minutes %||Green Min||(Green Mins %)
+Data Transfer,,,FALSE,
+Digital Locker,noun,,TRUE,Digital Locker
+Driverâ€¢iHub-X,verb,,FALSE,Driverâ€¢iHub-X
+Google Play Store,noun,,TRUE,
+Apple App Store,noun,,FALSE,
+Vehicle Data Reader,,,TRUE,Vehicle Data Reader
+Driverâ€¢i,,,TRUE,Driverâ€¢i
+Violation,noun,,FALSE,
+Please login again,noun,,FALSE,
+generic object,,,FALSE,object (algemeen)
+Customer Impact,,,FALSE,Gevolgen voor de Klant
+Compliance Module,,,FALSE,Nalevingsmodule
+Low power mode,,,FALSE,Spaarstand
+Driver Management System,,,FALSE,Driver Management System
+Front Camera,,,TRUE,Voorcamera
+HOS,,,FALSE,
+VHB||abbreviation,,,FALSE,
+AP,,,FALSE,
+AP Mode,,,FALSE,
+Video Search,noun,,TRUE,Video Zoeken
+Driver.i,,,FALSE,Driverâ€¢i
+Always share alerts with drivers,,In the Driver.i Mobile App Access section under App Settings on the Configurations page. This option allows users to select the alerts that can be shared directly with drivers on the app.,FALSE,Waarschuwingen altijd delen met bestuurders
+App Settings,,,FALSE,App-Instellingen
+Driver information,,,FALSE,bestuurdersinformatie
+Driver safety,,,FALSE,bestuurdersveiligheid
+Rules management,,,FALSE,Regelbeheer
+Drowsy Management,,,FALSE,Vermoeidheidsbeheer
+Drowsy detection,,,FALSE,vermoeidheidsdetectie
+Drowsy alert,,,FALSE,Vermoeidheidswaarschuwing
+Driver Drowsiness,,,TRUE,Vermoeide Bestuurder
+Last Viewed,,,TRUE,Laatst Bekeken
+Recent Action Log,,,FALSE,Recent Actielogboek
+Accessory Summary,,,TRUE,Accessoireoverzicht
+Alert,noun,,TRUE,Waarschuwing
+fleets,,,FALSE,wagenparken
+New Faces,,,FALSE,Nieuwkomers
+Acceleration pedal,,,TRUE,Gaspedaal
+View Alert,,,TRUE,Waarschuwing Bekijken
+Alert Dispute,,,FALSE,Waarschuwingsgeschil
+SIM Detected,,,FALSE,
+SD Card Detected,,,FALSE,
+Response Time,,,FALSE,
+Level Granularity,noun,,FALSE,Detail per Niveau
+Group Granularity,noun,,FALSE,Detail per Groep
+Node Total,noun,,FALSE,Niveautotaal
+Group Total,noun,,FALSE,Groepstotaal
+My Drivers & Vehicles,noun,,TRUE,Mijn Bestuurders & Voertuigen
+Ungrouped Entities,noun,,FALSE,Niet-Gegroepeerde Entiteiten
+Create Request,noun,,TRUE,Aanvraag Aanmaken
+Enter Video Search Keywords,noun,,TRUE,Videotrefwoorden Invoeren
+RMA,,,FALSE,
+Health Report,noun,,FALSE,Statusrapport
+blind zone,noun,,FALSE,dode hoek
+Individual Alerts & External Monitoring Alerts,noun,,TRUE,Individuele Waarschuwingen & Externe Controlewaarschuwingen
+Alerts page,noun,,FALSE,Waarschuwingspagina
+Device Inventory Report,noun,,FALSE,Apparaatinventarisatierapport
+safety event,noun,,FALSE,veiligheidsincident
+risky,noun,,FALSE,gevaarlijk
+In-Cab Audio Alert,noun,,FALSE,Cabine-Audiowaarschuwing
+Driver Not Wearing Seatbelt,noun,,FALSE,Bestuurder Heeft Gordel Niet Om
+Driverâ€¢i Accessory Health Report,noun,,FALSE,Statusrapport van het Driverâ€¢i-Accessoire
+Driverâ€¢i device,noun,,TRUE,Driverâ€¢i-apparaat
+Edit Configuration Parameters for Driver Assignment,noun,,FALSE,Configuratieparameters voor Bestuurdersopdracht Bewerken
+PCB,,,FALSE,
+Pedestrian Collision Warning,noun,,FALSE,Voetgangersbotswaarschuwing
+RMA status,noun,,FALSE,RMA-status
+RMA request,noun,,FALSE,RMA-verzoek
+Select All,noun,,TRUE,Alles Selecteren
+Save Changes,noun,,TRUE,Wijzingen Opslaan
+alert decoration,noun,,FALSE,waarschuwingsmarkering
+Download an Alert Video,noun,,TRUE,Waarschuwingsvideo Downloaden
+Share an Alert Video,noun,,FALSE,Waarschuwingsvideo delen
+Strong Match,noun,,TRUE,Sterke Overeenkomst
+Partial Match,noun,,FALSE,Gedeeltelijke Overeenkomst
+Weak Match,noun,,FALSE,Zwakke Overeenkomst
+Convert to Alert,noun,,FALSE,Omzetten naar Waarschuwing
+Convert to Potential Collision,noun,,FALSE,Omzetten naar PotentiÃ«le Botsing
+Potential Collision Alert,noun,,FALSE,PotentiÃ«le Botsingswaarschuwing
+video player,noun,,TRUE,videospeler
+Distracted Driving Lane Departure,noun,,FALSE,Rijbaanafwijking Door Afleiding
+Personal Notification Preferences,noun,,FALSE,Persoonlijke Meldingsvoorkeuren
+Play Video,noun,,TRUE,Video Afspelen
+Select Camera View,noun,,TRUE,Camerabeeld Selecteren
+Stitched Views,noun,,TRUE,Samengevoegde Beelden
+Add to Digital Locker,noun,,FALSE,Toevoegen aan Digitale Locker
+Add Videos to Digital Locker,noun,,FALSE,Video's Toevoegen aan Digitale Locker
+Data Retention Policy,noun,,TRUE,Gegevensbewaringsbeleid
+Offline/Recovery notifications,noun,,FALSE,Offline-/Herstelmeldingen
+Key-Off Recording,,,FALSE,
+Driver streaks,noun,,FALSE,Driver Streaks
+ECU,,,FALSE,
+Driver Performance Ranking,noun,,FALSE,Rangschikking Bestuurdersprestaties
+Alert Risk Profile,noun,,FALSE,Waarschuwingsrisicoprofiel
+Fleet performance,noun,,TRUE,Wagenparkprestaties
+Saved Videos,,,TRUE,Opgeslagen Video's
+All Filters,,,TRUE,Alle Filters
+External Users,,,TRUE,Externe Gebruikers
+In-Cab Alerts,,,TRUE,Cabinewaarschuwingen
+VLS Training Dashboard,,,FALSE,VLS-Trainingsdashboard
+Vehicle Defects Report,,,FALSE,Voertuigdefectenrapport
+Driver Vehicle Inspection Reports,,,FALSE,Voertuigrapporten door Bestuurders
+Driver ID,,,FALSE,Bestuurders-id
+Speeding Window Time,,,FALSE,Tijdsvenster voor Snelheidsovertredingen
+Vehicle Operations Report,,,FALSE,Voertuigprestatierapport
+Fuel Used Since Last Fill-Up,,,TRUE,Brandstof Verbruikt Sinds Laatste Tankbeurt
+Fuel Used,,,TRUE,Verbruikte Brandstof
+Backing Alert,,,FALSE,Achteruitrijwaarschuwing
+Backing Alerts,,,FALSE,Achteruitrijwaarschuwingen
+Delete Configuration,,,TRUE,Configuratie Verwijderen
+the Driverâ€¢i,,,TRUE,het Driverâ€¢i
+Video Downloads,,,FALSE,Videodownloads
+Alert Views,,,TRUE,Waarschuwingsweergave
+Video Requests,,,TRUE,Videoaanvragen
+identifier,noun,,TRUE,identificatiekenmerk
+fleet level,noun,,TRUE,wagenparkniveau
+identifiers,noun,,TRUE,identificatiekenmerken
+Edit Configuration Parameters for Alerts,noun,,FALSE,Configuratieparameters voor Waarschuwingen Bewerken
+stitched,adjective,,TRUE,
+Apply Stitch,adjective,,TRUE,Samenvoegen
+Stitch Video Request Review,adjective,,FALSE,Aanvraagoverzicht Videosamenvoeging
+Proceed to Stitch,adjective,,FALSE,Samenvoegen Bevestigen
+Stitched Videos,adjective,,FALSE,Samengevoegde Video's
+Category of Drivers,adjective,,FALSE,Bestuurderscategorie
+Recurring Report Frequency,adjective,,FALSE,Frequentie van Terugkerende Rapporten
+Weekly Working Hours Overview,adjective,,FALSE,Overzicht Wekelijkse Werkuren
+Vehicle Activity Report,adjective,,FALSE,Rapport Voertuigactiviteiten
+Driver &amp; User Activity Report,adjective,,FALSE,Rapport Bestuurder- &amp; Gebruikersactiviteiten
+Request Report,adjective,,FALSE,Rapport Aanvragen
+Vehicle,adjective,,TRUE,
+vehicle,noun,,TRUE,voertuig
+Alert Rate,adjective,,FALSE,Waarschuwingspercentage
+Alert Rates,adjective,,FALSE,Waarschuwingspercentages
+Get Data,adjective,,FALSE,Data Ophalen
+First Time Drive Data Received,adjective,,FALSE,Eerste Keer Rijgegevens Ontvangen
+Last Time Drive Data Received,adjective,,FALSE,Laatste Keer Rijgegevens Ontvangen
+Accessory Health Report,adjective,,FALSE,Accessoirestatusrapport
+Issue Type,adjective,,FALSE,
+Fuel Coaching,,,FALSE,Brandstofcoaching
+Driver Coaching Session,,,FALSE,Coachingsessie Bestuurder
+Impact of Alerts on Greenzone Score,,,FALSE,Invloed van Waarschuwingen op GreenZone-Score
+Safety and Fleet Manager,,,FALSE,Veiligheids- en Wagenparkbeheerder
+Speeding Alert,,,TRUE,Waarschuwing voor Snelheidsovertreding
+Speeding Alerts,,,TRUE,Snelheidswaarschuwingen
+speeding alert,,,TRUE,snelheidswaarschuwing
+Allowance,,,TRUE,
+Alert Timing,,,TRUE,Waarschuwingstiming
+Fleets,,,TRUE,Wagenparken
+fleet-specified,,,TRUE,door het wagenpark gespecificeerde
+Speeding Alert Settings,,,FALSE,Waarschuwing voor Snelheidsovertreding Instellen
+Speeding Detection,,,FALSE,Snelheidsdetectie
+Driver Performance Ranking,,,FALSE,Ranglijst van Bestuurdersprestaties
+Alert Risk Profile,,,FALSE,Risicoprofiel voor Waarschuwingen
+Driver Login Edits,,,FALSE,Aanmeldingsinstellingen voor Bestuurders
+Video Search Best Practices,,,FALSE,Best Practices voor Video Zoeken
+Play All,,,TRUE,Alles Afspelen
+Select Hierarchy,,,FALSE,Selecteer HiÃ«rarchie
+Groups or All Hierarchies,,,FALSE,
+Moderate,,,TRUE,Gemiddeld
+Following Distance Hard Brake,,,TRUE,Volgafstand Hard Remmen
+Seatbelt Compliance,,,TRUE,Naleving Veiligheidsgordel
+Requested Videos,,,TRUE,Opgevraagde Video's
+Driver Fuel Score,,,FALSE,Brandstofscore Bestuurder
+Fleet Average,,,FALSE,Wagenparkgemiddelde
+View New Profile,,,FALSE,Nieuw Profiel Weergeven
+Tire Pressure Threshold,,,FALSE,Bandenspanningsdrempel
+Video Activity Log Report,,,FALSE,Videoactiviteitenrapport
+Video Request,,,FALSE,Videoaanvragen
+Video Download,,,FALSE,Video Downloaden
+Maintenance Dashboard,,,FALSE,Onderhoudsdashboard
+Preventive Maintenance Inspection,,,TRUE,Preventieve Onderhoudsinspectie
+Maintenance Schedules,,,FALSE,Onderhoudschema's
+Driverâ€¢i Device Status,,,FALSE,Driverâ€¢i-Apparaatstatus
+Vehicle Status,,,FALSE,Voertuigstatus
+Creating Report Requests,,,FALSE,Rapportaanvragen Aanmaken
+Subscribing to Reports,,,FALSE,Abonneren op Rapporten
+Fleet-Based Access Control,,,FALSE,Toegangcontrole op Wagenparkbasis
+Roll Stability Alert,,,FALSE,Waarschuwing voor Kantelstabiliteit
+Advanced Driver Assistance System,,,FALSE,Geavanceerde Bestuurdersassistentiesysteem
+Rollover Protection,,,FALSE,Kantelbeveiliging
+Volume Added,,,TRUE,Toegevoegd Volume
+Vehicle Maintenance,,,FALSE,Voertuigonderhoud
+Total Alerts Generated,,,FALSE,Totaal Gegenereerde Waarschuwingen
+Average Fuel Efficiency,,,TRUE,Gemiddeld Brandstofrendement
+Idling Percentage,,,TRUE,Percentage Stationair Draaien
+Fuel Dashboard,,,TRUE,Brandstofdashboard
+Group Name,,,TRUE,Groepsnaam
+Total Drivers,,,FALSE,Totaal Bestuurders
+Distance Travelled,,,TRUE,Afgelegde Afstand
+Drivers Below Fleet Fuel Goal,,,FALSE,Bestuurders Onder Brandstofdoel Wagenpark
+Idling Time,,,TRUE,Stationair Draaien
+Alerts Impacting Fuel Efficiency,,,FALSE,Waarschuwingen over BrandstofefficiÃ«ntie
+Fuel Metrics Report,,,FALSE,Brandstofgegevensrapport
+Vehicle Settings,,,TRUE,Voertuiginstellingen
+Driver Alerts,,,TRUE,Bestuurderswaarschuwingen
+Fleet managers,,,TRUE,Wagenparkmanagers
+Virtual Coaching Rapport,,,FALSE,Virtueel Coachingsrapport
+Virtual Coaching Session,,,TRUE,Virtuele Coachingsessie
+Virtual Coaching Sessions,,,TRUE,Virtuele Coachingsessies
+Virtual Coaching Report,,,TRUE,Virtueel Coachingsrapport
+Please Stay Alert,,,FALSE,Blijf Alstublieft Alert
+Moderate Alerts,,,TRUE,Gemiddelde waarschuwingen
+audio alert message,,,TRUE,audiowaarschuwing
+Disassociate Driver,,,TRUE,Bestuurder Loskoppelen
+Disassociate D-HubX,,,TRUE,D-HubX Loskoppelen
+Custom Driver Vehicle Inspections,,,FALSE,Aangepaste Voertuiginspecties door de Bestuurder
+Driver Vehicle Inspections,,,FALSE,Voertuiginspecties door de Bestuurder
+Comparison Report,,,FALSE,Vergelijkingsrapport
+High Resolution Telematics Device Voltage,,,FALSE,Spanning van het Hi-Res Telematica-Apparaat
+Expanded Alert Videos,,,FALSE,Uitgebreide Waarschuwingsvideo's
+Video Throttling,,,TRUE,Videobeperking
+Safety Normalization Factor,,,FALSE,Veiligheidsnormalisatiefactor
+Search by Location,,,TRUE,Zoeken op Locatie
+Applicable to All,,,TRUE,Overal van Toepassing
+Driverâ€¢i Marketplace,,,FALSE,Driverâ€¢i Marketplace
+Denied,,,TRUE,Afgewezen
+Watchlist,,,TRUE,Volglijst
+Latest Action Taken,,,TRUE,Laatst Ondernomen Actie
+Edit Role,,,FALSE,Rol Bewerken
+Vehicle Diagnostics,,,FALSE,Voertuigdiagnostiek
+Heads Up,,,FALSE,Let Op
+Exception Rule Edit,,,FALSE,Regel Bewerken
+Fleet Time Zone,,,FALSE,tijdzone van het wagenpark
+Exterior,,,TRUE,Exterieur
+Road Test,,,TRUE,Rijtest
+Engine Bay,,,TRUE,Motorruimte
+Interior,,,TRUE,Interieur
+Inspection Template,,,TRUE,Inspectiesjabloon
+Daily Default Look Back Duration,,,TRUE,Dagelijkse Standaard Terugkijkduur
+Active Device Report,,,TRUE,Rapport Actieve Apparaten
+Parent Templates,,,TRUE,Bovenliggende Sjablonen
+Preventive Maintenance,,,TRUE,Preventief Onderhoud
+Preventive Maintenance Inspections,,,TRUE,Preventieve Onderhoudsinspecties
+Audio Recording,,,TRUE,Audio-Opname
+Parent Schedules,,,TRUE,Bovenliggende Schema's
+Blank Schedule,,,TRUE,Blanco Schema
+Include Specific Drivers,,,TRUE,Specifieke Bestuurders Opnemen
+Personalized Learning,,,TRUE,Gepersonaliseerd Leren
+Lane Deviation,,,TRUE,Rijstrookafwijking
+Distracted Driving Lane Departure Alerts,,,TRUE,Waarschuwingen voor Rijbaanafwijking door Afleiding
+Most Recent Action Taken,,,TRUE,Meest Recente Handeling
+Preventative Maintenance,,,TRUE,Preventief Onderhoud
+Health Status,,,TRUE,Status
+Connection Status,,,TRUE,Verbindingsstatus
+Next Action On,,,FALSE,Volgende Actie Op
+Comments,,,TRUE,Opmerkingen
+Mark as Completed,,,TRUE,Markeren als Voltooid
+Foward Collision Warning,,,TRUE,Waarschuwing voor Botsing aan de Voorzijde
+Forward Collision Warning,,,TRUE,Waarschuwing voor Botsing aan de Voorzijde
+Live Management,,,TRUE,Live Beheer
+drowsiness,,,TRUE,vermoeidheid
+Driver Assistance alerts,,,TRUE,Driver Assistance-waarschuwingen
+alert video,,,TRUE,waarschuwingsvideo
+External Monitory Alert,,,TRUE,Externe Controlewaarschuwing
+Driver Report Card,,,TRUE,Bestuurdersrapportkaart
+Quick Stats,,,TRUE,Basisstatistieken
+Apply Changes,,,TRUE,Wijzigingen Toepassen
+Before you Begin,,,TRUE,Voordat je Begint
+Fleet Unique Identifier,,,TRUE,Wagenparkidentificatiecode
+Non-Functional,,,TRUE,Niet-Functioneel
+Device Summary,,,FALSE,Apparaatoverzicht
+Hardware Status,,,TRUE,Hardwarestatus
+Edit DVIR,,,TRUE,DVIR Bewerken
+Edit Schedule,,,TRUE,Schema Bewerken
+Modified Score,,,TRUE,Herberekende Score
+View by Level,,,TRUE,Weergeven op Niveau
+Last Response Date,,,FALSE,Recentste Responsdatum
+Alert Management,,,TRUE,Waarschuwingsbeheer
+Critical Defect,,,TRUE,Kritieke Fout
+Quick Navigation,,,TRUE,Snelle Navigatie
+Vehicle Group,,,TRUE,Voertuiggroep
+In-Cab Event Type,,,TRUE,Type Cabinegebeurtenis
+Tire Pressure Monitoring,,,TRUE,Bandenspanningscontrole
+Vehicle Profile Page,,,FALSE,Voertuigprofielpagina
+Pending Communication,,,TRUE,Openstaande Communicatie
+Last Responded Date,,,FALSE,Recentste Responsdatum
+Drowsiness Indicators Measured,,,TRUE,Gemeten Vermoeidheidsindicatoren
+Before You Start,,,TRUE,Voordat Je Begint
+Case reference number,,,TRUE,Dossiernummer
+List All Vehicles,,,TRUE,Alle Voertuigen Weergeven
+Virtual Coaching Session ID,,,FALSE,Sessie-id Virtuele Coaching
+Luma Brighter Learning,,,TRUE,Luma Brighter Learning
+Lane Violation Alert,,,TRUE,Waarschuwing voor Rijstrookovertreding
+Video Uploads,,,TRUE,Video-Uploads
+Account Notification Preferences,,,FALSE,Meldingsvoorkeuren voor Accounts
+Extended Eye Closure,,,TRUE,Langdurige Oogsluiting
+Drowsy Lane Deviation,,,TRUE,Rijstrookafwijking door Vermoeidheid
+Edit Vehicle Association,,,TRUE,Voertuigkoppeling Bewerken
+Drowsy Management Dashboard,,,TRUE,Dashboard voor Vermoeidheidsbeheer
+Customer and Partner Audiences,,,TRUE,Klant- en Partnerdoelgroepen
+Vehicle Type,,,TRUE,Voertuigtype
+Vehicle Configuration Report,,,TRUE,Voertuigconfiguratierapport
+Allow Others to Join,,,TRUE,Anderen Toestaan
+Maintenance Tracking,,,TRUE,Onderhoudsregistratie
+Drive Time,,,TRUE,Rijtijd
+Excessive Blinking,,,TRUE,Overmatig Knipperen
+Slow Blinking,,,TRUE,Langzaam Knipperen
+Group Access Report,,,TRUE,Groepstoegangsrapport
+Fill Ups,,,TRUE,Tankbeurten
+Vehicle Data,,,TRUE,Voertuigdata
+Vehicle Associations,,,TRUE,Voertuigkoppelingen
+Health Reporting,,,TRUE,Statusrapportage
+Direct Customers and Resellers,,,TRUE,Directe Klanten en Wederverkopers
+Drowsy Dashboard,,,TRUE,Vermoeidheidsdashboard
+Help Section Link,,,TRUE,Link Helpsectie
+the fleet,,,TRUE,het wagenpark
+the vehicle,,,TRUE,het voertuig
+fleet,,,TRUE,wagenpark
+Driverâ€¢i Portal,,,TRUE,Driverâ€¢i-Portaal
+Pre-Trip Inspection,,,TRUE,Inspectie Voor Vertrek
+Post-Trip Inspection,,,TRUE,Inspectie Na Aankomst
+Odometer,,,TRUE,
+New Accessory,,,TRUE,Nieuw Accessoire
+Previously Installed,,,TRUE,Eerder GeÃ¯nstalleerd
+Driver Fuel Efficiency Metrics Drilldown,,,TRUE,Brandstofstatistieken van de Bestuurder
+One-Time Sync Look Back Duration,,,TRUE,Terugkijktijd Eenmalige Synchronisatie
+Tenant,,,TRUE,Tenant
+Terms and Conditions,,,TRUE,Algemene Voorwaarden
+Date and Time,,,TRUE,Datum en Tijd
+Go to API Access,,,TRUE,Naar API-Toegang
+External User Notifications,,,TRUE,Meldingen Externe Gebruiker
+All Drivers,,,TRUE,Alle Bestuurders
+Include Annotation,,,TRUE,Annotatie Toevoegen
+Overview,,,TRUE,Overzicht
+Positive Alerts,,,TRUE,Positieve Waarschuwingen
+Vehicle Stopped Duration,,,TRUE,Stilstandduur Voertuig
+No Action Required,,,TRUE,Geen Actie Vereist
+Create Users,,,TRUE,Gebruikers Aanmaken
+Driverâ€¢i Device Mobile Hotspot Setup Guide,,,TRUE,Driverâ€¢i-Handleiding voor Mobiele Hotspots
+Hard Turning,,,TRUE,Scherpe Bocht
+Connection Successful,,,TRUE,Verbinding Geslaagd
+Received Sessions,,,TRUE,Ontvangen Sessies
+Communications Category,,,TRUE,Mededelingencategorie
+Pending Installation,,,TRUE,In Afwachting van Installatie
+Vehicle Speed,,,TRUE,Voertuigsnelheid
+Driver Safety Reports,,,TRUE,Bestuurdersveiligheidsrapporten
+In Service,,,TRUE,In Gebruik
+Not In Service,,,TRUE,Niet in Gebruik
+Assumed Not In Service,,,TRUE,Niet in Gebruik (Verondersteld)
+Parent Fleet,,,TRUE,Bovenliggend Wagenpark
+Event Access Videos,,,TRUE,Gebeurtenistoegangsvideo's
+Distance Driven,,,TRUE,Gereden Afstand
+Add App,,,TRUE,App Toevoegen
+In Review,,,TRUE,In Behandeling
+Pending,,,TRUE,In Afwachting
+Requested Video Alert,,,TRUE,Verzoek voor Videowaarschuwing
+Mobile Hotspot and Tethering,,,TRUE,Mobiele Hotspot en Tethering
+View Drivers,,,TRUE,Bestuurders Bekijken
+View Vehicles,,,TRUE,Voertuigen Bekijken
+View Users,,,TRUE,Gebruikers Bekijken
+Not Repaired,,,TRUE,Niet Gerepareerd
+Outward Camera,,,TRUE,Buitencamera
+Fleet Ops,,,TRUE,Fleet Ops
+Driver Intervention,,,TRUE,Bestuurdersinterventie
+Repair Required for Safe Operation,,,TRUE,Reparatie Vereist voor Veilig Gebruik
+Introduction to Vehicles,,,TRUE,Inleiding tot Voertuigen
+Brake Pedal Position,,,TRUE,Positie van het Rempedaal
+Virtual Coaching Summary,,,TRUE,Overzicht Virtuele Coaching
+Application Type,,,TRUE,Applicatietype
+Individual Alerts,,,TRUE,Individuele Waarschuwingen
+Alert Hover Preview,,,TRUE,Voorbeeldvenster voor Waarschuwingen
+Driving Classification Column,,,TRUE,Kolom voor Rijclassificatie
+Driver Profile Overview,,,TRUE,Overzicht Bestuurdersprofiel
+View Vehicle Details,,,TRUE,Voertuigdetails Bekijken
+Throttle Valve Position,,,TRUE,Gasklepstand
+Accelerator Pedal Position,,,FALSE,Gaspedaalpositie
+Virtual Coaching Session Detail,,,TRUE,Details Virtuele Coachingsessie
+Add Client,,,TRUE,CliÃ«nt Toevoegen
+Unknown/Ungrouped,,,TRUE,Onbekend/Niet-Gegroepeerd
+Driver-Initiated Alert Button,,,FALSE,Knop voor Bestuurderswaarschuwingen
+Include Deactivated Alert Geofences,,,TRUE,Inclusief Gedeactiveerde Geofences voor Waarschuwingen
+Under Investigation,,,TRUE,Wordt Onderzocht
+Vehicle Stop Filter,,,TRUE,Voertuigstopfilter
+Fleet Actionable Driverâ€¢i Devices,,,TRUE,Driverâ€¢i-Apparaten met Actiepunten
+Moderate Drowsy Alerts,,,TRUE,Gemiddelde Vermoeidheidswaarschuwingen
+List View,,,TRUE,Lijstweergave
+HH:MM formaat,,,TRUE,UU:MM-formaat
+Driver-i,,,FALSE,Driverâ€¢i
+Haptic Feedback Alerts,,,TRUE,Haptische Feedbackwaarschuwingen
+Severe Weather Alert,,,FALSE,Waarschuwing voor Zwaar Weer
+Point-of-Risk,,,FALSE,Risicopunt
+Haptic Feedback,,,TRUE,Haptische Feedback
+In Violation,,,TRUE,In Overtreding
+Severe Weather Alerts,,,TRUE,Waarschuwingen voor Zwaar Weer
+Privacy Camera Control,,,TRUE,Cameraprivacy
+Haptic Alerts,,,TRUE,Haptische Waarschuwingen
+Vehicle Data Service,,,TRUE,Voertuigdataservice
+Need Further Assistance,,,TRUE,Meer Hulp Nodig
+Network Health,,,FALSE,Netwerkstatus
+Request Return,,,TRUE,Retourverzoek
+Change Password,,,TRUE,Wachtwoord Wijzigen
+Confirm Password,,,TRUE,Wachtwoord Bevestigen
+Use System Default Configuraitons,,,TRUE,Standaard Systeemconfiguratie Gebruiken
+Shared Alerts,,,TRUE,Gedeelde Waarschuwingen
+Driver Assigned Training,,,TRUE,Toegewezen Bestuurderstraining
+Add Conclusion Notes,,,TRUE,Afsluitende Opmerkingen Toevoegen

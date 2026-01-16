@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.venv
+.env
+venv/
+env/
+
+# Data Results (Don't upload large results or sensitive data if public)
+TRANSLATION_RESULTS.csv
+TRANSLATION_RESULTS_V2.csv
+translated_results.csv
+*.xlsx
+*.xls
+
+# Logs
+*.log

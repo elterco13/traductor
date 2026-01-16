@@ -1,0 +1,4 @@
+term,pos,notes,is_case_sensitive,translation_nl
+Accelerometer,noun,A sensing device,TRUE,Snelheidsmeter
+Accident Mitigation,noun,Actions taken to...,FALSE,Ongevallenbeperking
+Privacy Mode,noun,Mode where recording is disabled,TRUE,Privacymodus

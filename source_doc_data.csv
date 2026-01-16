@@ -1,0 +1,1079 @@
+source (en_US),translation (nl)
+"Hi in this video, let us learn
+ about Privacy Mode in detail.","1. ""Hallo, in deze video gaan we meer leren over Privacymodus in detail."""
+What is Privacy Mode?,"2. ""Wat is Privacymodus?"""
+"A feature offered by the Driverâ€¢i device
+ to respect the privacy
+ of drivers and passengers.","3. ""Een functie aangeboden door het Driver•i-Apparaat om de Privacy van bestuurders en passagiers te respecteren."""
+"When the vehicle is not moving,
+ the decision about inward camera
+ recording is provided to them.","4. ""Wanneer het voertuig niet beweegt, wordt de beslissing over opname met de binnenwaartse camera aan hen overgelaten."""
+"In most cases,
+ this feature is applicable only
+ for the Driverâ€¢i devices where
+ inward camera recording is enabled.","5. ""In de meeste gevallen is deze functie alleen van toepassing op de Driver•i-Apparaten waarbij opname met de binnenwaartse camera is ingeschakeld."""
+"When this feature is activated,
+ the inward video files will not be stored
+ in the device and the video
+ file cannot be retrieved.","6. ""Wanneer deze functie is geactiveerd, worden de binnenwaartse video-bestanden niet opgeslagen in het apparaat en kan het video-bestand niet worden opgehaald."""
+Enabling or Disabling Privacy Mode,"7. ""In- of uitschakelen van Privacymodus."""
+Privacy Mode is enabled when the vehicle speed reaches,"8. ""Privacymodus wordt ingeschakeld wanneer de Voertuigsnelheid de waarde bereikt van"""
+"zero miles per hour for three minutes
+ or when the vehicle ignition is off.","9. ""nul Miles per hour gedurende drie minuten of wanneer de Ontstekingsstatus van het voertuig uit is."""
+"When the Privacy Mode is enabled,
+ a black screen appears in place","10. ""Wanneer de Privacymodus is ingeschakeld, verschijnt er een zwart scherm in plaats van"""
+"of Inward Camera View in the alert videos
+ in the Driverâ€¢i portal
+ or in the Driverâ€¢i app.","11. ""de binnenwaartse cameraweergave in de Waarschuwingsvideo's in het Driver•i-Portaal of in de Driver•i App."""
+"Privacy Mode is disabled as soon as
+ the vehicle ignition is on and the vehicle
+ speed reaches 5 mph or more.","12. ""Privacymodus wordt uitgeschakeld zodra de ontsteking van het voertuig aan staat en de Voertuigsnelheid 5 mph of meer bereikt."""
+"Let us see how Privacy Mode
+ works in different scenarios.","13. ""Laten we kijken hoe Privacymodus werkt in verschillende scenario's."""
+"Scenario 1 Driver stops the vehicle
+ and turns the ignition to the off
+ or Accessory auxiliary position.","14. ""Scenario 1: bestuurder stopt het voertuig en zet de ontsteking in de uit-stand of de Accessory Auxillary-stand."""
+"Privacy Mode will be enabled a few seconds
+ after ignition is turned to the off or
+ except Accessory auxiliary position.","15. ""Privacymodus wordt ingeschakeld enkele seconden nadat de ontsteking naar de uit-stand of de Accessory Auxillary-stand is gedraaid."""
+"Scenario 2 Driver stops the vehicle for an
+ extended time and leaves the ignition on.","16. ""Scenario 2: bestuurder stopt het voertuig voor langere tijd en laat de ontsteking aan staan."""
+"Privacy Mode will be
+ enabled after three minutes.","17. ""Privacymodus wordt na drie minuten ingeschakeld."""
+"Scenario 3
+ Driver stops the vehicle and turns
+ the ignition off, then turns the ignition
+ back on,","18. ""Scenario 3: bestuurder stopt het voertuig en zet de ontsteking uit, en zet de ontsteking vervolgens weer aan,"""
+for example to run accessory or heater.,"19. ""bijvoorbeeld om een Accessory of de verwarming te gebruiken."""
+"Privacy Mode will already be enabled
+ and will remain enabled since
+ the vehicle hasn't moved.",
+"The video is blacked out for the entire
+ duration since the ignition was off.",
+"Scenario 4 Driver turns
+ the ignition on and resumes driving.",
+"Privacy Mode will be disabled a few
+ seconds after the vehicle ignition is
+ turned on and the vehicle
+ speed exceeds 5 mph.",
+"How to know when Privacy Mode is activated
+ on the Portal Navigate to the
+ Event Access page on the Portal.",
+"Click on any completed video request
+ for the videos where
+ Privacy Mode is activated.",
+Inward Facing Camera View is disabled.,
+"Hovering over the Inward facing camera
+ view displays the message
+ Privacy Mode Activated.",
+"This indicates that Privacy Mode
+ was activated during that event.",
+"How to configure Privacy Mode
+ on the Portal Privacy Mode can be
+ enabled or disabled from the portal.",
+"To configure the Privacy Mode
+ in the Portal, navigate
+ to Provisioning and Configurations.",
+"In the side menu, click Configurations.",
+Click Privacy Mode.,
+"Under Camera Settings,
+ you can see the current status
+ of Privacy Mode as enabled or disabled.",
+Click Edit.,
+"Privacy Mode is enabled as
+ the default configuration.",
+"Select Disabled to disable
+ the Privacy Mode.",
+"If the Privacy Mode is disabled,
+ select Enabled or select",
+"the Use System Default Configurations
+ button to enable the Privacy Mode.",
+"Review the configuration and click
+ Save to save the new configuration.",
+"Hi! In this video, let us look at the Dashboard screen of the Driverâ€¢i App in detail.",
+"The Driverâ€¢i App allows you to
+ see driving behaviors identified by the",
+"Driverâ€¢i device and the
+ corresponding driver score.",
+"The app also opens communication between
+ you and your manager through the sharing
+ of video, comments and feedback.",
+"You can download the app
+ from Google Play Store or
+ the Apple App Store, depending
+ on the type of phone you are using.",
+"The cameras on the Driverâ€¢i device record
+ all the driving events as they happen.",
+"These events include sign violations,
+ speeding violations,",
+"seatbelt non compliance,
+ distracted driving,",
+"as well as proactive driving events such
+ as creating space for vehicles
+ merging or parked on the shoulder.",
+"Events are categorized into moderate risk,
+ severe risk,",
+or DriverStars Proactive Safe Driving.,
+"The device analyzes these driving events
+ to generate alerts that are played either",
+"as an audio message inside the vehicle or
+ as a video that is uploaded to the portal.",
+"Your manager can view the alerts that you
+ have generated and add them
+ to your coaching session if needed.",
+"Logging into the App
+ Reach out to your safety manager to get
+ your credentials to log into the app.",
+"Open the Driverâ€¢i app,
+ enter your username and tap login.",
+Enter the password and Tap Login.,
+"After the password is authenticated,
+ you will be logged in to the Driverâ€¢i app.",
+"Forgot or Reset Password
+ Enter the username on the login
+ screen and tap Forgot Password.",
+"Tap Send Password reset Email
+ A Reset Password link is sent
+ to your registered email address.",
+"Click or tap the Reset Password link
+ in the email on the Reset Password screen.",
+Enter a new password and confirm the same.,
+Tap Reset Password.,
+The password is reset.,
+"You will be directed to the login
+ screen to log in with the new password.",
+"Change Password
+ log into the Driverâ€¢i app and tap
+ the menu option on the top left corner.",
+"Tap Change Password,
+ enter values in the old password,",
+"New Password and Confirm Password
+ fields and tap Change Password.",
+The password is changed.,
+"You must now use the new password
+ to log into the Driverâ€¢i app.",
+"Benefits of Driverâ€¢i app
+ the Driverâ€¢i app will benefit you in the
+ following visibility in your performance.",
+The mystery of the camera is removed.,
+"You can view your Green Zone score,
+ most impactful alerts,
+ your rank, and DriverStars.",
+"Weekly review sessions
+ gain awareness of impactful driving
+ behaviors affecting your score,
+ know where you stand,",
+"view your ranking in the fleet,
+ and understand how you can improve your
+ rank by avoiding high impact events.",
+"Features of Driverâ€¢i app
+ Let's see a quick overview of
+ various sections of the app.",
+"App Tour provides a guided walkthrough
+ of the app and and helps you
+ understand how the app works.",
+"FAQs provides answers to frequently
+ asked questions about the app features, GreenZone score alerts, etc.",
+"Dashboard screen displays your GreenZone
+ score, DriverStars and alerts that have
+ impacted your Green Zone score.",
+"Events Screen displays detailed
+ information about the number of alerts
+ generated and DriverStar
+ is awarded weekly.",
+"Review screen displays the three alerts
+ that have been assigned for coaching based
+ on driving behavior in the past week.",
+"GreenZone Screen displays your GreenZone
+ score and the list of high impact
+ events that affected your score.",
+"For more details, tap the floating Help
+ icon to view the help content relevant
+ to the tab that is open on your screen.",
+"Hi! In this video, let us look at the
+ Dashboard screen of the
+ Driverâ€¢i App in detail.",
+"The Dashboard screen provides a summary
+ of your driving performance",
+"based on the alerts and DriverStars
+ generated by you.",
+"This screen helps you analyze your
+ strengths and areas of improvement.",
+"Tap the daily, weekly,
+ and monthly buttons to view",
+"the corresponding information
+ on the Dashboard screen.",
+"You can also select the required date,
+ week or month using
+ the left and right arrows.",
+"The following information is
+ displayed on the Dashboard screen.",
+"Your Green Zone score is based
+ on the alerts, driver Stars and neutral
+ events that you generated while driving.",
+"Generating alerts will
+ impact your Green Zone score.",
+"Tap the arrow in this section to navigate
+ to the Green Zone screen and view details",
+"about the events that impacted
+ your Green Zone score.",
+"Your rank is determined based on the
+ Green Zone score of your fellow drivers.",
+"This is to encourage a healthy
+ competition in the fleet.",
+"You can view your rank among
+ all drivers in your fleet.",
+"Three drivers with topmost Green Zone
+ score are displayed
+ on the Dashboard screen.",
+"This is a fleet based configuration,
+ hence the ranking card is displayed only
+ if the feature is enabled for the fleet.",
+"DriverStars are awarded
+ to recognize safe driving behavior.",
+"DriverStars have a positive
+ impact on your GreenZone score.",
+"Total Alerts Generated displays the total
+ number of alerts generated
+ by you in the selected duration.",
+"Average following Distance denotes
+ the average distance that you maintained",
+"between your vehicle and the vehicle
+ ahead that is also in the same lane.",
+"Total Minutes Analyzed displays the amount
+ of time in minutes you drove the vehicle,",
+"including the time when vehicle
+ was switched on but not moving.",
+"You will receive notifications about
+ weekly review sessions, alerts and
+ comments shared by your safety manager.",
+"You can view these notifications
+ by tapping the bell icon
+ on the top right corner.",
+"When you tap the vertical ellipsis
+ on the top right corner",
+"of the notifications screen,
+ you can see the following Mark all as Read
+ show unread only for more details.",
+"Tap the floating Help icon
+ on the screen to view the help content.",
+"Hi! In this video,
+ let us look at the weekly review
+ screen of the Driverâ€¢i app in detail.",
+"Tap Weekly Review at the bottom
+ of the screen.",
+"The Weekly Review screen displays
+ the coaching sessions that have been
+ assigned to you based on your
+ driving behavior in the past week.",
+"The system analyzes your
+ driving behavior
+ and assigns three alert videos",
+"that will
+ help you understand the areas
+ in which you need improvement.",
+"Tap a coaching session to view your actual
+ score",
+"and the potential score you could have
+ achieved if you had
+ not generated these alerts.",
+"If you have any DriverStar generated over
+ the week, it is also included as
+ part of your Weeklyâ€¯Reviewâ€¯Session.",
+"When you receive a notification
+ of a Weeklyâ€¯Reviewâ€¯Session,
+ you must complete it in seven days.",
+"You must watch all the alert videos
+ assigned to understand
+ and improve your driving behavior.",
+"The system automatically marks the session
+ as completed after you have
+ watched the alert videos.",
+"For more details, tap the floating
+ Help icon to view the help content.",
+"Hi! In this video, let us look at the
+ Green Zone screen of the Driverâ€¢i app driver view in detail.",
+"This screen displays
+ your GreenZone score.",
+"GreenZone Score is calculated
+ based on your driving performance.",
+"The score depends on the alerts and driver
+ stars that you have generated
+ while driving the vehicle.",
+"Green Zone Score can help compare yourself
+ with other drivers in the fleet",
+"and act as a motivational tool to
+ improveyour driving performance.",
+"Tap the Daily, Weekly,
+ and Monthly buttons to
+ view the corresponding information
+ on the Green Zone screen.",
+"You can also select the required date,
+ week or month using
+ the left and right arrows.",
+"You can view the following information
+ on the GreenZone screen.",
+"Your score
+ The potential score that would have been
+ possible
+ if you did not generate the alerts listed.",
+"High impact events that affected
+ your GreenZone score.",
+"Total Minutes Analyzed is the amount
+ of time in minutes you drove the vehicle,",
+"including the time when vehicle
+ was switched on but not moving.",
+"Total alerts generated
+ for the selected duration.",
+"Green Minutes percent is the number
+ of minutes the vehicle was driven
+ without generating any alerts.",
+"DriverStar is awarded for the selected
+ duration.",
+"Average following distance that you
+ maintained between your vehicle
+ and the vehicle ahead in the same lane.",
+"Driver Score chart that displays
+ a graphical representation of your",
+"Green Zone Score,
+ Fleet Average Score and Fleet Goal.",
+"It also displays the minimum score
+ that you must get to avoid
+ getting rated as a poor performer.",
+"For more details, tap the floating
+ Help icon bottom-right corner
+ to view the Help content.",
+"Hi! In this video, let us
+ look at the Events screen
+ of the Driverâ€¢i App â€“
+ Driver View in detail.",
+"The Events screen displays your most
+ frequent alerts
+ and DriverStars (top three)",
+"and enables you to view the alerts or
+ DriverStars that your
+ manager has shared with you.",
+"Time Period
+ On the Events screen,
+ select the required duration
+ from the time period drop-down.",
+"You can also select a custom date range
+ where a
+ maximum of 30days can be selected.",
+"Search
+ Type the Alert type in the Search
+ field to view all alerts of that type
+ for the selected time period.",
+"The Events screen displays two
+ alerts and DriverStars .",
+"The Alerts tab displays the following:
+ Most frequent Alerts section displays",
+"the top three alerts among those that you
+ have frequently generated
+ in the selected duration.",
+"Tap the Information icon next to the alert
+ name to view the description of the alert.",
+"<b>Shared Alerts</b> section displays the alerts
+ shared with you by your Safety Manager.",
+"You can narrow down your search results
+ to view exactly what you want by",
+"tapping the Filters icon located next
+ to Shared Alerts Filters.",
+"You can filter the alerts based
+ on the following options:",
+"Select the All Alerts checkbox if you want
+ to view all the alerts
+ irrespective of the alert type.",
+"Otherwise, you can select the required
+ checkbox beside each alert
+ type to view only those alerts.",
+"Filter the alerts based on Risk Level
+ by selecting the",
+"Severe Alerts or Moderate Alerts
+ checkboxes to view only
+ the Severe or Moderate
+ alerts, respectively.",
+"Filter alerts based on video availability
+ by selecting the following checkboxes.",
+"Video Available Indicates that the video
+ has been received from the device
+ and is available for viewing.",
+"Video Requested Indicates that the video
+ is not available at present to be viewed
+ and has been requested from the device.",
+"Once you raise the request,
+ the video is processed and made
+ available for you to view.",
+"Video on Request indicates that the video
+ is not available and not yet requested.",
+You can request it if required.,
+"Video Unavailable Indicates that the video
+ is no longer available
+ and cannot be requested.",
+"Show Only select the options to see only
+ bookmarked alerts or not viewed alerts.",
+"Sort by Date Toggle the ascending or
+ descending buttons to sort
+ the alerts by date as required.",
+"The DriverStars tab displays the
+ Most frequent DriverStars section",
+"displays the top three driver stars
+ that were awarded to you
+ in the selected duration.",
+"Shared Driver Stars section displays
+ the driver stars shared
+ with you by your Safety manager.",
+"You can narrow down your search results
+ to view exactly what you want by tapping
+ the Filters icon located next
+ to Shared Driver Stars Filters.",
+"You can filter the alerts based
+ on the following:",
+"Filter Alerts based on video availability
+ by selecting the Following Video Available",
+"Video Requested Video
+ on Request Video Unavailable",
+"Show Only select the options to see only
+ bookmarked alerts or or not viewed alerts.",
+"Sort by date Toggle the ascending or
+ descending buttons to sort
+ the DRiverStars by date as required.",
+"For more details, tap the floating
+ Help icon to view the help content.",
+"Hi in this video, let us look at the coaching screen of the Driverâ€¢i app Safety Manager View in detail",
+"Coaching is an integral part
+ in maintaining and promoting
+ safe driving behavior in drivers.",
+"When coaching sessions are conducted
+ at regular intervals, drivers show
+ improved safe driving performance.",
+"The Coaching screen of the Driverâ€¢i app
+ provides detailed information about",
+"the pending and completed coaching
+ sessions of drivers in the fleet.",
+"Tap the search icon on the top right
+ corner of the screen and type the required",
+"keywords such as Session ID or driver name
+ to search for the required
+ coaching session.",
+"The Pending tab displays the coaching
+ sessions that are yet to be
+ completed by the driver.",
+"The completed tab displays all the
+ completed coaching sessions by the driver.",
+"The Coaching Sessions card displays
+ the session id,",
+"total number of alerts,
+ name of the driver, the date and time when",
+"the session was created, and the most
+ frequent alerts generated by the driver.",
+"Coaching Session Details
+ Tap the green arrow on the card to view",
+details of the coaching session.,
+"This screen displays the number of alerts,",
+"DriverStars, Notifications, Recognitions,",
+"and frequent alerts generated by the
+ driver since the last coaching session.",
+"Bookmarked Events Displays the important
+ events that you have bookmarked for future",
+"reference
+ Events added to Coaching Displays all",
+"the alerts added to a coaching session
+ session Discussion Allows you to add any",
+"comments or remarks from the discussion
+ you had with the driver
+ during the coaching session.",
+"Add Conclusion Notes Allows you to add
+ closing notes after the coaching session is completed,",
+"you must first select one
+ of the reasons from the drop down list.",
+"Select adjustments made to route if
+ the driver's route is changed or updated",
+"based on any challenges
+ that the driver may be facing.",
+"Select Driver Assigned Training if
+ the driver drivers enrolled for some specific training program,'",
+"Select Coaching Completed if the driver completed the coaching session,",
+"the Mark as Complete button must be tapped
+ after the coaching session is complete.",
+"Coaching Session Configurations
+ Tap the settings icon on the top right",
+"corner to display the Coaching
+ session configuration screen.",
+"You can configure the coaching sessions
+ based on the following",
+Select All Drivers or All Drivers Except,
+or Only These Drivers to create automated,
+coaching sessions for drivers as required.,
+"Select the required alert types depending
+ on the risk level to create automated",
+"coaching sessions only
+ for the selected alert type.",
+"After making the required
+ selections, tap <b>Save</b> to save
+ the changes made for configuration.",
+"Tap the floating <b>Help</b> icon on the
+ bottom-right corner of the
+ screen to view the Help content.",
+"Hi! Let us see how safety managers can
+ provide feedback on the Driverâ€¢i app.",
+"User feedback provides valuable insights
+ that show areas
+ of improvement in the product.",
+This can help improve user experience.,
+"You can suggest an improvement or report
+ an issue by selecting a feature
+ from the predefined Features list.",
+"To provide feedback on the app,
+ tap the menu icon on the top
+ left corner of the screen.",
+Tap Feedback.,
+The feedback screen is displayed.,
+"Tap check FAQs to check if your issue was
+ already reported",
+and a solution was proposed.,
+Select one of the following options.,
+"To provide feedback,
+ tap Suggest an improvement and select
+ a feature from the drop down list.",
+"To provide suggestions on the specific
+ area,",
+"tap Report a bug and select
+ a feature from the drop down list.",
+"To report a fault or error,",
+"tap Attach an image to upload an image if
+ needed,",
+"add detailed information
+ in the Add Notes box, tap Submit Feedback.",
+The feedback is submitted.,
+"It will be reviewed by the netradyne team
+ to ensure that the appropriate
+ action is taken.",
+"For more details, tap the floating
+ Help icon in the bottom right corner.",
+"Hi! In this video let us discuss
+ how the Driverâ€¢i device works?",
+"Driverâ€¢i devices are dashboard cameras
+ that use the latest technologies",
+"in artificial intelligence,
+ machine learning and edge computing",
+"for identification and analysis
+ to determine the cause of events",
+"that occur with drivers
+ during their drive time.",
+"The software analyzes the recorded events
+ and generates Alerts, DriverStars,
+ and Neutral Events as needed.",
+"The following steps provide a high
+ level workflow of the Driver.i Device.",
+"The device captures every driving minute
+ of video and sensory data and
+ stores it as observations.",
+"While processing the observation
+ data, events are classified based",
+"on the Netradyne Proprietary
+ artificial Intelligence Algorithms.",
+"Further validations are performed
+ on the Events and they are displayed
+ on the web portal as alert cards.",
+"The working principle of Driverâ€¢i is based
+ on the following steps:",
+"Collecting data,
+ interpreting it and acting on it through
+ three different sections:",
+"Vision based and inertial data collection
+ system consisting of cameras and sensors",
+Data analytics system using Artificial,
+Intelligence and Machine Learning.,
+"Assistance to drivers by generating
+ alerts and",
+"recognizing drivers based on positive
+ driving events.",
+"A safety manager will have access to every
+ driving minute captured
+ by the Driverâ€¢i device.",
+"They can review the driver's driving
+ performances and if needed,",
+"share the alerts with the driver
+ as part of their coaching program.",
+"Driverâ€¢i appreciates good driving behavior
+ by awarding DriverStars to the driver.",
+"When Driverâ€¢i identifies that an action
+ performed by the driver resulted",
+"in avoiding a potential incident,
+ a DriverStar is awarded to the driver.",
+"This encourages drivers to follow safe
+ driving practices and helps
+ enhance fleet safety.",
+"The Driverâ€¢i device generates real time
+ alerts for driving events and shares",
+"notifications using both
+ Driverâ€¢i app and Driverâ€¢i portal.",
+"The system detects risky events
+ and advises coaching sessions
+ for drivers for continuous improvement.",
+"Drivers receive GreenZone Score on daily,
+ weekly and monthly basis between 1",
+"and 1000, tabulated based on their
+ driving habits and behaviors.",
+"Event Access gives access to 100
+ hours of stored videos anytime.",
+"For more details, tap the floating
+ help icon to view the help content.",
+"Hi! In this video we will discuss about
+ the benefits and features",
+"of the Driverâ€¢i App,
+ which will allow safety managers to view",
+"and manage the performance
+ of their fleet and drivers.",
+"Driverâ€¢i App helps manage
+ the fleet and drivers effectively.",
+It can be accessed from anywhere.,
+"Safety managers can view the details
+ of fleet performance,
+ drivers, coaching sessions, GreenZone
+ statistics and requested videos.",
+"You can download the app
+ from Google Play Store or",
+"the Apple App Store based
+ on the type of phone you are using.",
+Driverâ€¢i app provides the following,
+"Performance Visibility,
+ Real Time Access,",
+"Coaching,
+ Gamification,
+ Drive Time Assignment.",
+"Let's explore the various
+ sections of the app in detail.",
+"Dashboard- This screen displays the fleet's
+ driving performance based on the alerts",
+"and DriverStars generated
+ by all the drivers.",
+"The following information is displayed
+ on the dashboard",
+"Fleet Average Green Zone Score,
+ Notification and Recognition,
+ Drivers with highest and lowest score",
+"Most frequent alerts,
+ Severe and moderate alerts
+ DriverStars Events.",
+"This screen displays
+ detailed information about the number
+ of alerts generated by the drivers under",
+"each alert type and the number
+ of driver stars awarded.",
+"Alerts can be viewed
+ in Smart View or Expanded view.",
+"Drivers
+ this screen displays information about",
+"your drivers and the number
+ of alerts generated by each driver.",
+"The list is categorized based
+ on GreenZone score, Green minutes",
+percent and overspeeding percent.,
+"Event Access
+ this screen displays the list of videos",
+"that you have requested manually
+ for a selected time period.",
+"You can create a new video request for any
+ vehicle based on time period and video",
+"availability for all the active vehicles
+ that are associated with the devices.",
+"Coaching this screen displays the pending
+ and completed coaching sessions",
+for your drivers in the Driverâ€¢i app.,
+"You can add alerts to a driver's coaching
+ session either manually from an alert card",
+"or automatically by configuring
+ the coaching session.",
+"GreenZone this screen displays
+ driver score versus time graphically.",
+"By default, the chart displays the fleet
+ Average and top four driver scores.",
+"The names of the plotted drivers
+ are listed below the graph.",
+"You can also select the drivers to compare
+ their GreenZone scores
+ from the list of all drivers.",
+"For more details, tap the floating Help
+ icon to view the help content relevant",
+to the tab that is open on your screen.,
+"Hi! In this video,
+ let us look in detail at the
+ Drivers screen available",
+on Driverâ€¢i App for Safety Manager.,
+"The Drivers Screen helps you understand
+ the performance of drivers in your Fleet",
+"by viewing the alerts generated by them
+ and analyzing the driver ranking.",
+"This screen also provides a detailed
+ overview of the driver's profile.",
+"This list is classified based
+ on GreenZone score, Green Min percent
+ and Over Speeding percent.",
+"The driver rank is displayed
+ based on the driver statistics.",
+"Select the required duration
+ from the <b>Time Period </b>drop-down.",
+"You can also select a custom
+ date range of maximum 30 days.",
+"On the search bar, type a keyword related
+ to any driver detail,",
+"such as the driver name,
+ to search for the driver.",
+"The following information is
+ displayed on the Drivers screen.",
+"The GreenZone tab lists drivers based
+ on the GreenZone score
+ for the selected duration.",
+"The <b>Green Minutes</b> tab lists drivers based
+ on Green Minutes percent
+ and Minutes Analyzed.",
+"<b>Green Minutes percent </b> represents
+ the number of minutes for
+ which the driver has",
+"driven safely without generating any
+ alerts as compared to the
+ driver's total drive time.",
+"Minutes Analyzed denotes the total number
+ of minutes the vehicle
+ was driven by the driver.",
+"The Overspeeding tab lists drivers
+ based on the overspeeding percent.",
+"Overspeeding percent represents
+ the minutes for which the driver has",
+"generated speeding violation alerts as
+ compared to the total
+ drive time of the driver.",
+"You can sort drivers based on GreenZone
+ score, Greenminutes percent",
+"and overspeeding percent
+ in ascending or descending order.",
+"<b>Driver Profile </b>
+ Tap any of the listed driver names
+ to navigate to the Driver Profile screen.",
+"This screen displays detailed information
+ about the driving performance
+ of the selected driver.",
+"Tap the daily, Weekly, and Monthly buttons
+ to view the corresponding information.",
+"You can also select the required date
+ and week or month using
+ the left and right arrows.",
+"The Driver Profile screen displays
+ the Green Zone score of the driver,",
+"including the Green minutes
+ percent and minutes analyzed.",
+"Most Frequent Alerts displays the alerts
+ that were generated frequently
+ by the driver for the selected duration.",
+"Tap the All Alerts button at the bottom
+ of the screen to navigate
+ to the Events screen of the driver.",
+"For more details, tap the floating
+ Help icon to view the help content.",
+"Hi! In this video,
+ let us look at the dashboard screen",
+"of the Driveri App â€“ Safety Manager
+ View in detail.",
+"The Dashboard screen provides a summary
+ of the Fleet's driving performance
+ based on alerts and DriverStars
+ generated by all the drivers.",
+"This screen helps you analyze the strength
+ and limitations of drivers in detail.",
+"Tap the daily, weekly,
+ and monthly buttons to view
+ the corresponding information
+ on the dashboard screen.",
+"You can also select the required date,
+ week, or month using
+ the left and right arrows.",
+"The following information is displayed
+ on the dashboard screen",
+"Fleet Average GreenZone Score denotes
+ the overall performance of the fleet.",
+"The Average GreenZone score should
+ be aimed at reaching the Fleet Goal.",
+"The line indicator turns Red if
+ the average GreenZone score goes below
+ the poor performance
+ threshold set by the fleet.",
+"Notification denotes the percentage
+ of drivers who have received notifications
+ due to risky driving behaviors.",
+"These drivers notice a drop
+ in their Green Zone score.",
+"Recognition indicates the percentage
+ of drivers who have been rewarded
+ for their safe driving performance.",
+"These drivers notice an increase
+ in their GreenZone score.",
+"Drivers with Highest Score displays
+ the top three best performing drivers
+ based on their GreenZone score.",
+"You can tap the Driver name to navigate
+ to the Driver profile where you can
+ view the detailed driver information.",
+"Most Frequent Alerts displays the alerts
+ that were generated frequently
+ by the drivers for the selected duration.",
+"Severe and Moderate Alerts displays
+ the number of severe and moderate alerts
+ generated by the drivers in the
+ selected duration.",
+"DriverStars denotes the number
+ of DriverStars awarded to the drivers
+ in the selected duration.",
+"You can tap any of the alerts or
+ DriverStars to navigate to the
+ Events screen",
+"where you can view all
+ the alerts and DriverStars.",
+"For more details,
+ tap the Menu icon on the top-left corner",
+"and then tap Help
+ to view the help content.",
+"Hi! In this video, let us see how
+ Safety Managers can compare
+ Fleets on the Driverâ€¢i App.",
+"You can use the Compare Fleets feature
+ to compare the fleets that are managed
+ by the parent fleet.",
+"You can generate a comparison report
+ that depicts the performance",
+"of the selected fleets based on
+ Average GreenZone score,
+ Driverâ€¢i Installed Vehicles,",
+"Completed Coaching Sessions,
+ number of DriverStars, and Alerts generated.",
+"The Fleet Comparison feature helps fleet
+ managers maintain a holistic view of their",
+"fleets while providing data driven
+ insights so that they can identify and
+ solve individual fleet issues.",
+"To Compare Fleets tap the menu icon on the
+ top left corner of the dashboard screen.",
+"Tap the tenant view to view all
+ the fleets,",
+"Tap Compare Fleets
+ select the time duration in the fleets",
+"to compare, Tap Compare Fleets.",
+The report is displayed on the screen.,
+"Select Base Alerts or Compound Alerts
+ to view the preferred alert type.",
+"Tap Export as CSV to export the report
+ in CSV format, if required.",
+"Tap the floating Help icon on the
+ screen to view the Help content.",
+"Hi in this video,
+ let us look at the Event Access screen",
+"of the Driverâ€¢i App Safety Manager.
+ View in detail.",
+"The Event Access screen enables you
+ to obtain video for any of the
+ recent drive times.",
+"You can request and review driving videos
+ for any vehicle at any point of time,
+ provided the video is available.",
+"Request Video
+ Tap Event Access",
+The Event Access screen displays all,
+"the active vehicles and placeholder
+ vehicles that are
+ associated with the devices.",
+"Tap New Request on the top
+ right corner of the screen.",
+"The Create new Request
+ screen is displayed.",
+"The Video Request quota displays
+ the number of videos requested in a month
+ versus the monthly quota of videos.",
+"Each minute of video that you
+ request is counted as one.",
+"The label color changes from green
+ to orange to red depending
+ on the number of video requests available.",
+"A breakup of Event Access
+ and Alerts Manually fetched video requests
+ can be viewed under Usage Account.",
+"Manually requested videos may
+ or may not contain alerts.",
+"Event Access videos are manual video
+ requests that do not include alerts.",
+"Alerts manually fetched are manual
+ video requests that include alerts.",
+"Select the following information
+ in the Vehicle Number field.",
+"Search for the vehicle in the drop down
+ list or type the vehicle number
+ in the Select Date field.",
+"Select the date by tapping
+ the Date Picker icon.",
+"In the Start, Time and End Time fields.",
+"Select the duration in which you
+ want to request for videos.",
+"Tap Search
+ The Add to Cart screen is displayed.",
+"Tap the Add to Cart icon against the
+ required videos from the list displayed.",
+"You can also use the Filter and Speed chart
+ feature to search for specific videos
+ based on the options available.",
+"You can also select Add all to Cart
+ to include all the listed videos.",
+"<b>Note</b>: Add to Cart will be disabled if you have
+ exceeded the video quota for the month.",
+"Click Review Cart to review
+ the videos added to the cart.",
+"You can review the videos selected and
+ remove any unwanted videos from the list.",
+"Tap Submit Request to request
+ for the selected videos.",
+"View, Download, Share
+ or Convert into Alert.",
+"The requested video screen displays a list
+ of video requests that
+ are pending and completed.",
+"Tap any of the completed video
+ requests to view the video.",
+"Toggle the autoplay videos across minutes
+ to automatically play the
+ next concurrent minute of the video.",
+Tap Play all to play all the camera views.,
+"Tap Download Icon and choose
+ the preferred camera view.",
+"To download the video,
+ Tap the vertical ellipses",
+to choose the following options.,
+"Tap Share Link to share it as
+ full video or trimmed video.",
+"Tap Convert into Alert to convert
+ the video into an alert.",
+"This allows you to share it
+ with the driver or add it to Coaching.",
+"For more details, tap the floating
+ Help icon to view the help content.",
+"Hi! In this video, let us discuss the
+ Driver Reports screen",
+"in the Driverâ€¢i App
+ Safety Manager View.",
+"Driver Report helps you view the overall
+ performance of all drivers at one go.",
+"The reports are generated based on several
+ metrics, such as Driver Score,",
+"Total Minutes Analyzed, Green Minutes
+ percent and Alerts Impacting score.",
+"You can view the data of all the drivers
+ and dive deep into details of
+ each driver's performance.",
+"You can request, view, or download
+ the report",
+for a selected time duration.,
+"If required,You can subscribe to the
+ report on a weekly or monthly basis",
+"and the report will be sent to your email
+ ID",
+"Request Driver Report
+ To request the driver report to view and
+ analyze the performance of the drivers",
+"in your Fleet based on all or
+ specific parameters.",
+"You can subscribe to or generate specific
+ reports as and when required.",
+"To request Driver Reports:
+ To generate a report for a specific
+ Driver Group, tap the Menu icon on Dashboard.",
+"Tap Group and select the
+ Driver Group from the list.",
+Tap the back arrow to return to the menu.,
+Tap Reports and then tap Driver Reports.,
+"Tap Create Request on the top right corner
+ of the Driver Reports screen screen.",
+The Create Request screen is displayed.,
+"Select the time duration by choosing
+ the day, week or month buttons.",
+"You can also use the arrow buttons
+ to select required date, week or month.",
+"Select the Report Criteria Tap all drivers
+ with a score to generate reports of
+ drivers with green zone score.",
+"Tap Custom Filter below all drivers
+ with a score to open the custom filters.",
+"The custom filter pop up is displayed
+ and you can select the attribute",
+"from the drop down list such as
+ Driver Score Total Minutes Analyzed",
+"and Green minutes percent
+ and enter the required value.",
+"This will generate the custom
+ report for all drivers.",
+Tap Save to submit the request.,
+"You will receive a notification
+ once the report is ready.",
+"The report will be sent
+ to your registered email id.",
+"You can also view
+ the report on the portal.",
+"To view Driver reports, tap the menu icon
+ on the top left corner of the screen.",
+Tap Reports and then tap Driver Reports.,
+"The requested driver reports
+ are displayed on the screen.",
+"Tap the View and Download Reports
+ button to view the Fleet Report screen.",
+Tap View Report or Download as required.,
+"For more details, tap the floating
+ Help icon in the bottom right corner.",
+"Hi! Let us discuss the Executive Reports
+ in the Driverâ€¢i Appâ€“ Safety Manager View.",
+"Executive Reports summarize the overall
+ information about the Fleet and Drivers.",
+"This report provides you an overview
+ of your Fleet performance,",
+"Driver Performance Ranking, Risk Profile, Positive Driving,
+ and Coaching recommendations.",
+You can request for the report for a selected time duration,
+and download and view the report.,
+"You can also subscribe to the report
+ on a weekly or monthly basis and the",
+report will be sent to your email ID.,
+"<b>Request Report</b>
+ To generate report for a specific <b>Driver Group</b>, navigate to <b>Dashboard</b>
+ <b></b>and tap the Menu icon.",
+"Tap <b>Group</b> and select
+ the <b>Driver Group</b> from the list.",
+Tap the back arrow to return to the <b>Menu</b>.,
+"Tap <b>Reports</b> and then
+ tap <b>Executive Reports</b>.",
+"Tap the <b>Create Request</b> button on the top
+ right corner of the
+ Executive Reports screen.",
+The Create Request screen is displayed.,
+"Select the <b>Time Duration</b> by choosing
+ the<b> Week</b> or <b>Month</b> buttons.",
+"You can also use the arrow buttons
+ to select required week or month.",
+"Enter a name for the report
+ in the Report Name field.",
+Tap Submit Request.,
+"You will receive a notification
+ once the report is ready.",
+"The report will also be sent
+ to your registered e-mail id.",
+"You can also view and download
+ the report on the portal.",
+"<b>View and Download Executive Reports</b>
+ Tap the <b>Menu</b> icon on the top-left
+ corner of the dashboard screen.",
+"Tap Reports and then
+ tap <b>Executive Reports.</b>",
+"The Executive Reports screen displays
+ a list of all the requested reports.",
+"Tap the <b>View and Download Report</b>
+ button to view the report.",
+"Tap the <b>Download</b> icon on the top right
+ corner of the screen to
+ download the report.",
+"For more details, tap the floating
+ Help icon in the bottom-right corner.",
