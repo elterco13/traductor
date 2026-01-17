@@ -5,6 +5,9 @@ import time
 import json
 import io
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # CONFIGURATION
 # CONFIGURATION
