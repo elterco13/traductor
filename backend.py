@@ -37,6 +37,44 @@ class TranslatorBackend:
             generation_config=self.generation_config,
             safety_settings=self.safety_settings
         )
+
+    def _verify_and_correct(self, candidate_translation, original_english):
+        """
+        Secondary pass to enforce Dutch linguistic rules:
+        - Compound words (Samengestelde woorden)
+        - Koppelteken for omission (Weglatingsstreepje)
+        - Word order (V2, SOV)
+        - Capitalization
+        """
+        verify_prompt = f"""
+Role: Dutch Language Editor.
+Task: Review and correct the following translation.
+
+Original English: "{original_english}"
+Candidate Dutch: "{candidate_translation}"
+
+CHECKLIST:
+1. **Compound Words**: Are nouns combined? (e.g. 'Driver-i Assistent' -> 'Driver-i-Assistent').
+2. **Ellipsis**: Is the hyphen used correctly? (e.g. 'Bestuurders- en Voertuiggroepen').
+3. **Grammar**: Is the word order natural Dutch?
+4. **Capitalization**: Maintain technical capitalization.
+
+EXAMPLES OF CORRECTIONS:
+- Input: "Bestuurders en Voertuiggroepen" -> Output: "Bestuurders- en Voertuiggroepen"
+- Input: "Account Meldingen" -> Output: "Accountmeldingen"
+- Input: "Driver-i Assistent" -> Output: "Driver-i-Assistent"
+- Input: "De video's van de bestuurder" -> Output: "Bestuurdersvideo's"
+
+Instruction:
+- If the Candidate Dutch is perfect, output it exactly.
+- If errors exist, output ONLY the corrected Dutch version.
+- Do NOT provide explanations. Just the text.
+"""
+        try:
+            response = self.model.generate_content(verify_prompt)
+            return response.text.strip()
+        except:
+            return candidate_translation
     
     def clean_text_for_prompt(self, text):
         if not isinstance(text, str):
@@ -58,6 +96,12 @@ STRICT INSTRUCTIONS:
 2. Structure: {{ "original_english": "...", "improved_english": "...", "dutch_translation": "..." }}
 3. Rephrase 'Input Text' to be grammatically correct (improved_english).
 4. Translate to Dutch using the Glossary (dutch_translation).
+
+LINGUISTIC RULES (CRITICAL):
+- **Capitalization**: Respect strict capitalization of technical terms (e.g., 'Driver-i', 'Portal').
+- **Compound Words**: ALWAYS combine nouns in Dutch. (e.g., 'Account Meldingen' -> 'Accountmeldingen', 'Driver-i Assistent' -> 'Driver-i-Assistent').
+- **Word Order**: Use natural Dutch syntax (SOV in subordinates). Do NOT blindly follow English word order.
+- **Ellipsis**: Use 'koppelteken' correctly for omissions (e.g., 'Bestuurders- en Voertuiggroepen').
 
 GLOSSARY:
 {glossary_text}
@@ -82,11 +126,15 @@ Input Text: "{safe_json_source}"
                 
                 if "improved_english" not in data or "dutch_translation" not in data:
                     raise ValueError("Missing JSON keys")
-                    
+                
+                # --- VERIFICATION STEP (New) ---
+                # We perform a quick self-correction pass on the result
+                final_dutch = self._verify_and_correct(data["dutch_translation"], source_text)
+
                 return {
                     "original_english": source_text,
                     "improved_english": data["improved_english"],
-                    "dutch_translation": data["dutch_translation"]
+                    "dutch_translation": final_dutch
                 }
             except Exception as e:
                 time.sleep(1)
