@@ -135,11 +135,27 @@ st.markdown("""
         font-size: 1rem !important;
         text-shadow: 1px 1px 0px black;
     }
+
+    /* 9. CENTER ALIGNMENT & UPLOADER BUTTONS */
+    div.block-container h1, div.block-container h3 {
+        text-align: center !important;
+    }
+    
+    /* Browse File button text color */
+    [data-testid="stFileUploader"] button {
+        color: white !important;
+        border-color: white !important;
+    }
+    [data-testid="stFileUploader"] button:hover {
+        border-color: var(--neon-pink) !important;
+        color: var(--neon-pink) !important;
+    }
+
 </style>
 """, unsafe_allow_html=True)
 
-st.title("⚡Maremi's auto translator ⚡")
-st.markdown("**Work Smart, not hard, bb. Love U**")
+st.markdown("<h1 style='text-align: center;'>⚡Maremi's auto translator ⚡</h1>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center;'>Work Smart, not hard, bb. Love U</h3>", unsafe_allow_html=True)
 
 
 
