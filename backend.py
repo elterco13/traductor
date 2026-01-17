@@ -54,7 +54,7 @@ Original English: "{original_english}"
 Candidate Dutch: "{candidate_translation}"
 
 CHECKLIST:
-1. **Capitalization (STRICT)**: Does it MATCH the English source style? (e.g. "Add More Pages" -> "Meer Pagina's Toevoegen").
+1. **Capitalization (STRICT)**: MIRROR English casing EXACTLY. (e.g. "feedback" -> "feedback", "Feedback" -> "Feedback"). Do NOT capitalize nouns mid-sentence.
 2. **Branding (INVIOLABLE)**: Ensure 'Driver-i' is NEVER translated to 'Bestuurder-i'. It must remain 'Driver-i'.
 3. **Compound Words**: Are nouns combined? (e.g. 'Account Meldingen' -> 'Accountmeldingen').
 4. **Variables**: Are `{{count}}` or `[text]` placeholders correctly placed?
@@ -63,7 +63,7 @@ CHECKLIST:
 EXAMPLES OF CORRECTIONS:
 - Input: "Bestuurders en Voertuiggroepen" -> Output: "Bestuurders- en Voertuiggroepen"
 - Input: "Hallo, ik ben Bestuurder-i Assistent" -> Output: "Hallo, ik ben de Driver-i-assistent"
-- Input: "Account Meldingen" -> Output: "Accountmeldingen"
+- Input: "Beschrijf uw Feedback" (Source: "Describe your feedback") -> Output: "Beschrijf uw feedback"
 - Input: "Meer pagina's toevoegen" (Source: "Add More Pages") -> Output: "Meer Pagina's Toevoegen"
 
 Instruction:
@@ -131,7 +131,10 @@ STRICT INSTRUCTIONS:
 LINGUISTIC RULES (CRITICAL):
 - **BRANDING (INVIOLABLE)**: NEVER translate 'Driver-i'. It is ALWAYS 'Driver-i', never 'Bestuurder-i'.
 - **PUNCTUATION**: You MAY add commas or semicolons if it improves natural Dutch flow/readability.
-- **CAPITALIZATION (STRICT)**: Maintain the EXACT capitalization style of English phrases (e.g. Title Case vs Sentence Case), but do NOT capitalize random nouns unless they are capitalizing in English.
+- **CAPITALIZATION (STRICT)**: MIRROR English casing EXACTLY.
+    - If English is "feedback" (lowercase), Dutch MUST be "feedback" (lowercase).
+    - If English is "Feedback" (Title), Dutch MUST be "Feedback".
+    - DO NOT capitalize nouns mid-sentence (German style) unless they are capitalized in English.
 - **Compound Words**: ALWAYS combine nouns in Dutch. (e.g., 'Account Meldingen' -> 'Accountmeldingen').
 - **Word Order**: Use natural Dutch syntax (SOV).
 - **Ellipsis**: Use 'koppelteken' correctly (e.g., 'Bestuurders- en Voertuiggroepen').
