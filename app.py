@@ -127,14 +127,19 @@ st.markdown("""
         background-color: #0b001a;
         border-right: 2px solid var(--electric-blue);
     }
+    /* 8. SPECIFIC LABEL COLORS */
+    div[data-testid="stTextInput"] label p,
+    div[data-testid="stFileUploader"] label p {
+        color: var(--neon-pink) !important;
+        font-family: 'Orbitron', sans-serif !important;
+        font-size: 1rem !important;
+        text-shadow: 1px 1px 0px black;
+    }
 </style>
 """, unsafe_allow_html=True)
 
-st.image("assets/header_vaporwave.jpg", use_container_width=True)
-
-st.title("⚡ SYSTEM: TRANSLATOR_PRO_2026")
-st.markdown("**> INITIALIZING... WELCOME USER.**")
-st.markdown("⚠️ **STATUS:** OPERATIONAL | **MODE:** AESTHETIC_VAPORWAVE")
+st.title("⚡Maremi's auto translator ⚡")
+st.markdown("**Work Smart, not hard, bb. Love U**")
 
 
 
