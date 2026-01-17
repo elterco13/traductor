@@ -86,8 +86,10 @@ Instruction:
             return str(text)
         
         replacements = {
-            "Ã¢â‚¬Â¢": "•",  # Bullet
+            "Ã¢â‚¬Â¢": "•",  # Bullet (Standard encoding error)
             "â€¢": "•",      # Bullet (alt)
+            "Ã¢": "â",       # Partial artifact
+            "â¢": "•",       # Screenshot variant
             "Ã©": "é",       # e acute
             "Ã": "à",        # a grave (partial) - be careful here, usually context dependent
             "â€™": "'",      # Smart quote
@@ -101,6 +103,43 @@ Instruction:
         for bad, good in replacements.items():
             text = text.replace(bad, good)
         return text
+
+    def _post_process_enforcement(self, dutch_text, source_english):
+        """
+        The 'Iron Fist' post-processor. 
+        Forces formatting rules using Regex/Python overriding the LLM.
+        """
+        if not dutch_text: return ""
+        
+        # 1. BRANDING: Force "Driver-i" (Kill 'Bestuurder-i', 'Bestuurder i', 'Bestuurderi')
+        # Regex matches: Bestuurder followed by optional dash/space and 'i' (case insensitive)
+        branding_regex = r"(?i)\bbestuurder[-\s]*i\b"
+        dutch_text = re.sub(branding_regex, "Driver-i", dutch_text)
+        
+        # 1.5. BRANDING: Ensure 'Driver-i' has an article if it looks like a noun phrase being introduced
+        # "Ik ben Driver-i" -> "Ik ben de Driver-i"
+        # We look for "ben Driver-i" or "is Driver-i" without "de"
+        dutch_text = re.sub(r"(?i)\b(ben|is)\s+Driver-i\b", r"\1 de Driver-i", dutch_text)
+
+        # 2. CASING: Mirror Source strictly for shared words
+        # If English has "feedback" (lower) and Dutch has "Feedback" (Title), force lower.
+        source_words = set(re.findall(r'\b[a-z]{4,}\b', source_english)) # strict lowercase words >3 chars
+        
+        def casing_fixer(match):
+            word = match.group(0)
+            lower_word = word.lower()
+            # If the exact word exists in lowercase in source, FORCE lowercase in target
+            if lower_word in source_words and word[0].isupper():
+                return lower_word
+            return word
+
+        # Iterate over Dutch words and apply fixer
+        # careful not to lowerStart of sentence? 
+        # Actually, user wants "Beschrijf uw Feedback" -> "Beschrijf uw feedback". 
+        # So yes, even Title cased words should be lowered if source is lower.
+        dutch_text = re.sub(r'\b[A-Za-z]+\b', casing_fixer, dutch_text)
+
+        return dutch_text
 
     def clean_text_for_prompt(self, text):
         if not isinstance(text, str):
@@ -165,7 +204,10 @@ Input Text: "{safe_json_source}"
                 
                 # --- VERIFICATION STEP (New) ---
                 # We perform a quick self-correction pass on the result
-                final_dutch = self._verify_and_correct(data["dutch_translation"], source_text)
+                verified_dutch = self._verify_and_correct(data["dutch_translation"], source_text)
+
+                # --- POST-PROCESSING ENFORCEMENT (The "Iron Fist") ---
+                final_dutch = self._post_process_enforcement(verified_dutch, source_text)
 
                 return {
                     "original_english": source_text,
