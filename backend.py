@@ -119,15 +119,24 @@ Return ONLY the Dutch translation. do not include any other text.
     @staticmethod
     def build_glossary_dict(df_glossary):
         if df_glossary is None or df_glossary.empty: return {}
-        # normalize columns if needed, but assuming standard format
-        # Check standard cols
+        
         term_col = next((c for c in df_glossary.columns if 'term' in c.lower()), None)
         trans_col = next((c for c in df_glossary.columns if 'translation_nl' in c.lower() or 'dutch' in c.lower()), None)
         
         if not term_col or not trans_col:
             return {}
             
-        return df_glossary.set_index(term_col)[trans_col].to_dict()
+        # Clean Data: Drop NaNs and ensure strings
+        df_clean = df_glossary.dropna(subset=[term_col, trans_col]).copy()
+        df_clean[term_col] = df_clean[term_col].astype(str).str.strip()
+        df_clean[trans_col] = df_clean[trans_col].astype(str).str.strip()
+        
+        # Filter out empty strings or literal "nan" strings just in case
+        df_clean = df_clean[df_clean[term_col].str.lower() != 'nan']
+        df_clean = df_clean[df_clean[trans_col].str.lower() != 'nan']
+        df_clean = df_clean[df_clean[term_col] != '']
+
+        return df_clean.set_index(term_col)[trans_col].to_dict()
 
     @staticmethod
     def find_relevant_terms(text, glossary_dict):
