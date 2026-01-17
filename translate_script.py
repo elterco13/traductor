@@ -7,7 +7,11 @@ import io
 import os
 
 # CONFIGURATION
-API_KEY = "AIzaSyBnxCZyROPkB3ijicG5iEB4twI7pgY3AI4"
+# CONFIGURATION
+# SECURITY NOTE: Never hardcode API keys in production scripts.
+API_KEY = os.getenv("GOOGLE_API_KEY") 
+if not API_KEY:
+    print("Warning: GOOGLE_API_KEY not found in environment variables.")
 DOC_URL = "https://docs.google.com/spreadsheets/d/1--ANBO4vxR2jMvwdoSOUGXWuZlR2RI3fFcUfWgzoxdc/export?format=csv"
 GLOSSARY_URL = "https://docs.google.com/spreadsheets/d/1Au9OHt0wL1XTJgOEoJMgNpYcTe89v8w9TlaFcVc5kzY/export?format=csv"
 
