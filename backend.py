@@ -54,15 +54,16 @@ Original English: "{original_english}"
 Candidate Dutch: "{candidate_translation}"
 
 CHECKLIST:
-1. **Capitalization (STRICT)**: Does it MATCH the English source style? (e.g. "Add More Pages" -> "Meer Pagina's Toevoegen". NOT "Meer pagina's toevoegen").
-2. **Compound Words**: Are nouns combined? (e.g. 'Driver-i Assistent' -> 'Driver-i-Assistent').
-3. **Variables**: Are `{{count}}` or `[text]` placeholders correctly placed?
-4. **Ellipsis**: Is the hyphen used correctly? (e.g. 'Bestuurders- en Voertuiggroepen').
+1. **Capitalization (STRICT)**: Does it MATCH the English source style? (e.g. "Add More Pages" -> "Meer Pagina's Toevoegen").
+2. **Branding (INVIOLABLE)**: Ensure 'Driver-i' is NEVER translated to 'Bestuurder-i'. It must remain 'Driver-i'.
+3. **Compound Words**: Are nouns combined? (e.g. 'Account Meldingen' -> 'Accountmeldingen').
+4. **Variables**: Are `{{count}}` or `[text]` placeholders correctly placed?
+5. **Ellipsis**: Is the hyphen used correctly? (e.g. 'Bestuurders- en Voertuiggroepen').
 
 EXAMPLES OF CORRECTIONS:
 - Input: "Bestuurders en Voertuiggroepen" -> Output: "Bestuurders- en Voertuiggroepen"
+- Input: "Hallo, ik ben Bestuurder-i Assistent" -> Output: "Hallo, ik ben de Driver-i-assistent"
 - Input: "Account Meldingen" -> Output: "Accountmeldingen"
-- Input: "Driver-i Assistent" -> Output: "Driver-i-Assistent"
 - Input: "Meer pagina's toevoegen" (Source: "Add More Pages") -> Output: "Meer Pagina's Toevoegen"
 
 Instruction:
@@ -124,14 +125,15 @@ You are an expert technical translator converting English to Dutch.
 STRICT INSTRUCTIONS:
 1. Output JSON ONLY. No markdown.
 2. Structure: {{ "original_english": "...", "improved_english": "...", "dutch_translation": "..." }}
-3. Rephrase 'Input Text' to be grammatically correct (improved_english).
+3. Rephrase 'Input Text' to be grammatically correct (improved_english). **CRITICAL: Add missing articles (the, a) if the source sounds broken (e.g. "I am Driver-i" -> "I am THE Driver-i").**
 4. Translate to Dutch using the Glossary (dutch_translation).
 
 LINGUISTIC RULES (CRITICAL):
-- **CAPITALIZATION (STRICT)**: ALWAYS maintain the EXACT capitalization style of the English source (Title Case or Sentence Case). Do NOT adapt to Dutch capitalization rules.
+- **BRANDING (INVIOLABLE)**: NEVER translate 'Driver-i'. It is ALWAYS 'Driver-i', never 'Bestuurder-i'.
+- **PUNCTUATION**: You MAY add commas or semicolons if it improves natural Dutch flow/readability.
+- **CAPITALIZATION (STRICT)**: Maintain the EXACT capitalization style of English phrases (e.g. Title Case vs Sentence Case), but do NOT capitalize random nouns unless they are capitalizing in English.
 - **Compound Words**: ALWAYS combine nouns in Dutch. (e.g., 'Account Meldingen' -> 'Accountmeldingen').
-- **Word Order**: Use natural Dutch syntax (SOV in subordinates).
-- **Variables**: Keep variables like `{{count}}` or structures like `[text]` in their logical place, adjusting surrounding grammar if needed.
+- **Word Order**: Use natural Dutch syntax (SOV).
 - **Ellipsis**: Use 'koppelteken' correctly (e.g., 'Bestuurders- en Voertuiggroepen').
 
 GLOSSARY:
