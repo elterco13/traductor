@@ -10,122 +10,128 @@ load_dotenv()
 # Page Config
 st.set_page_config(page_title="Translating with Style", layout="wide", page_icon="🇳🇱")
 
-# --- MEMPHIS DESIGN INJECTION ---
+# --- SYNTHWAVE / RETRO DESIGN INJECTION ---
 st.markdown("""
 <style>
-    /* VARIABLES */
+    /* 1. DESIGN TOKENS */
     :root {
-      --m-yellow: #ffee10;
-      --m-pink: #ff6ad5;
-      --m-teal: #87e1ff;
-      --m-purple: #ad8cff;
-      --m-black: #000000;
-      --m-white: #ffffff;
-      --border-width: 4px;
+      --neon-pink: #ff2e97;
+      --electric-blue: #00d2ff;
+      --dark-void: #1a0033;
+      --sunset-glow: linear-gradient(180deg, #ff8c00 0%, #ff2e97 100%);
+      --border-color: #000;
     }
 
-    /* GLOBAL BACKGROUND */
+    /* 2. FONTS */
+    /* Import fonts for that retro feel */
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&family=JetBrains+Mono:wght@400;700&display=swap');
+
+    /* 3. GLOBAL BACKGROUND (THE GRID) */
     .stApp {
-      background-color: #f0f0f0;
-      background-image: radial-gradient(var(--m-black) 10%, transparent 10%);
-      background-size: 30px 30px;
-      font-family: 'Arial Black', sans-serif;
+      background-color: var(--dark-void);
+      /* Use a static grid image or simple gradient as fallback since complex 3D CSS transforms 
+         can behave oddly on the main container depending on Streamlit's layout.
+         We'll simulate the grid effect on the pseudo-element. */
+      font-family: 'JetBrains Mono', monospace;
+      color: #fff;
+    }
+    
+    .stApp::before {
+        content: "";
+        position: fixed;
+        width: 200%;
+        height: 200%;
+        top: -50%;
+        left: -50%;
+        z-index: -1;
+        background-image: 
+            linear-gradient(0deg, transparent 24%, rgba(0, 210, 255, .3) 25%, rgba(0, 210, 255, .3) 26%, transparent 27%, transparent 74%, rgba(0, 210, 255, .3) 75%, rgba(0, 210, 255, .3) 76%, transparent 77%, transparent),
+            linear-gradient(90deg, transparent 24%, rgba(0, 210, 255, .3) 25%, rgba(0, 210, 255, .3) 26%, transparent 27%, transparent 74%, rgba(0, 210, 255, .3) 75%, rgba(0, 210, 255, .3) 76%, transparent 77%, transparent);
+        background-size: 50px 50px;
+        transform: perspective(500px) rotateX(45deg);
+        animation: grid-move 20s linear infinite;
     }
 
-    /* CARD-LIKE CONTAINERS FOR STREAMLIT WIDGETS */
-    div[data-testid="stFileUploader"], div[data-testid="stExpander"], div.stTextInput {
-        background: var(--m-white);
-        border: var(--border-width) solid var(--m-black) !important;
-        box-shadow: 10px 10px 0px var(--m-purple);
+    @keyframes grid-move {
+        0% { transform: perspective(500px) rotateX(45deg) translateY(0); }
+        100% { transform: perspective(500px) rotateX(45deg) translateY(50px); }
+    }
+
+    /* 4. RETRO WINDOWS (CONTAINERS) */
+    div[data-testid="stFileUploader"], div[data-testid="stExpander"], div.stTextInput, div.stDataFrame {
+        background: rgba(255, 255, 255, 0.9);
+        border: 3px solid var(--border-color);
+        box-shadow: 8px 8px 0px var(--neon-pink);
         padding: 1rem;
         margin-bottom: 2rem;
-        transform: rotate(-1deg);
-        transition: transform 0.2s;
+        color: black; /* Text inside windows is black */
     }
     
-    div[data-testid="stFileUploader"]:hover {
-        transform: rotate(0deg) scale(1.02);
+    /* Header simulation for containers */
+    div[data-testid="stFileUploader"]::before {
+        content: "📂 UPLOAD_SYSTEM_V.1.0";
+        display: block;
+        background: linear-gradient(90deg, #2d004b, #ff2e97);
+        color: white;
+        padding: 5px 10px;
+        margin: -1rem -1rem 1rem -1rem; /* Negative margins to stretch */
+        border-bottom: 3px solid black;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 0.8rem;
     }
 
-    /* HEADERS */
+    /* 5. TYPOGRAPHY (TITLES) */
     h1, h2, h3 {
-        color: var(--m-black) !important;
+        font-family: 'Orbitron', sans-serif !important;
         text-transform: uppercase;
-        text-shadow: 4px 4px 0px var(--m-yellow);
-        font-weight: 900 !important;
-    }
-
-    /* BUTTONS */
-    .stButton > button {
-      background-color: var(--m-teal) !important;
-      color: var(--m-black) !important;
-      border: var(--border-width) solid var(--m-black) !important;
-      font-weight: 900 !important;
-      text-transform: uppercase;
-      box-shadow: 5px 5px 0px var(--m-black) !important;
-      transition: all 0.1s ease !important;
-      padding: 0.5rem 2rem !important;
-      font-size: 1.2rem !important;
-    }
-
-    .stButton > button:hover {
-      transform: translate(-2px, -2px);
-      box-shadow: 7px 7px 0px var(--m-black) !important;
-      background-color: var(--m-pink) !important;
-    }
-
-    .stButton > button:active {
-      transform: translate(2px, 2px);
-      box-shadow: 0px 0px 0px var(--m-black) !important;
+        color: var(--electric-blue) !important;
+        text-shadow: 2px 2px 0px var(--neon-pink);
     }
     
-    /* SIDEBAR */
-    section[data-testid="stSidebar"] {
-        background-color: var(--m-yellow);
-        border-right: var(--border-width) solid var(--m-black);
+    div[data-testid="stMarkdownContainer"] p {
+        font-size: 1.05rem;
     }
 
-    /* SHAPES (DECORATIVE) */
-    .shape {
+    /* 6. BUTTONS */
+    .stButton > button {
+      background: var(--dark-void) !important;
+      color: var(--electric-blue) !important;
+      border: 2px solid var(--electric-blue) !important;
+      font-family: 'Orbitron', sans-serif !important;
+      text-transform: uppercase;
+      box-shadow: 0 0 10px var(--electric-blue), inset 0 0 5px var(--electric-blue) !important;
+      transition: all 0.2s ease !important;
+    }
+    
+    .stButton > button:hover {
+      background: var(--electric-blue) !important;
+      color: var(--dark-void) !important;
+      box-shadow: 0 0 20px var(--electric-blue) !important;
+    }
+
+    /* 7. CRT SCANLINE OVERLAY */
+    body::after {
+      content: " ";
+      display: block;
       position: fixed;
-      border: var(--border-width) solid var(--m-black);
-      z-index: 0;
+      top: 0; left: 0; bottom: 0; right: 0;
+      background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.1) 50%), 
+                  linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.03));
+      z-index: 9999;
+      background-size: 100% 2px, 3px 100%;
       pointer-events: none;
     }
-    .circle-deco {
-      width: 100px;
-      height: 100px;
-      background: var(--m-pink);
-      border-radius: 50%;
-      top: 10%;
-      right: 5%;
-      animation: float 6s infinite alternate;
-    }
-    .triangle-deco {
-      width: 0;
-      height: 0;
-      border-left: 50px solid transparent;
-      border-right: 50px solid transparent;
-      border-bottom: 90px solid var(--m-teal);
-      top: 80%;
-      left: 5%;
-      transform: rotate(15deg);
-      position: fixed;
-      z-index: 0;
-    }
-    @keyframes float {
-      from { transform: translateY(0); }
-      to { transform: translateY(-20px); }
+    
+    /* Sidebar Fix */
+    section[data-testid="stSidebar"] {
+        background-color: #0b001a;
+        border-right: 2px solid var(--electric-blue);
     }
 </style>
-
-<!-- DECORATIVE SHAPES -->
-<div class="shape circle-deco"></div>
-<div class="triangle-deco"></div>
 """, unsafe_allow_html=True)
 
-st.title("⚡ PROYECTO MEMPHIS: TRANSLATOR")
-st.markdown("**Explorando el caos visual con geometría y color.**")
+st.title("⚡ SYSTEM: TRANSLATOR_PRO_2026")
+st.markdown("**> INITIALIZING... WELCOME USER.**")
 
 
 
