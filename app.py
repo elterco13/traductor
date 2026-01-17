@@ -2,21 +2,143 @@ import streamlit as st
 import pandas as pd
 import time
 import os
+from dotenv import load_dotenv
 from backend import TranslatorBackend
 
-# Page Config
-st.set_page_config(page_title="AI Translator (EN -> NL)", layout="wide")
+load_dotenv()
 
-st.title("🇳🇱 Technical Translator AI (EN -> NL)")
-st.markdown("Upload your English document and Glossary to translate automatically.")
+# Page Config
+st.set_page_config(page_title="Translating with Style", layout="wide", page_icon="🇳🇱")
+
+# --- MEMPHIS DESIGN INJECTION ---
+st.markdown("""
+<style>
+    /* VARIABLES */
+    :root {
+      --m-yellow: #ffee10;
+      --m-pink: #ff6ad5;
+      --m-teal: #87e1ff;
+      --m-purple: #ad8cff;
+      --m-black: #000000;
+      --m-white: #ffffff;
+      --border-width: 4px;
+    }
+
+    /* GLOBAL BACKGROUND */
+    .stApp {
+      background-color: #f0f0f0;
+      background-image: radial-gradient(var(--m-black) 10%, transparent 10%);
+      background-size: 30px 30px;
+      font-family: 'Arial Black', sans-serif;
+    }
+
+    /* CARD-LIKE CONTAINERS FOR STREAMLIT WIDGETS */
+    div[data-testid="stFileUploader"], div[data-testid="stExpander"], div.stTextInput {
+        background: var(--m-white);
+        border: var(--border-width) solid var(--m-black) !important;
+        box-shadow: 10px 10px 0px var(--m-purple);
+        padding: 1rem;
+        margin-bottom: 2rem;
+        transform: rotate(-1deg);
+        transition: transform 0.2s;
+    }
+    
+    div[data-testid="stFileUploader"]:hover {
+        transform: rotate(0deg) scale(1.02);
+    }
+
+    /* HEADERS */
+    h1, h2, h3 {
+        color: var(--m-black) !important;
+        text-transform: uppercase;
+        text-shadow: 4px 4px 0px var(--m-yellow);
+        font-weight: 900 !important;
+    }
+
+    /* BUTTONS */
+    .stButton > button {
+      background-color: var(--m-teal) !important;
+      color: var(--m-black) !important;
+      border: var(--border-width) solid var(--m-black) !important;
+      font-weight: 900 !important;
+      text-transform: uppercase;
+      box-shadow: 5px 5px 0px var(--m-black) !important;
+      transition: all 0.1s ease !important;
+      padding: 0.5rem 2rem !important;
+      font-size: 1.2rem !important;
+    }
+
+    .stButton > button:hover {
+      transform: translate(-2px, -2px);
+      box-shadow: 7px 7px 0px var(--m-black) !important;
+      background-color: var(--m-pink) !important;
+    }
+
+    .stButton > button:active {
+      transform: translate(2px, 2px);
+      box-shadow: 0px 0px 0px var(--m-black) !important;
+    }
+    
+    /* SIDEBAR */
+    section[data-testid="stSidebar"] {
+        background-color: var(--m-yellow);
+        border-right: var(--border-width) solid var(--m-black);
+    }
+
+    /* SHAPES (DECORATIVE) */
+    .shape {
+      position: fixed;
+      border: var(--border-width) solid var(--m-black);
+      z-index: 0;
+      pointer-events: none;
+    }
+    .circle-deco {
+      width: 100px;
+      height: 100px;
+      background: var(--m-pink);
+      border-radius: 50%;
+      top: 10%;
+      right: 5%;
+      animation: float 6s infinite alternate;
+    }
+    .triangle-deco {
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 90px solid var(--m-teal);
+      top: 80%;
+      left: 5%;
+      transform: rotate(15deg);
+      position: fixed;
+      z-index: 0;
+    }
+    @keyframes float {
+      from { transform: translateY(0); }
+      to { transform: translateY(-20px); }
+    }
+</style>
+
+<!-- DECORATIVE SHAPES -->
+<div class="shape circle-deco"></div>
+<div class="triangle-deco"></div>
+""", unsafe_allow_html=True)
+
+st.title("⚡ PROYECTO MEMPHIS: TRANSLATOR")
+st.markdown("**Explorando el caos visual con geometría y color.**")
+
+
 
 # Sidebar Configuration
 st.sidebar.header("Configuration")
 api_key_input = st.sidebar.text_input("Google API Key", type="password", help="Enter your Gemini API Key")
 
-# Use environment variable if available as default
-if not api_key_input and "GOOGLE_API_KEY" in os.environ:
-    api_key_input = os.environ["GOOGLE_API_KEY"]
+# Use environment variable or Streamlit secrets if available
+if not api_key_input:
+    if "GOOGLE_API_KEY" in st.secrets:
+        api_key_input = st.secrets["GOOGLE_API_KEY"]
+    elif "GOOGLE_API_KEY" in os.environ:
+        api_key_input = os.environ["GOOGLE_API_KEY"]
 
 if not api_key_input:
     st.warning("⚠️ Please provide an API Key to proceed.")
