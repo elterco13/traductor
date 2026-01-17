@@ -130,8 +130,11 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+st.image("assets/header_vaporwave.jpg", use_container_width=True)
+
 st.title("⚡ SYSTEM: TRANSLATOR_PRO_2026")
 st.markdown("**> INITIALIZING... WELCOME USER.**")
+st.markdown("⚠️ **STATUS:** OPERATIONAL | **MODE:** AESTHETIC_VAPORWAVE")
 
 
 
