@@ -54,16 +54,16 @@ Original English: "{original_english}"
 Candidate Dutch: "{candidate_translation}"
 
 CHECKLIST:
-1. **Compound Words**: Are nouns combined? (e.g. 'Driver-i Assistent' -> 'Driver-i-Assistent').
-2. **Ellipsis**: Is the hyphen used correctly? (e.g. 'Bestuurders- en Voertuiggroepen').
-3. **Grammar**: Is the word order natural Dutch?
-4. **Capitalization**: Maintain technical capitalization.
+1. **Capitalization (STRICT)**: Does it MATCH the English source style? (e.g. "Add More Pages" -> "Meer Pagina's Toevoegen". NOT "Meer pagina's toevoegen").
+2. **Compound Words**: Are nouns combined? (e.g. 'Driver-i Assistent' -> 'Driver-i-Assistent').
+3. **Variables**: Are `{{count}}` or `[text]` placeholders correctly placed?
+4. **Ellipsis**: Is the hyphen used correctly? (e.g. 'Bestuurders- en Voertuiggroepen').
 
 EXAMPLES OF CORRECTIONS:
 - Input: "Bestuurders en Voertuiggroepen" -> Output: "Bestuurders- en Voertuiggroepen"
 - Input: "Account Meldingen" -> Output: "Accountmeldingen"
 - Input: "Driver-i Assistent" -> Output: "Driver-i-Assistent"
-- Input: "De video's van de bestuurder" -> Output: "Bestuurdersvideo's"
+- Input: "Meer pagina's toevoegen" (Source: "Add More Pages") -> Output: "Meer Pagina's Toevoegen"
 
 Instruction:
 - If the Candidate Dutch is perfect, output it exactly.
@@ -76,9 +76,39 @@ Instruction:
         except:
             return candidate_translation
     
+    def fix_utf8_mojibake(self, text):
+        """
+        Repairs common UTF-8 encoding errors (Mojibake).
+        Specifically targets Windows-1252 artifacting.
+        """
+        if not isinstance(text, str):
+            return str(text)
+        
+        replacements = {
+            "Ã¢â‚¬Â¢": "•",  # Bullet
+            "â€¢": "•",      # Bullet (alt)
+            "Ã©": "é",       # e acute
+            "Ã": "à",        # a grave (partial) - be careful here, usually context dependent
+            "â€™": "'",      # Smart quote
+            "â€œ": '"',      # Smart open quote
+            "â€": '"',       # Smart close quote
+            "Ã«": "ë",       # e diaeresis
+            "Ã¯": "ï",       # i diaeresis
+            "â€“": "-",      # En dash
+        }
+        
+        for bad, good in replacements.items():
+            text = text.replace(bad, good)
+        return text
+
     def clean_text_for_prompt(self, text):
         if not isinstance(text, str):
             return str(text)
+        
+        # 1. Fix encoding first
+        text = self.fix_utf8_mojibake(text)
+        
+        # 2. Normalize whitespace
         text = text.replace('\n', ' ').replace('\r', ' ').replace('\t', ' ')
         text = re.sub(r'\s+', ' ', text).strip()
         return text
@@ -98,10 +128,11 @@ STRICT INSTRUCTIONS:
 4. Translate to Dutch using the Glossary (dutch_translation).
 
 LINGUISTIC RULES (CRITICAL):
-- **Capitalization**: Respect strict capitalization of technical terms (e.g., 'Driver-i', 'Portal').
-- **Compound Words**: ALWAYS combine nouns in Dutch. (e.g., 'Account Meldingen' -> 'Accountmeldingen', 'Driver-i Assistent' -> 'Driver-i-Assistent').
-- **Word Order**: Use natural Dutch syntax (SOV in subordinates). Do NOT blindly follow English word order.
-- **Ellipsis**: Use 'koppelteken' correctly for omissions (e.g., 'Bestuurders- en Voertuiggroepen').
+- **CAPITALIZATION (STRICT)**: ALWAYS maintain the EXACT capitalization style of the English source (Title Case or Sentence Case). Do NOT adapt to Dutch capitalization rules.
+- **Compound Words**: ALWAYS combine nouns in Dutch. (e.g., 'Account Meldingen' -> 'Accountmeldingen').
+- **Word Order**: Use natural Dutch syntax (SOV in subordinates).
+- **Variables**: Keep variables like `{{count}}` or structures like `[text]` in their logical place, adjusting surrounding grammar if needed.
+- **Ellipsis**: Use 'koppelteken' correctly (e.g., 'Bestuurders- en Voertuiggroepen').
 
 GLOSSARY:
 {glossary_text}
