@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import time
+import io
 import os
 from dotenv import load_dotenv
 from backend import TranslatorBackend
@@ -277,11 +278,60 @@ if source_file:
         img_df = pd.DataFrame(results)
         results_placeholder.dataframe(img_df)
         
-        # Download Button
-        csv = img_df.to_csv(index=False).encode('utf-8')
+        # Download Button CSV (Fixed with BOM for Excel)
+        csv = img_df.to_csv(index=False).encode('utf-8-sig')
         st.download_button(
             label="📥 Download Results (CSV)",
             data=csv,
             file_name="translated_results.csv",
             mime="text/csv",
+        )
+
+        # Download Button Excel (.xlsx)
+        # Using BytesIO to create the file in memory
+        output = io.BytesIO()
+        try:
+            # We use openpyxl as it's the standard for xlsx
+            with pd.ExcelWriter(output, engine='openpyxl') as writer:
+                img_df.to_excel(writer, index=False, sheet_name='Translations')
+            excel_data = output.getvalue()
+            
+            st.download_button(
+                label="📥 Download Results (Excel)",
+                data=excel_data,
+                file_name="translated_results.xlsx",
+                mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            )
+        except Exception as e:
+            st.error(f"Could not generate Excel file: {e}")
+
+        # Download Button XLIFF
+        # Generate XLIFF content manually
+        def generate_xliff(df):
+            xliff = ['<?xml version="1.0" encoding="UTF-8"?>']
+            xliff.append('<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">')
+            xliff.append('  <file source-language="en" target-language="nl" datatype="plaintext" original="translation_job">')
+            xliff.append('    <body>')
+            
+            for i, r in df.iterrows():
+                # Escape XML chars
+                src = str(r.get("original_english", "")).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+                tgt = str(r.get("dutch_translation", "")).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+                
+                xliff.append(f'      <trans-unit id="{i+1}">')
+                xliff.append(f'        <source>{src}</source>')
+                xliff.append(f'        <target>{tgt}</target>')
+                xliff.append('      </trans-unit>')
+            
+            xliff.append('    </body>')
+            xliff.append('  </file>')
+            xliff.append('</xliff>')
+            return "\n".join(xliff)
+
+        xliff_content = generate_xliff(img_df)
+        st.download_button(
+            label="📥 Download Results (XLIFF)",
+            data=xliff_content,
+            file_name="translated_results.xlf",
+            mime="application/x-xliff+xml",
         )
