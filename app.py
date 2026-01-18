@@ -257,8 +257,6 @@ if source_file:
                 relevant_terms = backend.find_relevant_terms(str(text), glossary_dict)
                 
                 # Translate
-                # We can hardcode reference examples or make it dynamic later. 
-                # For now, simplistic dynamic set is fine or empty.
                 translation = backend.translate_row_robust(str(text), relevant_terms)
                 results.append(translation)
             
@@ -275,63 +273,72 @@ if source_file:
         progress_bar.progress(1.0)
         status_text.text("✅ Translation Complete!")
         
-        img_df = pd.DataFrame(results)
-        results_placeholder.dataframe(img_df)
+        # Store in Session State
+        st.session_state['translation_df'] = pd.DataFrame(results)
+
+    # --- PERSISTENT RESULTS DISPLAY ---
+    if 'translation_df' in st.session_state:
+        st.divider()
+        st.subheader("🎉 Translation Results")
+        img_df = st.session_state['translation_df']
+        st.dataframe(img_df)
         
-        # Download Button CSV (Fixed with BOM for Excel)
-        csv = img_df.to_csv(index=False).encode('utf-8-sig')
-        st.download_button(
-            label="📥 Download Results (CSV)",
-            data=csv,
-            file_name="translated_results.csv",
-            mime="text/csv",
-        )
+        st.write("### Download Options")
+        d_col1, d_col2, d_col3 = st.columns(3)
 
-        # Download Button Excel (.xlsx)
-        # Using BytesIO to create the file in memory
-        output = io.BytesIO()
-        try:
-            # We use openpyxl as it's the standard for xlsx
-            with pd.ExcelWriter(output, engine='openpyxl') as writer:
-                img_df.to_excel(writer, index=False, sheet_name='Translations')
-            excel_data = output.getvalue()
-            
+        with d_col1:
+            # Download Button CSV (Fixed with BOM for Excel)
+            csv = img_df.to_csv(index=False).encode('utf-8-sig')
             st.download_button(
-                label="📥 Download Results (Excel)",
-                data=excel_data,
-                file_name="translated_results.xlsx",
-                mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                label="📥 Download Results (CSV)",
+                data=csv,
+                file_name="translated_results.csv",
+                mime="text/csv",
             )
-        except Exception as e:
-            st.error(f"Could not generate Excel file: {e}")
 
-        # Download Button XLIFF
-        # Generate XLIFF content manually
-        def generate_xliff(df):
-            xliff = ['<?xml version="1.0" encoding="UTF-8"?>']
-            xliff.append('<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">')
-            xliff.append('  <file source-language="en" target-language="nl" datatype="plaintext" original="translation_job">')
-            xliff.append('    <body>')
-            
-            for i, r in df.iterrows():
-                # Escape XML chars
-                src = str(r.get("original_english", "")).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-                tgt = str(r.get("dutch_translation", "")).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+        with d_col2:
+            # Download Button Excel (.xlsx)
+            output = io.BytesIO()
+            try:
+                with pd.ExcelWriter(output, engine='openpyxl') as writer:
+                    img_df.to_excel(writer, index=False, sheet_name='Translations')
+                excel_data = output.getvalue()
                 
-                xliff.append(f'      <trans-unit id="{i+1}">')
-                xliff.append(f'        <source>{src}</source>')
-                xliff.append(f'        <target>{tgt}</target>')
-                xliff.append('      </trans-unit>')
-            
-            xliff.append('    </body>')
-            xliff.append('  </file>')
-            xliff.append('</xliff>')
-            return "\n".join(xliff)
+                st.download_button(
+                    label="📥 Download Results (Excel)",
+                    data=excel_data,
+                    file_name="translated_results.xlsx",
+                    mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                )
+            except Exception as e:
+                st.error(f"Could not generate Excel file: {e}")
 
-        xliff_content = generate_xliff(img_df)
-        st.download_button(
-            label="📥 Download Results (XLIFF)",
-            data=xliff_content,
-            file_name="translated_results.xlf",
-            mime="application/x-xliff+xml",
-        )
+        with d_col3:
+            # Download Button XLIFF
+            def generate_xliff(df):
+                xliff = ['<?xml version="1.0" encoding="UTF-8"?>']
+                xliff.append('<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">')
+                xliff.append('  <file source-language="en" target-language="nl" datatype="plaintext" original="translation_job">')
+                xliff.append('    <body>')
+                
+                for i, r in df.iterrows():
+                    src = str(r.get("original_english", "")).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+                    tgt = str(r.get("dutch_translation", "")).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+                    
+                    xliff.append(f'      <trans-unit id="{i+1}">')
+                    xliff.append(f'        <source>{src}</source>')
+                    xliff.append(f'        <target>{tgt}</target>')
+                    xliff.append('      </trans-unit>')
+                
+                xliff.append('    </body>')
+                xliff.append('  </file>')
+                xliff.append('</xliff>')
+                return "\n".join(xliff)
+
+            xliff_content = generate_xliff(img_df)
+            st.download_button(
+                label="📥 Download Results (XLIFF)",
+                data=xliff_content,
+                file_name="translated_results.xlf",
+                mime="application/x-xliff+xml",
+            )
