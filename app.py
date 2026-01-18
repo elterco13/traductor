@@ -230,51 +230,89 @@ if source_file:
 
     # Process Button
     if st.button("🚀 Start Translation", type="primary"):
+        # Reset previous state
+        if 'translation_df' in st.session_state:
+            del st.session_state['translation_df']
+        
         results = []
+        errors = []
+        total_rows = len(df_source)
+        
+        # CONTAINER FOR LIVE LOGS
+        log_container = st.expander("📜 Process Live Log", expanded=True)
+        with log_container:
+            st.write("Initializing translation engine...")
+        
         progress_bar = st.progress(0)
         status_text = st.empty()
         
-        total_rows = len(df_source)
-        
-        # Create a placeholder for the dataframe results
+        # Placeholder for partial results (so user sees table growing)
         results_placeholder = st.empty()
         
-        for index, row in df_source.iterrows():
-            text = row[source_col]
+        try:
+            for index, row in df_source.iterrows():
+                try:
+                    text = row[source_col]
+                    status_msg = f"Processing row {index+1}/{total_rows}..."
+                    status_text.text(status_msg)
+                    
+                    if index % 10 == 0:
+                        with log_container:
+                            st.write(f"⏱️ {status_msg}")
+
+                    if pd.isna(text) or str(text).strip() == "":
+                        # Handle empty
+                        results.append({
+                            "original_english": text,
+                            "improved_english": "",
+                            "dutch_translation": ""
+                        })
+                    else:
+                        # Find terms
+                        relevant_terms = backend.find_relevant_terms(str(text), glossary_dict)
+                        # Translate
+                        translation = backend.translate_row_robust(str(text), relevant_terms)
+                        results.append(translation)
+                    
+                    # Update Progress
+                    progress = (index + 1) / total_rows
+                    progress_bar.progress(progress)
+                    
+                    # VISUAL FEEDBACK: Update table every row so user KNOWS it's working
+                    # This might slow it down slightly but provides peace of mind needed right now.
+                    if index % 2 == 0 or index == total_rows - 1:
+                         results_placeholder.dataframe(pd.DataFrame(results).tail(3))
+                         
+                except Exception as row_error:
+                    err_msg = f"❌ Error on row {index+1}: {str(row_error)}"
+                    with log_container:
+                        st.error(err_msg)
+                    errors.append(err_msg)
+                    # Create a dummy failed row so we don't lose alignment
+                    results.append({
+                        "original_english": str(row[source_col]),
+                        "improved_english": "ERROR",
+                        "dutch_translation": "ERROR_FAILED_PROCESSING"
+                    })
+
+            # LOOP FINISHED
+            progress_bar.progress(1.0)
+            status_text.success("✅ Translation Process Finished Completely!")
             
-            # Update Status
-            status_text.text(f"Processing row {index+1}/{total_rows}...")
+            # Store Final Results
+            st.session_state['translation_df'] = pd.DataFrame(results)
             
-            if pd.isna(text) or str(text).strip() == "":
-                # Handle empty
-                results.append({
-                    "original_english": text,
-                    "improved_english": "",
-                    "dutch_translation": ""
-                })
+            if errors:
+                st.warning(f"Process finished with {len(errors)} errors. Check the log above.")
+        
+        except Exception as e:
+            # FATAL CRASH CATCHER
+            st.error(f"🔥 FATAL ERROR: The process crashed unexpectedly.\nError details: {e}")
+            if results:
+                st.warning("⚠️ Attempting to save partial results so you don't lose everything...")
+                st.session_state['translation_df'] = pd.DataFrame(results)
             else:
-                # Find terms
-                relevant_terms = backend.find_relevant_terms(str(text), glossary_dict)
-                
-                # Translate
-                translation = backend.translate_row_robust(str(text), relevant_terms)
-                results.append(translation)
-            
-            # Update Progress
-            progress = (index + 1) / total_rows
-            progress_bar.progress(progress)
-            
-            # Show mid-process results in a small table every 5 rows
-            if index % 5 == 0:
-                current_df = pd.DataFrame(results)
-                results_placeholder.dataframe(current_df.tail(3))
-        
-        # Finalization
-        progress_bar.progress(1.0)
-        status_text.text("✅ Translation Complete!")
-        
-        # Store in Session State
-        st.session_state['translation_df'] = pd.DataFrame(results)
+                st.error("No results could be saved.")
 
     # --- PERSISTENT RESULTS DISPLAY ---
     if 'translation_df' in st.session_state:
