@@ -209,6 +209,12 @@ Input Text: "{safe_json_source}"
                 # --- POST-PROCESSING ENFORCEMENT (The "Iron Fist") ---
                 final_dutch = self._post_process_enforcement(verified_dutch, source_text)
 
+                # --- CRITICAL: ALL CAPS ENFORCEMENT ---
+                # If source is 100% CAPS (and length > 1 to avoid 'A'), force output to be CAPS.
+                if source_text.isupper() and len(source_text) > 1:
+                    data["improved_english"] = data["improved_english"].upper()
+                    final_dutch = final_dutch.upper()
+
                 return {
                     "original_english": source_text,
                     "improved_english": data["improved_english"],
@@ -230,10 +236,19 @@ Return ONLY the Dutch translation. do not include any other text.
         try:
             response = self.model.generate_content(prompt_text)
             dutch_text = response.text.strip()
+            
+            # Even in fallback, apply Iron Fist
+            final_dutch = self._post_process_enforcement(dutch_text, source_text)
+
+            # --- CRITICAL: ALL CAPS ENFORCEMENT ---
+            if source_text.isupper() and len(source_text) > 1:
+                clean_noline_source = clean_noline_source.upper()
+                final_dutch = final_dutch.upper()
+            
             return {
                 "original_english": source_text,
                 "improved_english": clean_noline_source,
-                "dutch_translation": dutch_text
+                "dutch_translation": final_dutch
             }
         except Exception as e:
             return {

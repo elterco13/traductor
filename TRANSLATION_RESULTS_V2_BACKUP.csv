@@ -1,0 +1,803 @@
+original_english,improved_english,dutch_translation
+"Hi in this video, let us learn\n about Privacy Mode in detail.","In this video, we will learn about Privacy Mode in detail.",In deze video zullen we de Privacymodus in detail bespreken.
+What is Privacy Mode?,What is Privacy Mode?,Wat is Privacymodus?
+A feature offered by the Driverâ€¢i device\n to respect the privacy\n of drivers and passengers.,A feature offered by the Driverâ€¢i device that respects the privacy of drivers and passengers.,Een functie aangeboden door het Driverâ€¢i-apparaat die de Privacy van bestuurders en passagiers respecteert.
+"When the vehicle is not moving,
+ the decision about inward camera
+ recording is provided to them.","When the vehicle is stationary, the decision regarding inward-facing camera recording is presented to them.","Wanneer het voertuig stilstaat, wordt de beslissing betreffende opnamen van de naar binnen gerichte camera aan hen voorgelegd."
+"In most cases,
+ this feature is applicable only
+ for the Driverâ€¢i devices where
+ inward camera recording is enabled.","In most cases, this feature is only applicable to Driverâ€¢i devices where inward camera recording is enabled.",In de meeste gevallen is deze functie alleen van toepassing op Driverâ€¢i-apparaten waar interne camera-opname is ingeschakeld.
+"When this feature is activated,
+ the inward video files will not be stored
+ in the device and the video
+ file cannot be retrieved.","When this feature is activated, the inward video files will not be stored in the device, and the video file cannot be retrieved.","Wanneer deze functie is geactiveerd, worden de interne videobestanden niet opgeslagen op het apparaat en kan het videobestand niet worden opgehaald."
+Enabling or Disabling Privacy Mode,Enabling or Disabling Privacy Mode,De Privacymodus inschakelen of uitschakelen
+Privacy Mode is enabled when the vehicle speed reaches,Privacy Mode is enabled when the vehicle speed reaches,Privacymodus wordt ingeschakeld wanneer de snelheid van het voertuig bereikt
+"zero miles per hour for three minutes
+ or when the vehicle ignition is off.",zero miles per hour for three minutes or when the vehicle ignition is off.,nul miles per hour gedurende drie minuten of wanneer het voertuigcontact uit is.
+"When the Privacy Mode is enabled,\n a black screen appears in place","When the Privacy Mode is enabled, a black screen appears in its place.","Wanneer de Privacymodus is ingeschakeld, verschijnt er een zwart scherm in de plaats."
+of Inward Camera View in the alert videos\n in the Driverâ€¢i portal\n or in the Driverâ€¢i app.,"the Inward Camera View in the alert videos, available in the Driverâ€¢i portal or the Driverâ€¢i app.","de Inward Camera View in de waarschuwingsvideo's, beschikbaar in het Driverâ€¢i portaal of de Driverâ€¢i app."
+Privacy Mode is disabled as soon as\n the vehicle ignition is on and the vehicle\n speed reaches 5 mph or more.,Privacy Mode is disabled as soon as the vehicle's ignition is on and its speed reaches 5 mph or more.,Privacymodus wordt uitgeschakeld zodra de ontsteking van het voertuig aanstaat en de snelheid ervan 5 mph of meer bereikt.
+"Let us see how Privacy Mode
+ works in different scenarios.",Let us see how Privacy Mode works in different scenarios.,Laten we kijken hoe de Privacymodus werkt in verschillende scenario's.
+"Scenario 1 Driver stops the vehicle
+ and turns the ignition to the off
+ or Accessory auxiliary position.",Scenario 1: The driver stops the vehicle and turns the ignition to the 'off' or 'accessory' auxiliary position.,Scenario 1: De bestuurder stopt het voertuig en draait het contact naar de 'uit'- of 'accessoire'-hulpstand.
+"Privacy Mode will be enabled a few seconds
+ after ignition is turned to the off or
+ except Accessory auxiliary position.",Privacy Mode will be enabled a few seconds after ignition is turned to the off or except Accessory auxiliary position.,Privacymodus wordt enkele seconden ingeschakeld nadat het contact in de uit- of hulpstand (behalve de ACC-stand) wordt gezet.
+Scenario 2 Driver stops the vehicle for an\n extended time and leaves the ignition on.,Scenario 2: The driver stops the vehicle for an extended period and leaves the ignition on.,Scenario 2: De bestuurder stopt het voertuig voor langere tijd en laat het contact aan.
+Privacy Mode will be\n enabled after three minutes.,Privacy Mode will be enabled after three minutes.,Privacymodus wordt ingeschakeld na drie nan.
+"Scenario 3
+ Driver stops the vehicle and turns
+ the ignition off, then turns the ignition
+ back on,","Scenario 3: The driver stops the vehicle, turns the ignition off, and then turns the ignition back on.","Scenario 3: De bestuurder stopt het voertuig, zet het contact uit en zet het contact vervolgens weer aan."
+for example to run accessory or heater.,"for example, to operate an accessory or a heater.",bijvoorbeeld om een accessoire of een verwarming te laten werken.
+"Privacy Mode will already be enabled
+ and will remain enabled since
+ the vehicle hasn't moved.",Privacy Mode will already be enabled and will remain enabled since the vehicle hasn't moved.,Privacymodus zal al ingeschakeld zijn en ingeschakeld blijven aangezien het voertuig niet heeft bewogen.
+The video is blacked out for the entire\n duration since the ignition was off.,The video was blacked out for the entire duration because the ignition was off.,De video was gedurende de gehele duur zwart omdat het contact uit stond.
+Scenario 4 Driver turns\n the ignition on and resumes driving.,Scenario 4: The driver turns the ignition on and resumes driving.,Scenario 4: De bestuurder zet het contact aan en hervat het rijden.
+"Privacy Mode will be disabled a few
+ seconds after the vehicle ignition is
+ turned on and the vehicle
+ speed exceeds 5 mph.",Privacy Mode will be disabled a few seconds after the vehicle ignition is turned on and the vehicle speed exceeds 5 mph.,"Privacymodus wordt enkele seconden nadat het contact van het voertuig is ingeschakeld en de snelheid van het voertuig 5 mph overschrijdt, uitgeschakeld."
+How to know when Privacy Mode is activated\n on the Portal Navigate to the\n Event Access page on the Portal.,"To determine if Privacy Mode is activated, navigate to the Event Access page on the Portal.","Om te bepalen of de Privacymodus is geactiveerd, navigeer naar de Gebeurtenistoegangspagina op de Portal."
+Click on any completed video request\n for the videos where\n Privacy Mode is activated.,Click on any completed video request to view videos where Privacy Mode is activated.,Klik op een voltooide videoaanvraag om video's te bekijken waar de Privacymodus is geactiveerd.
+Inward Facing Camera View is disabled.,Inward Facing Camera View is disabled.,Naar binnen gerichte cameraweergave is uitgeschakeld.
+"Hovering over the Inward facing camera
+ view displays the message
+ Privacy Mode Activated.",Hovering over the inward-facing camera view displays the message 'Privacy Mode Activated'.,"Als u de muisaanwijzer boven de weergave van de naar binnen gerichte camera plaatst, wordt het bericht 'Privacymodus geactiveerd' weergegeven."
+This indicates that Privacy Mode\n was activated during that event.,This indicates that Privacy Mode was activated during that event.,Dit geeft aan dat de Privacymodus geactiveerd was tijdens die gebeurtenis.
+How to configure Privacy Mode\n on the Portal Privacy Mode can be\n enabled or disabled from the portal.,How to configure Privacy Mode. Privacy Mode can be enabled or disabled from the portal.,Hoe Privacymodus te configureren. Privacymodus kan vanuit de portal worden ingeschakeld of uitgeschakeld.
+"To configure the Privacy Mode
+ in the Portal, navigate
+ to Provisioning and Configurations.","To configure the Privacy Mode in the Portal, navigate to Provisioning and Configurations.","Om de Privacymodus in het Portaal te configureren, navigeer naar Bevoorrading en Configuraties."
+"In the side menu, click Configurations.","In the side menu, click Configurations.",Klik in het zijmenu op Configuraties.
+Click Privacy Mode.,Click Privacy Mode.,Klik op Privacymodus.
+"Under Camera Settings,\n you can see the current status\n of Privacy Mode as enabled or disabled.","Under Camera Settings, you can view the current status of Privacy Mode (enabled or disabled).",Onder Camera-instellingen kunt u de huidige status van de Privacymodus (ingeschakeld of uitgeschakeld) bekijken.
+Click Edit.,Click Edit.,Klik op Bewerken.
+Privacy Mode is enabled as\n the default configuration.,Privacy Mode is enabled as the default configuration.,Privacymodus is ingeschakeld als standaardconfiguratie.
+Select Disabled to disable\n the Privacy Mode.,Select 'Disabled' to disable Privacy Mode.,Selecteer 'Uitgeschakeld' om de Privacymodus uit te schakelen.
+"If the Privacy Mode is disabled,
+ select Enabled or select","If the Privacy Mode is disabled, select Enabled or select","Als de Privacymodus is uitgeschakeld, selecteer Ingeschakeld of selecteer"
+"the Use System Default Configurations
+ button to enable the Privacy Mode.",the Use System Default Configurations button to enable the Privacy Mode.,de knop 'Systeemstandaardinstellingen gebruiken' om de Privacymodus in te schakelen.
+Review the configuration and click\n Save to save the new configuration.,Review the configuration and click 'Save' to save the new configuration.,Controleer de configuratie en klik op 'Opslaan' nan de nieuwe configuratie op te slaan.
+"Hi! In this video, let us look at the Dashboard screen of the Driverâ€¢i App in detail.","Hi! In this video, let us look at the Dashboard screen of the Driverâ€¢i App in detail.","Hoi! In deze video, laten we in detail kijken naar het Dashboard-scherm van de Driverâ€¢i App."
+The Driverâ€¢i App allows you to\n see driving behaviors identified by the,The Driverâ€¢i App allows you to see driving behaviors identified by the system.,De Driverâ€¢i App toont u het rijgedrag dat door het systeem is geïdentificeerd.
+"Driverâ€¢i device and the
+ corresponding driver score.",Driverâ€¢i device and the corresponding Driver Score.,Driverâ€¢i-apparaat en de bijbehorende Driver Score.
+"The app also opens communication between\n you and your manager through the sharing\n of video, comments and feedback.","The app also facilitates communication between you and your manager by sharing video, comments, and feedback.","De app faciliteert ook communicatie tussen u en uw manager door het delen van video, opmerkingen en feedback."
+"You can download the app
+ from Google Play Store or
+ the Apple App Store, depending
+ on the type of phone you are using.","You can download the app from Google Play Store or the Apple App Store, depending on the type of phone you are using.","Je nan downloaden de app vanuit nan of de nan, afhankelijk nan het type telefoon dat je gebruikt."
+"The cameras on the Driverâ€¢i device record
+ all the driving events as they happen.",The cameras on the Driverâ€¢i device record all driving events as they happen.,De camera's op het Driverâ€¢i-apparaat leggen alle rijgebeurtenissen vast terwijl ze plaatsvinden.
+"These events include sign violations,
+ speeding violations,","These events include sign violations, speeding violations,","Deze gebeurtenissen omvatten verkeersbordovertredingen, snelheidsovertredingen,"
+"seatbelt non compliance,\n distracted driving,","Seatbelt non-compliance, distracted driving.","Niet-naleving van de veiligheidsgordel, afgeleid rijden."
+as well as proactive driving events such\n as creating space for vehicles\n merging or parked on the shoulder.,"as well as proactive driving events, such as creating space for vehicles merging or parked on the shoulder.","evenals proactieve rijgebeurtenissen, zoals ruimte maken voor voertuigen die invoegen of geparkeerd staan op de vluchtstrook."
+"Events are categorized into moderate risk,\n severe risk,","Events are categorized into moderate risk, severe risk,","Gebeurtenissen worden gecategoriseerd in gemiddeld risico, ernstig risico,"
+or DriverStars Proactive Safe Driving.,or DriverStar's Proactive Safe Driving.,of DriverStar's Proactief Veilig Rijden.
+"The device analyzes these driving events
+ to generate alerts that are played either",The device analyzes these driving events to generate alerts that are played either,Het apparaat analyseert deze rijgebeurtenissen om waarschuwingen te genereren die ofwel worden afgespeeld
+"as an audio message inside the vehicle or
+ as a video that is uploaded to the portal.",as an audio message inside the vehicle or as a video that is uploaded to the portal.,als een audiobericht in het voertuig of als een video dat wordt geüpload naar het portaal.
+Your manager can view the alerts that you\n have generated and add them\n to your coaching session if needed.,Your manager can view the alerts that you have generated and add them to your coaching session if needed.,Uw manager kan de waarschuwingen die u heeft gegenereerd inzien en deze indien nodig toevoegen aan uw coachingsessie.
+Logging into the App\n Reach out to your safety manager to get\n your credentials to log into the app.,Logging into the App\nContact your safety manager to obtain your credentials to log in to the app.,Inloggen bij de app\nNeem contact op met uw veiligheidsmanager om uw inloggegevens te verkrijgen om in te loggen bij de app.
+"Open the Driverâ€¢i app,
+ enter your username and tap login.","Open the Driverâ€¢i app, enter your username and tap login.","Open het Driverâ€¢i app, voer uw nan in en tik op inloggen."
+Enter the password and Tap Login.,Enter the password and tap 'Login'.,Voer het wachtwoord in en tik op 'Inloggen'.
+"After the password is authenticated,
+ you will be logged in to the Driverâ€¢i app.","After the password is authenticated, you will be logged in to the Driverâ€¢i app.","Nadat het nan is geverifieerd, wordt u ingelogd nan het Driverâ€¢i app."
+"Forgot or Reset Password
+ Enter the username on the login
+ screen and tap Forgot Password.",Forgot or Reset Password Enter the username on the login screen and tap Forgot Password.,Wachtwoord vergeten of opnieuw instellen Voer de gebruikersnaam op het inlogscherm in en tik op Wachtwoord vergeten.
+"Tap Send Password reset Email
+ A Reset Password link is sent
+ to your registered email address.",Tap Send Password reset Email A Reset Password link is sent to your registered email address.,Tik op E-mail voor nan reset verzenden. Een Wachtwoord Opnieuw Instellen link is nan uw Geregistreerd e-mailadres verzonden.
+"Click or tap the Reset Password link
+ in the email on the Reset Password screen.",Click or tap the Reset Password link in the email on the Reset Password screen.,Klik of tik op de Wachtwoord Opnieuw Instellen link in de e-mail op het Wachtwoord Opnieuw Instellen scherm.
+Enter a new password and confirm the same.,Enter a new password and confirm the new password.,Voer een nieuw wachtwoord in en bevestig het nieuwe wachtwoord.
+Tap Reset Password.,Tap Reset Password.,Tik op Wachtwoord Opnieuw Instellen.
+The password is reset.,The password is reset.,Het wachtwoord is gereset.
+You will be directed to the login\n screen to log in with the new password.,You will be directed to the login screen to log in with the new password.,U wordt doorverwezen naar het inlogscherm om in te loggen met het nieuwe wachtwoord.
+"Change Password
+ log into the Driverâ€¢i app and tap
+ the menu option on the top left corner.",Change Password log into the Driverâ€¢i app and tap the menu option on the top left corner.,Wachtwoord Wijzigen meld u aan bij het Driverâ€¢i app en tik op de menuoptie in de linkerbovenhoek.
+"Tap Change Password,
+ enter values in the old password,","Tap 'Change Password', and enter your old password.",Tik op 'Wachtwoord Wijzigen' en voer uw oude wachtwoord in.
+New Password and Confirm Password\n fields and tap Change Password.,"the New Password and Confirm Password fields, then tap Change Password.","de velden Nieuw Wachtwoord en Wachtwoord Bevestigen, en tik vervolgens op Wachtwoord Wijzigen."
+The password is changed.,The password is changed.,Het nan is gewijzigd.
+"You must now use the new password
+ to log into the Driverâ€¢i app.",You must now use the new password to log into the Driverâ€¢i app.,U moet nu het nieuwe wachtwoord gebruiken om in te loggen op de Driverâ€¢i app.
+"Benefits of Driverâ€¢i app
+ the Driverâ€¢i app will benefit you in the
+ following visibility in your performance.","The Driverâ€¢i app offers the following benefits, providing visibility into your performance.","Het Driverâ€¢i app biedt de volgende voordelen, wat inzicht geeft in uw prestaties."
+The mystery of the camera is removed.,The mystery surrounding the camera has been resolved.,Het mysterie rondom de camera is opgelost.
+"You can view your Green Zone score,
+ most impactful alerts,
+ your rank, and DriverStars.","You can view your Green Zone score, most impactful alerts, your rank, and DriverStars.","U kunt uw Green Zone score, de meest impactvolle waarschuwingen, uw rang en DriverStars inzien."
+"Weekly review sessions\n gain awareness of impactful driving\n behaviors affecting your score,\n know where you stand,",Weekly review sessions help you gain awareness of impactful driving behaviors affecting your score and understand your current standing.,Wekelijkse beoordelingssessies helpen u bewust te worden van impactvolle rijgedragingen die uw score beïnvloeden en inzicht te krijgen in uw huidige positie.
+"view your ranking in the fleet,
+ and understand how you can improve your
+ rank by avoiding high impact events.","View your ranking in the fleet, and understand how you can improve your rank by avoiding high-impact events.",Bekijk uw positie in het wagenpark en begrijp hoe u uw positie kunt verbeteren door gebeurtenissen met een hoge impact te vermijden.
+"Features of Driverâ€¢i app
+ Let's see a quick overview of
+ various sections of the app.",Features of Driverâ€¢i app Let's see a quick overview of various sections of the app.,Functies van de Driverâ€¢i app. Laten we een snel Overzicht bekijken van de verschillende secties van de app.
+App Tour provides a guided walkthrough\n of the app and and helps you\n understand how the app works.,The App Tour provides a guided walkthrough of the app and helps you understand how it works.,De App Tour biedt een begeleide rondleiding door de app en helpt u te begrijpen hoe deze werkt.
+"FAQs provides answers to frequently
+ asked questions about the app features, GreenZone score alerts, etc.","The FAQs section provides answers to frequently asked questions about the app features, GreenZone Score alerts, and more.","De FAQ-sectie biedt antwoorden op veelgestelde vragen over de app-functies, GreenZone-Score waarschuwingen en meer."
+"Dashboard screen displays your GreenZone\n score, DriverStars and alerts that have\n impacted your Green Zone score.","The dashboard screen displays your GreenZone score, DriverStars, and any alerts that have impacted your GreenZone score.","Het dashboardscherm toont uw GreenZone-score, DriverStars en eventuele waarschuwingen die van invloed zijn geweest op uw GreenZone-score."
+"Events Screen displays detailed
+ information about the number of alerts
+ generated and DriverStar
+ is awarded weekly.","The Events Screen displays detailed information about the number of alerts generated, and DriverStar is awarded weekly.","De sectie Gebeurtenissen toont gedetailleerde informatie over het aantal gegenereerde waarschuwingen, en DriverStar wordt wekelijks toegekend."
+Review screen displays the three alerts\n that have been assigned for coaching based\n on driving behavior in the past week.,The review screen displays the three alerts that have been assigned for coaching based on driving behavior in the past week.,Het beoordelingsscherm toont de drie waarschuwingen die zijn toegewezen voor coaching op basis van rijgedrag in de afgelopen week.
+"GreenZone Screen displays your GreenZone
+ score and the list of high impact
+ events that affected your score.",The GreenZone Screen displays your GreenZone score and a list of high-impact events that affected your score.,Het GreenZone-scherm toont uw GreenZone-score en een lijst van gebeurtenissen met grote impact die uw score hebben beïnvloed.
+"For more details, tap the floating Help\n icon to view the help content relevant\n to the tab that is open on your screen.","For more details, tap the floating Help icon to view the help content relevant to the tab that is open on your screen.","Voor meer informatie, tik op het zwevende Help-icoon om de helpinhoud te bekijken die relevant is voor het tabblad dat op uw scherm geopend is."
+"Hi! In this video, let us look at the
+ Dashboard screen of the
+ Driverâ€¢i App in detail.","Hi! In this video, let's take a detailed look at the Dashboard screen of the Driverâ€¢i App.",Hallo! In deze video bekijken we gedetailleerd het Dashboard-scherm van de Driverâ€¢i App.
+The Dashboard screen provides a summary\n of your driving performance,The Dashboard screen provides a summary of your driving performance,Het dashboardscherm biedt een overzicht van uw rijprestaties.
+"based on the alerts and DriverStars
+ generated by you.",based on the alerts and DriverStars generated by you.,gebaseerd op de door u gegenereerde waarschuwingen en DriverStars.
+This screen helps you analyze your\n strengths and areas of improvement.,This screen helps you analyze your strengths and areas of improvement.,Dit scherm helpt u uw sterke punten en verbeterpunten te analyseren.
+"Tap the daily, weekly,
+ and monthly buttons to view","Tap the daily, weekly, and monthly buttons to view","Tik op de dagelijkse, wekelijkse en maandelijkse knoppen om te bekijken"
+the corresponding information\n on the Dashboard screen.,the corresponding information on the Dashboard screen.,de bijbehorende informatie op het Dashboard-scherm.
+"You can also select the required date,\n week or month using\n the left and right arrows.","You can also select the required date, week, or month using the left and right arrows.","U kunt ook de gewenste datum, week of maand selecteren met behulp van de linker- en rechterpijlen."
+"The following information is
+ displayed on the Dashboard screen.",The following information is displayed on the Dashboard screen.,De volgende informatie wordt weergegeven op het Dashboard-scherm.
+"Your Green Zone score is based
+ on the alerts, driver Stars and neutral
+ events that you generated while driving.","Your Green Zone score is based on the alerts, Driver Stars, and Neutral events that you generated while driving.","Uw Green Zone-score is gebaseerd op de waarschuwingen, bestuurderssterren en Neutraal-gebeurtenissen die u tijdens het rijden hebt gegenereerd."
+Generating alerts will\n impact your Green Zone score.,Generating alerts will impact your Green Zone score.,Het genereren van waarschuwingen zal van invloed zijn op uw Green Zone-score.
+"Tap the arrow in this section to navigate
+ to the Green Zone screen and view details",Tap the arrow in this section to navigate to the Green Zone screen and view details,Tik op de pijl in dit gedeelte nan navigeren nan het Groene Zone scherm en details bekijken
+about the events that impacted\n your Green Zone score.,about the events that impacted your Green Zone score.,over de gebeurtenissen die van invloed waren op uw Green Zone score.
+Your rank is determined based on the\n Green Zone score of your fellow drivers.,Your rank is determined based on the Green Zone score of your fellow drivers.,Uw rang wordt bepaald op basis van de Green Zone-score van uw medebestuurders.
+"This is to encourage a healthy
+ competition in the fleet.",This is to encourage a healthy competition in the fleet.,Dit is om een gezonde concurrentie in het wagenpark aan te moedigen.
+You can view your rank among\n all drivers in your fleet.,You can view your rank among all drivers in your fleet.,U kunt uw rang bekijken onder alle bestuurders in uw wagenpark.
+Three drivers with topmost Green Zone\n score are displayed\n on the Dashboard screen.,Three drivers with the highest Green Zone score are displayed on the Dashboard screen.,Drie bestuurders met de hoogste Green Zone score worden weergegeven op het dashboardscherm.
+"This is a fleet based configuration,
+ hence the ranking card is displayed only
+ if the feature is enabled for the fleet.","Since this is a fleet-based configuration, the ranking card is only displayed if the feature is enabled for the fleet.","Aangezien dit een wagenparkgebaseerde configuratie is, wordt de rankingkaart alleen weergegeven als de functie is ingeschakeld voor het wagenpark."
+DriverStars are awarded\n to recognize safe driving behavior.,DriverStars are awarded to recognize safe driving behavior.,DriverStars worden toegekend om veilig rijgedrag te erkennen.
+"DriverStars have a positive
+ impact on your GreenZone score.",DriverStars have a positive impact on your GreenZone score.,DriverStars hebben een positieve invloed op uw GreenZone-Score.
+"Total Alerts Generated displays the total
+ number of alerts generated
+ by you in the selected duration.",Total Alerts Generated displays the total number of alerts you generated within the selected duration.,Totaal Gegenereerde Waarschuwingen geeft het totale aantal waarschuwingen weer dat u binnen de geselecteerde periode heeft gegenereerd.
+Average following Distance denotes\n the average distance that you maintained,Average Following Distance denotes the average distance you maintained.,nan geeft de gemiddelde afstand aan die u aanhield.
+between your vehicle and the vehicle\n ahead that is also in the same lane.,between your vehicle and the vehicle ahead that is also in the same lane.,tussen uw voertuig en het voertuig ervoor dat zich eveneens op dezelfde rijstrook bevindt.
+"Total Minutes Analyzed displays the amount\n of time in minutes you drove the vehicle,",Total Minutes Analyzed displays the total number of minutes you drove the vehicle.,Totaal Aantal Geanalyseerde Minuten geeft het totale aantal minuten weer dat u het voertuig heeft gereden.
+"including the time when vehicle
+ was switched on but not moving.",including the time when the vehicle was switched on but not moving.,inclusief de tijd wanneer het voertuig werd ingeschakeld maar niet bewoog.
+"You will receive notifications about\n weekly review sessions, alerts and\n comments shared by your safety manager.","You will receive notifications about weekly review sessions, alerts, and comments shared by your safety manager.","U ontvangt meldingen over wekelijkse beoordelingssessies, waarschuwingen en opmerkingen gedeeld door uw veiligheidsmanager."
+You can view these notifications\n by tapping the bell icon\n on the top right corner.,You can view these notifications by tapping the bell icon in the top right corner.,U kunt deze meldingen bekijken door op het belicoon in de rechterbovenhoek te tikken.
+"When you tap the vertical ellipsis
+ on the top right corner",When you tap the vertical ellipsis on the top right corner,Wanneer je tikt op de verticale ellips in de rechterbovenhoek
+"of the notifications screen,
+ you can see the following Mark all as Read
+ show unread only for more details.","of the notifications screen, you can see the following Mark all as Read show unread only for more details.","Van het meldingsscherm kunt u het volgende zien: Alles Markeren Als Gelezen, Alleen ongelezen tonen, voor meer details."
+"Tap the floating Help icon
+ on the screen to view the help content.",Tap the floating Help icon on the screen to view the help content.,Tik op het zwevende Help-pictogram nan het scherm nan de helpinhoud bekijken.
+"Hi! In this video,
+ let us look at the weekly review
+ screen of the Driverâ€¢i app in detail.","Hi! In this video, let us look at the weekly review screen of the Driverâ€¢i app in detail.","Hoi! In deze video, laten we eens kijken naar het wekelijkse overzichtsscherm van de Driverâ€¢i app in detail."
+Tap Weekly Review at the bottom\n of the screen.,Tap Weekly Review at the bottom of the screen.,Tik op Wekelijks Overzicht onderaan het scherm.
+"The Weekly Review screen displays
+ the coaching sessions that have been
+ assigned to you based on your
+ driving behavior in the past week.","The Weekly Review screen displays the coaching sessions assigned to you, based on your driving behavior from the past week.","Het scherm 'Wekelijkse Evaluatie' toont de coachingsessies die aan u zijn toegewezen, op basis van uw rijgedrag van de afgelopen week."
+"The system analyzes your
+ driving behavior
+ and assigns three alert videos",The system analyzes your driving behavior and assigns three alert videos.,Het systeem analyseert uw rijgedrag en wijst drie waarschuwingsvideo's toe.
+that will\n help you understand the areas\n in which you need improvement.,that will help you understand the areas in which you need improvement.,dat u zal helpen de gebieden te begrijpen waarin u verbetering nodig heeft.
+Tap a coaching session to view your actual\n score,Tap a coaching session to view your actual score.,Tik op een coachingsessie om uw werkelijke score te bekijken.
+and the potential score you could have\n achieved if you had\n not generated these alerts.,and the potential score you could have achieved if you had not generated these alerts.,en de potentiële score die u had kunnen behalen als u deze waarschuwingen niet had gegenereerd.
+"If you have any DriverStar generated over
+ the week, it is also included as
+ part of your Weeklyâ€¯Reviewâ€¯Session.","If you have any DriverStar generated over the week, it is also included as part of your Weekly Review Session.","Als er DriverStar is gegenereerd gedurende de week, is dit ook opgenomen als onderdeel van je Wekelijkse Review Sessie."
+"When you receive a notification
+ of a Weeklyâ€¯Reviewâ€¯Session,
+ you must complete it in seven days.","When you receive a notification of a Weeklyâ€¯Reviewâ€¯Session, you must complete it in seven days.","Wanneer je een nan ontvangt van een Wekelijkseâ€¯Reviewâ€¯nan, moet je deze voltooien binnen zeven nan."
+You must watch all the alert videos\n assigned to understand\n and improve your driving behavior.,You must watch all the alert videos assigned to understand and improve your driving behavior.,U dient alle toegewezen waarschuwingsvideo's te bekijken om uw rijgedrag te begrijpen en te verbeteren.
+"The system automatically marks the session
+ as completed after you have
+ watched the alert videos.",The system automatically marks the session as completed after you have watched the alert videos.,Het systeem markeert de sessie automatisch als voltooid nadat u de waarschuwingsvideo's hebt bekeken.
+"For more details, tap the floating\n Help icon to view the help content.","For more details, tap the floating Help icon to view the help content.","Voor meer details, tik op het zwevende Help-pictogram om de helpinhoud te bekijken."
+"Hi! In this video, let us look at the
+ Green Zone screen of the Driverâ€¢i app driver view in detail.","Hi! In this video, let us look at the Green Zone screen of the Driverâ€¢i app driver view in detail.",Hoi! In deze video laten we het Green Zone-scherm van de Driverâ€¢i app-bestuurdersweergave in detail bekijken.
+This screen displays\n your GreenZone score.,This screen displays your GreenZone score.,Dit scherm weergeeft uw GreenZone-Score.
+GreenZone Score is calculated\n based on your driving performance.,GreenZone Score is calculated based on your driving performance.,De GreenZone-Score wordt berekend op basis van uw rijgedrag.
+The score depends on the alerts and driver\n stars that you have generated\n while driving the vehicle.,The score depends on the alerts and driver stars that you generated while driving the vehicle.,De score is afhankelijk van de waarschuwingen en bestuurderssterren die u hebt gegenereerd tijdens het besturen van het voertuig.
+Green Zone Score can help compare yourself\n with other drivers in the fleet,The Green Zone Score can help you compare yourself with other drivers in the fleet.,De Green Zone Score kan helpen uzelf te vergelijken met andere bestuurders binnen het wagenpark.
+"and act as a motivational tool to
+ improveyour driving performance.",and act as a motivational tool to improve your driving performance.,en fungeren als een motiverend hulpmiddel om uw rijprestaties te verbeteren.
+"Tap the Daily, Weekly,
+ and Monthly buttons to
+ view the corresponding information
+ on the Green Zone screen.","Tap the Daily, Weekly, and Monthly buttons to view the corresponding information on the Green Zone screen.","Tik op de knoppen 'Dagelijks', 'Wekelijks' en 'Maandelijks' om de overeenkomstige informatie op het Green Zone-scherm te bekijken."
+"You can also select the required date,
+ week or month using
+ the left and right arrows.","You can also select the desired date, week, or month using the left and right arrows.","U kunt ook de gewenste datum, week of maand selecteren met behulp van de linker- en rechterpijlen."
+"You can view the following information
+ on the GreenZone screen.",You can view the following information on the GreenZone screen.,U kunt de volgende informatie bekijken op het GreenZone-scherm.
+"Your score
+ The potential score that would have been
+ possible
+ if you did not generate the alerts listed.",Your score: The potential score that would have been possible if you had not generated the listed alerts.,Uw score: De potentiële score die mogelijk zou zijn geweest als u de vermelde waarschuwingen niet had gegenereerd.
+High impact events that affected\n your GreenZone score.,High-impact events that affected your GreenZone score.,Impactvolle gebeurtenissen die van invloed waren op uw GreenZone-Score.
+"Total Minutes Analyzed is the amount
+ of time in minutes you drove the vehicle,","Total Minutes Analyzed represents the total duration, in minutes, that you drove the vehicle.","Totaal Aantal Geanalyseerde Minuten vertegenwoordigt de totale duur, in minuten, dat u het voertuig reed."
+"including the time when vehicle
+ was switched on but not moving.",including the time when the vehicle was switched on but not moving.,inclusief de tijd dat het voertuig ingeschakeld was maar niet bewoog.
+Total alerts generated\n for the selected duration.,Total alerts generated for the selected duration.,Totaal Gegenereerde Waarschuwingen voor de geselecteerde periode.
+"Green Minutes percent is the number
+ of minutes the vehicle was driven
+ without generating any alerts.",Green Minutes percent is the number of minutes the vehicle was driven without generating any alerts.,Percentage groene nan is het aantal nan dat het voertuig werd gereden zonder enige waarschuwingen te genereren.
+DriverStar is awarded for the selected\n duration.,DriverStar is awarded for the selected duration.,DriverStar wordt toegekend voor de geselecteerde duur.
+Average following distance that you\n maintained between your vehicle\n and the vehicle ahead in the same lane.,The average following distance you maintained between your vehicle and the vehicle ahead in the same lane.,De gemiddelde volgafstand die u aanhield tussen uw voertuig en het voorliggende voertuig op dezelfde rijstrook.
+"Driver Score chart that displays
+ a graphical representation of your",Driver Score chart that displays a graphical representation of your,Driver Score Scoretabel die een grafische weergave van uw
+"Green Zone Score,
+ Fleet Average Score and Fleet Goal.","Green Zone Score, Fleet Average Score, and Fleet Goal.","Groene Zone Score, Wagenparkgemiddelde Score en Wagenparkdoel."
+It also displays the minimum score\n that you must get to avoid\n getting rated as a poor performer.,It also displays the minimum score you must achieve to avoid being rated as a poor performer.,Het toont ook de minimale score die u moet behalen om te voorkomen dat u als een ondermaatse presteerder wordt beoordeeld.
+"For more details, tap the floating
+ Help icon bottom-right corner
+ to view the Help content.","For more details, tap the floating Help icon in the bottom-right corner to view the Help content.","Voor meer informatie, tik op het zwevende Help-pictogram in de rechterbenedenhoek om de Help-inhoud te bekijken."
+"Hi! In this video, let us
+ look at the Events screen
+ of the Driverâ€¢i App â€“
+ Driver View in detail.","In this video, we will examine the Driver View within the Events screen of the Driverâ€¢i App in detail.",In deze video zullen we de Driver View binnen de sectie Gebeurtenissen van de Driverâ€¢i App nader bekijken.
+The Events screen displays your most\n frequent alerts\n and DriverStars (top three),The Events screen displays your most frequent alerts and your top three DriverStars.,De sectie Gebeurtenissen toont uw meest voorkomende waarschuwingen en uw top drie DriverStars.
+and enables you to view the alerts or\n DriverStars that your\n manager has shared with you.,and enables you to view the alerts or DriverStars that your manager has shared with you.,en stelt u in staat de waarschuwingen of DriverStars te bekijken die uw manager met u heeft gedeeld.
+"Time Period\n On the Events screen,\n select the required duration\n from the time period drop-down.","On the Events screen, select the required duration from the Time Period drop-down.",In de sectie Gebeurtenissen selecteert u de gewenste duur uit de Drop-down Tijdsperiode.
+You can also select a custom date range\n where a\n maximum of 30days can be selected.,"You can also select a custom date range, allowing a maximum selection of 30 days.","U kunt ook een aangepast datumbereik selecteren, met een maximale selectie van 30 dagen."
+"Search
+ Type the Alert type in the Search
+ field to view all alerts of that type
+ for the selected time period.","To search, type the Alert type in the Search field to view all alerts of that type for the selected time period.","Om te zoeken, typ het Waarschuwingstype in het zoekveld om alle waarschuwingen van dat type voor de geselecteerde periode te bekijken."
+The Events screen displays two\n alerts and DriverStars .,The Events screen displays two alerts and DriverStars.,De sectie Gebeurtenissen toont twee waarschuwingen en DriverStars.
+"The Alerts tab displays the following:
+ Most frequent Alerts section displays",The Alerts tab displays the following: Most frequent Alerts section displays,Het tabblad Waarschuwingen geeft het volgende weer: De sectie Meest Voorkomende Waarschuwingen toont
+the top three alerts among those that you\n have frequently generated\n in the selected duration.,the top three alerts that you have frequently generated in the selected duration.,de top drie waarschuwingen die u frequent heeft gegenereerd in de geselecteerde periode.
+Tap the Information icon next to the alert\n name to view the description of the alert.,Tap the Information icon next to the alert name to view the description of the alert.,Tik op het informatiepictogram naast de naam van de waarschuwing om de beschrijving van de waarschuwing te bekijken.
+<b>Shared Alerts</b> section displays the alerts\n shared with you by your Safety Manager.,<b>Shared Alerts</b> section displays the alerts shared with you by your Safety Manager.,De sectie <b>Gedeelde Waarschuwingen</b> weergeeft de waarschuwingen die met u zijn gedeeld door uw Veiligheidsmanager.
+"You can narrow down your search results
+ to view exactly what you want by",You can narrow down your search results to view exactly what you want by,U nan uw zoekresultaten nan bekijken precies wat u wilt door
+tapping the Filters icon located next\n to Shared Alerts Filters.,tapping the Filters icon located next to Shared Alerts Filters.,"door te tikken op het pictogram Filters, naast Gedeelde Waarschuwingen Filters."
+You can filter the alerts based\n on the following options:,You can filter the alerts based on the following options:,U kunt de waarschuwingen filteren op basis van de volgende opties:
+"Select the All Alerts checkbox if you want
+ to view all the alerts
+ irrespective of the alert type.",Select the All Alerts checkbox if you want to view all the alerts irrespective of the alert type.,"Selecteer het vakje 'Alle Waarschuwingen' als u alle waarschuwingen wilt bekijken, ongeacht het waarschuwingstype."
+"Otherwise, you can select the required
+ checkbox beside each alert
+ type to view only those alerts.","Otherwise, you can select the checkbox next to each alert type to view only those alerts.",Anders kunt u het selectievakje naast elk type waarschuwing aanvinken om alleen die waarschuwingen weer te geven.
+Filter the alerts based on Risk Level\n by selecting the,Filter alerts based on Risk Level by selecting the desired option.,Filter waarschuwingen op basis van Risiconiveau door de gewenste optie te selecteren.
+"Severe Alerts or Moderate Alerts\n checkboxes to view only\n the Severe or Moderate\n alerts, respectively.","Use the 'Severe Alerts' or 'Moderate Alerts' checkboxes to view only severe or moderate alerts, respectively.",Gebruik de selectievakjes 'Ernstige Waarschuwingen' of 'Gemiddelde waarschuwingen' om respectievelijk alleen ernstige of gemiddelde waarschuwingen weer te geven.
+Filter alerts based on video availability\n by selecting the following checkboxes.,Filter alerts based on video availability by selecting the following checkboxes.,Filter waarschuwingen op basis van videobeschikbaarheid door de onderstaande selectievakjes aan te vinken.
+Video Available Indicates that the video\n has been received from the device\n and is available for viewing.,Video Available: Indicates that the video has been received from the device and is available for viewing.,Video Beschikbaar: Geeft aan dat de video is ontvangen van het apparaat en beschikbaar is om te bekijken.
+Video Requested Indicates that the video\n is not available at present to be viewed\n and has been requested from the device.,Video Requested indicates that the video is not currently available for viewing and has been requested from the device.,Video aangevraagd geeft aan dat de video momenteel niet beschikbaar is om te bekijken en is aangevraagd bij het apparaat.
+"Once you raise the request,
+ the video is processed and made
+ available for you to view.","Once you raise the request, the video is processed and made available for you to view.","Zodra u het verzoek indient, wordt de video verwerkt en beschikbaar gesteld om te bekijken."
+"Video on Request indicates that the video
+ is not available and not yet requested.",Video on Request indicates that the video is not available and not yet requested.,Video op aanvraag geeft aan dat de video niet beschikbaar is en nog niet is aangevraagd.
+You can request it if required.,It can be requested if required.,Het kan indien nodig worden aangevraagd.
+Video Unavailable Indicates that the video\n is no longer available\n and cannot be requested.,Video Unavailable: Indicates that the video is no longer available and cannot be requested.,Video Niet Beschikbaar: Geeft aan dat de video niet langer beschikbaar is en niet kan worden opgevraagd.
+"Show Only select the options to see only
+ bookmarked alerts or not viewed alerts.",Select options to display only bookmarked or unviewed alerts.,Selecteer opties om alleen gebladwijzerde waarschuwingen of niet-bekeken waarschuwingen weer te geven.
+Sort by Date Toggle the ascending or\n descending buttons to sort\n the alerts by date as required.,Sort by Date: Toggle the ascending or descending buttons to sort the alerts by date as required.,Sorteren op datum: Schakel de oplopende of aflopende knoppen in om de waarschuwingen op datum te sorteren zoals vereist.
+The DriverStars tab displays the\n Most frequent DriverStars section,The DriverStars tab displays the 'Most Frequent DriverStars' section.,Het tabblad DriverStars toont de sectie 'Meest Frequente DriverStars'.
+displays the top three driver stars\n that were awarded to you\n in the selected duration.,Displays the top three driver stars awarded to you for the selected duration.,Toont de top drie bestuurderssterren die u zijn toegekend voor de geselecteerde periode.
+"Shared Driver Stars section displays
+ the driver stars shared
+ with you by your Safety manager.",The 'Shared Driver Stars' section displays the driver stars shared with you by your Safety Manager.,De sectie 'Gedeelde Bestuurderssterren' toont de bestuurderssterren die uw Veiligheidsmanager met u heeft gedeeld.
+"You can narrow down your search results
+ to view exactly what you want by tapping
+ the Filters icon located next
+ to Shared Driver Stars Filters.","You can narrow down your search results to view exactly what you want by tapping the Filters icon, which is located next to the Shared Driver Stars Filters.","U kunt uw zoekresultaten verfijnen om precies te zien wat u wilt, door op het Filters-pictogram te tikken dat zich naast de Gedeelde Bestuurder Sterren Filters bevindt."
+You can filter the alerts based\n on the following:,You can filter the alerts based on the following:,U kunt de waarschuwingen filteren op basis van het volgende:
+Filter Alerts based on video availability\n by selecting the Following Video Available,Filter alerts based on video availability by selecting 'Video Available'.,Filter waarschuwingen op basis van videobeschikbaarheid door 'Video Beschikbaar' te selecteren.
+"Video Requested Video
+ on Request Video Unavailable",Video Requested Video on Request Video Unavailable,Videoaanvragen Video Aanvragen Niet beschikbaar
+Show Only select the options to see only\n bookmarked alerts or or not viewed alerts.,Select the options to show only bookmarked alerts or unviewed alerts.,Selecteer de opties om alleen gebladwijzerde waarschuwingen of niet-bekeken waarschuwingen weer te geven.
+Sort by date Toggle the ascending or\n descending buttons to sort\n the DRiverStars by date as required.,Sort by Date: Toggle the ascending or descending buttons to sort the DriverStars by date as required.,Sorteren op datum: Gebruik de knoppen voor oplopende of aflopende volgorde om de DriverStars op datum te sorteren zoals vereist.
+"For more details, tap the floating
+ Help icon to view the help content.","For more details, tap the floating Help icon to view the help content.","Voor meer details, tik op het zwevende Help-pictogram om de helpinhoud te bekijken."
+"Hi in this video, let us look at the coaching screen of the Driverâ€¢i app Safety Manager View in detail","In this video, we will look in detail at the coaching screen within the Safety Manager View of the Driverâ€¢i app.",In deze video bekijken we gedetailleerd het coachingsscherm binnen de Veiligheidsmanager Weergave van de Driverâ€¢i app.
+Coaching is an integral part\n in maintaining and promoting\n safe driving behavior in drivers.,Coaching is an integral part of maintaining and promoting safe driving behavior among drivers.,Coaching is een integraal onderdeel van het handhaven en bevorderen van veilig rijgedrag onder bestuurders.
+"When coaching sessions are conducted\n at regular intervals, drivers show\n improved safe driving performance.","When coaching sessions are conducted at regular intervals, drivers show improved safe driving performance.","Wanneer coachingsessies met regelmatige tussenpozen worden gehouden, tonen bestuurders verbeterde veilige rijprestaties."
+The Coaching screen of the Driverâ€¢i app\n provides detailed information about,The Coaching screen of the Driverâ€¢i app provides detailed information about,Het Coachingsscherm van de Driverâ€¢i-app biedt gedetailleerde informatie over
+"the pending and completed coaching
+ sessions of drivers in the fleet.",the pending and completed coaching sessions for drivers in the fleet.,de openstaande en voltooide coachingsessies voor bestuurders in het wagenpark.
+Tap the search icon on the top right\n corner of the screen and type the required,Tap the search icon on the top right corner of the screen and type the required search term.,Tik op het zoekpictogram rechtsboven in het scherm en typ de gewenste zoekterm.
+keywords such as Session ID or driver name\n to search for the required\n coaching session.,Use keywords such as Session ID or driver name to search for the required coaching session.,Gebruik trefwoorden zoals sessie-id of naam van de bestuurder om de vereiste coachingsessie te zoeken.
+The Pending tab displays the coaching\n sessions that are yet to be\n completed by the driver.,The Pending tab displays the coaching sessions that have yet to be completed by the driver.,Het Tabblad In afwachting van toont de coachingsessies die nog door de bestuurder moeten worden voltooid.
+"The completed tab displays all the
+ completed coaching sessions by the driver.",The Completed Tab displays all completed coaching sessions by the driver.,Het Tabblad Voltooid weergeeft alle voltooide coachingsessies van de bestuurder.
+"The Coaching Sessions card displays\n the session id,",The Coaching Sessions card displays the session ID.,De Coachingsessies-kaart toont de sessie-id.
+"total number of alerts,\n name of the driver, the date and time when","the total number of alerts, the name of the driver, and the date and time when the alert occurred.","het totaal aantal waarschuwingen, de naam van de bestuurder, en de datum en tijd waarop de waarschuwing plaatsvond."
+"the session was created, and the most
+ frequent alerts generated by the driver.","The session was created, detailing the most frequent alerts generated by the driver.","De sessie werd aangemaakt, met een overzicht van de meest voorkomende waarschuwingen gegenereerd door de bestuurder."
+Coaching Session Details\n Tap the green arrow on the card to view,Tap the green arrow on the card to view the coaching session details.,Tik op de groene pijl op de kaart om de coachingssessiegegevens te bekijken.
+details of the coaching session.,details of the coaching session.,details van de coachingsessie.
+"This screen displays the number of alerts,","This screen displays the number of alerts,","Dit scherm toont het aantal waarschuwingen,"
+"DriverStars, Notifications, Recognitions,","DriverStars, Notifications, Recognitions,","DriverStars, Meldingen, Erkenningen,"
+"and frequent alerts generated by the
+ driver since the last coaching session.",and frequent alerts generated by the driver since the last coaching session.,en frequente waarschuwingen gegenereerd door de bestuurder sinds de laatste coachingsessie.
+"Bookmarked Events Displays the important
+ events that you have bookmarked for future",Bookmarked Events: Displays the important events that you have bookmarked for future reference.,Evenementen met bladwijzers: Toont de belangrijke evenementen die u hebt voorzien van een bladwijzer voor toekomstige referentie.
+"reference
+ Events added to Coaching Displays all",Reference Events added to all Coaching Displays.,Referentie-evenementen toegevoegd aan alle Coachingdisplays.
+"the alerts added to a coaching session
+ session Discussion Allows you to add any",the alerts added to a coaching session session Discussion Allows you to add any,De Waarschuwingen toegevoegd aan een coachingsessie Sessiebespreking Stelt u in staat om alles toe te voegen
+comments or remarks from the discussion\n you had with the driver\n during the coaching session.,Comments or remarks from the discussion you had with the driver during the coaching session.,Opmerkingen of commentaar van de discussie die u had met de bestuurder tijdens de coaching nan.
+"Add Conclusion Notes Allows you to add\n closing notes after the coaching session is completed,",Add Conclusion Notes: Allows you to add closing notes after the coaching session is completed.,Afsluitende Opmerkingen Toevoegen: Hiermee kunt u afsluitende opmerkingen toevoegen nadat de coachingsessie is voltooid.
+you must first select one\n of the reasons from the drop down list.,You must first select one of the reasons from the dropdown list.,U moet eerst één van de redenen uit de vervolgkeuzelijst selecteren.
+"Select adjustments made to route if
+ the driver's route is changed or updated",Select adjustments made to route if the driver's route is changed or updated,Selecteer aanpassingen gedaan nan route als de bestuurder's route is gewijzigd of bijgewerkt
+"based on any challenges
+ that the driver may be facing.",based on any challenges that the driver may be facing.,gebaseerd op eventuele uitdagingen die de bestuurder ondervindt.
+"Select Driver Assigned Training if
+ the driver drivers enrolled for some specific training program,'",Select Driver Assigned Training if the driver is enrolled in a specific training program.,Selecteer Toegewezen Bestuurderstraining als de bestuurder is ingeschreven voor een specifiek trainingsprogramma.
+"Select Coaching Completed if the driver completed the coaching session,","Select Coaching Completed if the driver completed the coaching session,","Selecteer Coaching Voltooid indien de bestuurder de coachingsessie heeft voltooid,"
+the Mark as Complete button must be tapped\n after the coaching session is complete.,The 'Mark as Complete' button must be tapped after the coaching session is complete.,De 'Markeren als voltooid'-knop moet worden getikt nadat de coaching nan is voltooid.
+"Coaching Session Configurations
+ Tap the settings icon on the top right","Coaching Session Configurations
+Tap the settings icon on the top right","Configuratie Coachingsessie
+Tik op het instellingenpictogram rechtsboven"
+"corner to display the Coaching
+ session configuration screen.",corner to display the Coaching session configuration screen.,hoek om het configuratiescherm van de Coaching session weer te geven.
+You can configure the coaching sessions\n based on the following,You can configure the coaching sessions based on the following.,U kunt de coachingsessies configureren op basis van het volgende.
+Select All Drivers or All Drivers Except,Select All Drivers or All Drivers Except,Selecteer Alle Bestuurders of Alle Bestuurders Behalve
+or Only These Drivers to create automated,or Only These Drivers to create automated,of Alleen deze bestuurders nan creëren geautomatiseerde
+coaching sessions for drivers as required.,Coaching sessions for drivers as required.,Coachingsessies voor bestuurders indien nodig.
+"Select the required alert types depending
+ on the risk level to create automated",Select the required alert types depending on the risk level to create automated alerts.,Selecteer de vereiste waarschuwingstypen afhankelijk van het risiconiveau om geautomatiseerde waarschuwingen te creëren.
+coaching sessions only\n for the selected alert type.,Coaching sessions are only for the selected alert type.,Coachingsessies zijn uitsluitend voor het geselecteerde waarschuwingstype.
+"After making the required
+ selections, tap <b>Save</b> to save
+ the changes made for configuration.","After making the required selections, tap <b>Save</b> to save the changes made for configuration.","Nadat de vereiste selecties zijn gemaakt, tikt u op <b>Opslaan</b> nan de aangebrachte wijzigingen voor de configuratie op te slaan."
+Tap the floating <b>Help</b> icon on the\n bottom-right corner of the\n screen to view the Help content.,Tap the floating <b>Help</b> icon on the bottom-right corner of the screen to view the Help content.,Tik op het zwevende <b>Help</b>-pictogram rechtsonder in het scherm om de Help-inhoud te bekijken.
+"Hi! Let us see how safety managers can
+ provide feedback on the Driverâ€¢i app.",Let's explore how safety managers can provide feedback on the Driverâ€¢i app.,Laten we eens kijken hoe veiligheidsmanagers feedback kunnen geven op het Driverâ€¢i.
+"User feedback provides valuable insights
+ that show areas
+ of improvement in the product.","User feedback provides valuable insights, highlighting areas for product improvement.","nan biedt waardevolle inzichten, die gebieden voor productverbetering benadrukken."
+This can help improve user experience.,This can help improve user experience.,Dit kan helpen de gebruikerservaring te verbeteren.
+You can suggest an improvement or report\n an issue by selecting a feature\n from the predefined Features list.,You can suggest an improvement or report an issue by selecting a feature from the predefined Features list.,U kunt een verbetering voorstellen of een probleem melden door een functie te selecteren uit de lijst met vooraf gedefinieerde functies.
+"To provide feedback on the app,
+ tap the menu icon on the top
+ left corner of the screen.","To provide feedback on the app, tap the menupictogram in the top left corner of the screen.","Om feedback te geven over de app, tik op het menupictogram in de linkerbovenhoek van het scherm."
+Tap Feedback.,Tap Feedback.,Tik op Feedback.
+The feedback screen is displayed.,The feedback screen is displayed.,Het feedbackscherm wordt weergegeven.
+"Tap check FAQs to check if your issue was
+ already reported",Tap FAQs to check if your issue has already been reported.,Tik op FAQ's nan controleren of uw probleem al gemeld is.
+and a solution was proposed.,and a solution was proposed.,en een oplossing werd voorgesteld.
+Select one of the following options.,Select one of the following options.,Selecteer één van de volgende opties.
+"To provide feedback,
+ tap Suggest an improvement and select
+ a feature from the drop down list.","To provide feedback, tap 'Suggest an improvement' and select a feature from the drop-down list.","Om Feedback te geven, tik op 'Een verbetering voorstellen' en selecteer een functie uit de vervolgkeuzelijst."
+"To provide suggestions on the specific\n area,","To provide suggestions on the specific area,","Om suggesties te geven over het specifieke gebied,"
+tap Report a bug and select\n a feature from the drop down list.,Tap 'Report a Bug' and select a feature from the dropdown list.,Tik op 'Een Bug Melden' en selecteer een functie uit de vervolgkeuzelijst.
+"To report a fault or error,","To report a fault or error,","nan een storing of fout melden,"
+"tap Attach an image to upload an image if\n needed,",Tap 'Attach an image' to upload an image if needed.,"Tik op 'Afbeelding bijvoegen' om een afbeelding te uploaden, indien nodig."
+"add detailed information\n in the Add Notes box, tap Submit Feedback.","Add detailed information in the Add Notes box, then tap Submit Feedback.",Voeg gedetailleerde informatie toe in het vak 'opmerkingen toevoegen' en tik vervolgens op 'Feedback Indienen'.
+The feedback is submitted.,The feedback has been submitted.,De feedback is ingediend.
+It will be reviewed by the netradyne team\n to ensure that the appropriate\n action is taken.,It will be reviewed by the Netradyne team to ensure that appropriate action is taken.,Het zal worden beoordeeld door het Netradyne-team om ervoor te zorgen dat de juiste actie wordt ondernomen.
+"For more details, tap the floating\n Help icon in the bottom right corner.","For more details, tap the floating Help icon in the bottom right corner.","Voor meer details, tik op het zwevende Help-pictogram in de rechterbenedenhoek."
+Hi! In this video let us discuss\n how the Driverâ€¢i device works?,"In this video, we will discuss how the Driverâ€¢i device works.",In deze video bespreken we hoe het Driverâ€¢i-apparaat werkt.
+Driverâ€¢i devices are dashboard cameras\n that use the latest technologies,Driverâ€¢i devices are dashboard cameras that use the latest technologies.,Driverâ€¢i-apparaten zijn dashboardcamera's die gebruikmaken van de nieuwste technologieën.
+"in artificial intelligence,
+ machine learning and edge computing","in artificial intelligence, machine learning and edge computing","in kunstmatige intelligentie, machinaal leren en randcomputing"
+for identification and analysis\n to determine the cause of events,for identification and analysis to determine the cause of events,voor identificatie en analyse om de oorzaak van gebeurtenissen te bepalen.
+"that occur with drivers
+ during their drive time.",that occur with drivers during their driving time.,die zich voordoen bij bestuurders tijdens hun rijtijd.
+"The software analyzes the recorded events
+ and generates Alerts, DriverStars,
+ and Neutral Events as needed.","The software analyzes the recorded events and generates Alerts, DriverStars, and Neutral Events as needed.","De software analyseert de geregistreerde gebeurtenissen en genereert Waarschuwingen, DriverStars en Neutrale Gebeurtenissen indien nodig."
+The following steps provide a high\n level workflow of the Driver.i Device.,The following steps provide a high-level workflow of the Driver.i Device.,De volgende stappen bieden een globale workflow van het Driverâ€¢i-Apparaat.
+The device captures every driving minute\n of video and sensory data and\n stores it as observations.,The device captures every driving minute of video and sensory data and stores it as observations.,Het apparaat legt elke rijminuut aan video- en sensorgegevens vast en slaat deze op als waarnemingen.
+"While processing the observation
+ data, events are classified based","While processing the observation data, events are classified based",Tijdens het verwerken van de observatiegegevens worden gebeurtenissen geclassificeerd gebaseerd
+"on the Netradyne Proprietary
+ artificial Intelligence Algorithms.",Based on Netradyne's proprietary Artificial Intelligence algorithms.,Gebaseerd op de eigen kunstmatige intelligentie-algoritmen van Netradyne.
+Further validations are performed\n on the Events and they are displayed\n on the web portal as alert cards.,"Further validations are performed on the events, which are then displayed on the web portal as alert cards.","Verdere validaties worden uitgevoerd op de gebeurtenissen, die vervolgens op het webportaal worden weergegeven als waarschuwingskaarten."
+The working principle of Driverâ€¢i is based\n on the following steps:,The working principle of Driverâ€¢i is based on the following steps:,Het werkingsprincipe van Driverâ€¢i is gebaseerd op de volgende stappen:
+"Collecting data,
+ interpreting it and acting on it through
+ three different sections:","Collecting data, interpreting it, and acting on it through three different sections:","Gegevens verzamelen, deze interpreteren en ernaar handelen via drie verschillende secties:"
+Vision based and inertial data collection\n system consisting of cameras and sensors,A vision-based and inertial data collection system consisting of cameras and sensors.,"Een visiegebaseerd en inertieel gegevensverzamelsysteem, bestaande uit camera's en sensoren."
+Data analytics system using Artificial,Data analytics system using Artificial Intelligence,Data-analysesysteem dat gebruikmaakt van Kunstmatige Intelligentie
+Intelligence and Machine Learning.,Intelligence and Machine Learning.,Intelligentie en Machine Learning.
+Assistance to drivers by generating\n alerts and,Assisting drivers by generating alerts and,Ondersteuning van bestuurders door het genereren van waarschuwingen en
+"recognizing drivers based on positive
+ driving events.",Recognizing drivers based on positive driving events.,Het herkennen van bestuurders op basis van positieve rijgebeurtenissen.
+"A safety manager will have access to every
+ driving minute captured
+ by the Driverâ€¢i device.",A safety manager will have access to every driving minute captured by the Driverâ€¢i device.,Een Veiligheidsmanager zal toegang hebben tot elke rijdende minuut vastgelegd door het Driverâ€¢i-apparaat.
+"They can review the driver's driving
+ performances and if needed,","They can review the driver's driving performance and, if necessary,","Zij kunnen de rijprestaties van de bestuurder beoordelen en, indien nodig,"
+"share the alerts with the driver
+ as part of their coaching program.",Share the alerts with the driver as part of their coaching program.,De waarschuwingen delen met de bestuurder als onderdeel van hun coachingprogramma.
+"Driverâ€¢i appreciates good driving behavior
+ by awarding DriverStars to the driver.",Driverâ€¢i appreciates good driving behavior by awarding DriverStars to the driver.,Driverâ€¢i waardeert goed rijgedrag door DriverStars toe te kennen aan de bestuurder.
+"When Driverâ€¢i identifies that an action
+ performed by the driver resulted",When Driverâ€¢i identifies that an action performed by the driver resulted,Wanneer Driverâ€¢i identificeert dat een actie uitgevoerd door de bestuurder resulteerde
+"in avoiding a potential incident,\n a DriverStar is awarded to the driver.",A DriverStar is awarded to the driver for avoiding a potential incident.,Een DriverStar wordt toegekend aan de bestuurder voor het vermijden van een potentieel incident.
+"This encourages drivers to follow safe
+ driving practices and helps
+ enhance fleet safety.",This encourages drivers to follow safe driving practices and helps enhance fleet safety.,Dit moedigt bestuurders aan om veilige rijpraktijken te volgen en helpt de wagenparkveiligheid te verbeteren.
+The Driverâ€¢i device generates real time\n alerts for driving events and shares,The Driverâ€¢i device generates real-time alerts for driving events and shares them.,Het Driverâ€¢i-apparaat genereert realtime waarschuwingen voor rijgebeurtenissen en deelt deze.
+"notifications using both
+ Driverâ€¢i app and Driverâ€¢i portal.",Notifications are managed using both the Driverâ€¢i app and the Driverâ€¢i portal.,Meldingen worden beheerd via zowel de Driverâ€¢i app als de Driverâ€¢i portal.
+The system detects risky events\n and advises coaching sessions\n for drivers for continuous improvement.,The system detects risky events and advises coaching sessions for drivers for continuous improvement.,Het systeem detecteert gevaarlijke gebeurtenissen en adviseert coachingsessies voor bestuurders voor continue verbetering.
+"Drivers receive GreenZone Score on daily,
+ weekly and monthly basis between 1","Drivers receive GreenZone Score on daily, weekly and monthly basis between 1",Bestuurders ontvangen GreenZone-Score wekelijks en maandelijks tussen 1
+"and 1000, tabulated based on their
+ driving habits and behaviors.","and 1000, tabulated based on their driving habits and behaviors.","en 1000, getabelleerd op basis van hun rijgewoonten en gedrag."
+Event Access gives access to 100\n hours of stored videos anytime.,Event Access provides access to 100 hours of stored videos at any time.,Gebeurtenistoegang biedt altijd toegang tot 100 uur aan opgeslagen video's.
+"For more details, tap the floating
+ help icon to view the help content.","For more details, tap the floating help icon to view the help content.","Voor meer informatie, tik op het zwevende help-icoon om de helpinhoud te raadplegen."
+"Hi! In this video we will discuss about
+ the benefits and features","Hi! In this nan, we will discuss the benefits and features.",Hallo! In deze nan zullen we de voordelen en kenmerken bespreken.
+"of the Driverâ€¢i App,
+ which will allow safety managers to view","of the Driverâ€¢i App, which will allow safety managers to view","van het Driverâ€¢i App, waardoor veiligheidsmanagers kunnen bekijken"
+and manage the performance\n of their fleet and drivers.,and manage the performance of their fleet and drivers.,en de prestaties van hun wagenpark en bestuurders beheren.
+"Driverâ€¢i App helps manage
+ the fleet and drivers effectively.",Driverâ€¢i App helps manage the fleet and drivers effectively.,De Driverâ€¢i App helpt het wagenpark en de bestuurders effectief te beheren.
+It can be accessed from anywhere.,It can be accessed from anywhere.,Het is overal toegankelijk.
+"Safety managers can view the details
+ of fleet performance,
+ drivers, coaching sessions, GreenZone
+ statistics and requested videos.","Safety managers can view the details of fleet performance, drivers, coaching sessions, GreenZone statistics, and requested videos.","Veiligheidsmanagers kunnen de details inzien van wagenparkprestaties, bestuurders, coachingsessies, GreenZone-statistieken en aangevraagde video's."
+You can download the app\n from Google Play Store or,You can download the app from the Google Play Store or,U kunt de app downloaden uit de Google Play Store of
+"the Apple App Store based
+ on the type of phone you are using.","the Apple App Store, based on the type of phone you are using.","de Apple App Store, gebaseerd op het type telefoon dat u gebruikt."
+Driverâ€¢i app provides the following,The Driverâ€¢i app provides the following:,De Driverâ€¢i-app biedt het volgende:
+"Performance Visibility,\n Real Time Access,","Performance Visibility, Real-Time Access","Inzicht in prestaties, Realtime toegang"
+"Coaching,
+ Gamification,
+ Drive Time Assignment.","Coaching, Gamification, Drive Time Assignment.","Coaching, Gamificatie, Rijtijdtoewijzing."
+Let's explore the various\n sections of the app in detail.,Let's explore the various sections of the app in detail.,Laten we de verschillende secties van de app in detail verkennen.
+Dashboard- This screen displays the fleet's\n driving performance based on the alerts,"The Dashboard screen displays the fleet's driving performance, based on the alerts.","Het Dashboard-scherm toont de rijprestaties van het wagenpark, gebaseerd op de waarschuwingen."
+"and DriverStars generated
+ by all the drivers.",and DriverStars generated by all drivers.,en DriverStars gegenereerd door alle bestuurders.
+The following information is displayed\n on the dashboard,The following information is displayed on the dashboard,De volgende informatie wordt weergegeven op het dashboard.
+"Fleet Average Green Zone Score,
+ Notification and Recognition,
+ Drivers with highest and lowest score","Fleet Average Green Zone Score, Notification and Recognition, Drivers with highest and lowest score","Wagenparkgemiddelde Groene Zone Score, Melding en Erkenning, bestuurders met de hoogste en laagste score"
+"Most frequent alerts,
+ Severe and moderate alerts
+ DriverStars Events.","The most frequent alerts, including severe and moderate alerts, and DriverStar events.","De meest voorkomende waarschuwingen, waaronder ernstige en gemiddelde waarschuwingen, en DriverStar-gebeurtenissen."
+This screen displays\n detailed information about the number\n of alerts generated by the drivers under,This screen displays detailed information about the number of alerts generated by the drivers.,Dit scherm toont gedetailleerde informatie over het aantal waarschuwingen gegenereerd door de bestuurders.
+each alert type and the number\n of driver stars awarded.,each alert type and the number of driver stars awarded.,elk waarschuwingstype en het aantal toegekende bestuurderssterren.
+Alerts can be viewed\n in Smart View or Expanded view.,Alerts can be viewed in Smart View or Expanded view.,Waarschuwingen kunnen worden bekeken in Smart View of Uitgebreide weergave.
+"Drivers
+ this screen displays information about",This screen displays information about drivers.,Dit scherm toont informatie over bestuurders.
+"your drivers and the number
+ of alerts generated by each driver.",your drivers and the number of alerts generated by each driver.,uw bestuurders en het aantal waarschuwingen gegenereerd door elke bestuurder.
+"The list is categorized based\n on GreenZone score, Green minutes",The list is categorized based on the GreenZone score and Green minutes.,De lijst is gecategoriseerd op basis van de GreenZone-Score en Green nan.
+percent and overspeeding percent.,Percentage and overspeeding percentage.,Percentage en oversnelheidspercentage.
+"Event Access
+ this screen displays the list of videos",Event Access: This screen displays the list of videos.,Gebeurtenistoegang: Dit scherm toont de lijst met video's.
+that you have requested manually\n for a selected time period.,which you have manually requested for a selected time period.,die u handmatig hebt aangevraagd voor een geselecteerde periode.
+"You can create a new video request for any
+ vehicle based on time period and video",You can create a new video request for any vehicle based on time period and video,U kunt een nieuwe videoaanvraag aanmaken voor elk voertuig op basis van een tijdsperiode en video.
+availability for all the active vehicles\n that are associated with the devices.,Availability for all active vehicles associated with the devices.,Beschikbaarheid voor alle actieve voertuigen gekoppeld aan de apparaten.
+Coaching this screen displays the pending\n and completed coaching sessions,This screen displays pending and completed coaching sessions.,Dit scherm toont lopende en voltooide coachingsessies.
+for your drivers in the Driverâ€¢i app.,for your drivers in the Driverâ€¢i app.,voor uw bestuurders in het Driverâ€¢i app.
+"You can add alerts to a driver's coaching
+ session either manually from an alert card",You can add alerts to a driver's coaching session either manually from an Alert Card.,U kunt waarschuwingen handmatig toevoegen aan de coachingsessie van een bestuurder vanaf een Waarschuwingskaart.
+or automatically by configuring\n the coaching session.,or automatically by configuring the coaching session.,of automatisch door het configureren van de coachingsessie.
+"GreenZone this screen displays
+ driver score versus time graphically.",This GreenZone screen graphically displays the Driver Score versus time.,Dit GreenZone-scherm geeft de Driver Score grafisch weer ten opzichte van de tijd.
+"By default, the chart displays the fleet\n Average and top four driver scores.","By default, the chart displays the fleet average and the top four Driver Scores.",Standaard toont de grafiek het wagenparkgemiddelde en de vier beste Driver Scores.
+"The names of the plotted drivers
+ are listed below the graph.",The names of the plotted drivers are listed below the graph.,De namen van de geplotte bestuurders staan onder de grafiek vermeld.
+You can also select the drivers to compare\n their GreenZone scores\n from the list of all drivers.,You can also select drivers from the list of all drivers to compare their GreenZone scores.,U kunt ook bestuurders uit de lijst van alle bestuurders selecteren om hun GreenZone-Scores te vergelijken.
+"For more details, tap the floating Help\n icon to view the help content relevant","For more details, tap the floating Help icon to view the relevant help content.","Voor meer details, tik op het zwevende Help-pictogram om de relevante helpinhoud te bekijken."
+to the tab that is open on your screen.,to the tab that is open on your screen.,nan het tabblad dat open is nan uw scherm.
+"Hi! In this video,
+ let us look in detail at the
+ Drivers screen available","In this video, we will examine the available Drivers Screen in detail.",In deze video zullen we het beschikbare Bestuurders Scherm in detail bekijken.
+on Driverâ€¢i App for Safety Manager.,in the Driverâ€¢i App for the Safety Manager.,in de Driverâ€¢i App voor de Veiligheidsmanager.
+"The Drivers Screen helps you understand
+ the performance of drivers in your Fleet",The Drivers Screen helps you understand the performance of drivers in your Fleet.,Het Bestuurders Scherm helpt u inzicht te krijgen in de prestaties van bestuurders binnen uw Wagenpark.
+by viewing the alerts generated by them\n and analyzing the driver ranking.,by viewing the alerts they generate and analyzing the Driver Ranking.,door het bekijken van de waarschuwingen die zij genereren en het analyseren van de Bestuurdersrangschikking.
+"This screen also provides a detailed
+ overview of the driver's profile.",This screen also provides a detailed overview of the driver's profile.,Dit scherm biedt ook een gedetailleerd overzicht van het profiel van de bestuurder.
+"This list is classified based
+ on GreenZone score, Green Min percent
+ and Over Speeding percent.","This list is classified based on GreenZone score, Green Minute percentage, and Speeding percentage.","Deze lijst is geclassificeerd op basis van de GreenZone-Score, het percentage groene minuten en het percentage snelheidsovertredingen."
+The driver rank is displayed\n based on the driver statistics.,The driver rank is displayed based on the driver statistics.,De bestuurdersrang wordt weergegeven op basis van de bestuurdersstatistieken.
+Select the required duration\n from the <b>Time Period </b>drop-down.,Select the required duration from the <b>Time Period</b> drop-down.,Selecteer de gewenste duur uit de vervolgkeuzelijst <b>Tijdsperiode</b>.
+You can also select a custom\n date range of maximum 30 days.,"You can also select a custom date range, up to a maximum of 30 days.","U kunt ook een aangepast datumbereik selecteren, van maximaal 30 dagen."
+"On the search bar, type a keyword related\n to any driver detail,","In the search bar, type a keyword related to any driver detail.",Typ in de zoekbalk een trefwoord dat gerelateerd is aan een bestuurdersdetail.
+"such as the driver name,
+ to search for the driver.","such as the driver's name, to search for the driver.","zoals de naam van de bestuurder, nan zoeken naar de bestuurder."
+"The following information is
+ displayed on the Drivers screen.",The following information is displayed on the Drivers Screen.,De volgende informatie wordt weergegeven op het Bestuurders Scherm.
+"The GreenZone tab lists drivers based
+ on the GreenZone score
+ for the selected duration.",The GreenZone tab lists drivers based on the GreenZone score for the selected duration.,Het tabblad GreenZone toont bestuurders gebaseerd op de GreenZone-Score voor de geselecteerde periode.
+"The <b>Green Minutes</b> tab lists drivers based
+ on Green Minutes percent
+ and Minutes Analyzed.",The <b>Green Minutes</b> tab lists drivers based on Green Minutes percent and Minutes Analyzed.,Het tabblad <b>Green nan</b> vermeldt bestuurders gebaseerd op het Green nan-percentage en geanalyseerde nan.
+"<b>Green Minutes percent </b> represents
+ the number of minutes for
+ which the driver has",<b>Green Minutes percent </b> represents the number of minutes for which the driver has,<b>Groen nan percentage </b> vertegenwoordigt het aantal nan waarvoor de bestuurder heeft
+"driven safely without generating any
+ alerts as compared to the
+ driver's total drive time.",driven safely without generating any alerts as compared to the driver's total drive time.,veilig gereden zonder waarschuwingen te genereren vergeleken met de totale rijtijd van de bestuurder.
+"Minutes Analyzed denotes the total number
+ of minutes the vehicle
+ was driven by the driver.",Minutes Analyzed denotes the total number of minutes the vehicle was driven by the driver.,"nan Geanalyseerd staat voor het nan aantal minuten dat het voertuig werd bestuurd door de bestuurder."""
+The Overspeeding tab lists drivers\n based on the overspeeding percent.,The Overspeeding tab lists drivers based on their overspeeding percentage.,Het tabblad 'Te Hard Rijden' toont bestuurders op basis van hun overschrijdingspercentage.
+"Overspeeding percent represents
+ the minutes for which the driver has",Overspeeding percentage represents the minutes for which the driver has,Snelheidsovertredingspercentage vertegenwoordigt de nan waarvoor de bestuurder heeft
+"generated speeding violation alerts as
+ compared to the total
+ drive time of the driver.",generated speeding violation alerts compared to the driver's total driving time.,gegenereerde waarschuwingen voor snelheidsovertredingen vergeleken met de totale rijtijd van de bestuurder.
+"You can sort drivers based on GreenZone
+ score, Greenminutes percent",You can sort drivers based on their GreenZone score and Green Minutes percentage.,U kunt bestuurders sorteren op basis van hun GreenZone-score en Green Minutes-percentage.
+and overspeeding percent\n in ascending or descending order.,and overspeeding percentage in ascending or descending order.,en percentage snelheidsovertredingen in oplopende of aflopende volgorde.
+"<b>Driver Profile </b>
+ Tap any of the listed driver names
+ to navigate to the Driver Profile screen.",<b>Driver Profile</b>: Tap any of the listed driver names to navigate to the Driver Profile screen.,<b>Bestuurdersprofiel</b>: Tik op een van de vermelde bestuurdersnamen om naar het Bestuurdersprofielscherm te navigeren.
+"This screen displays detailed information
+ about the driving performance
+ of the selected driver.",This screen displays detailed information about the driving performance of the selected driver.,Dit scherm toont gedetailleerde informatie over de rijprestaties van de geselecteerde bestuurder.
+"Tap the daily, Weekly, and Monthly buttons
+ to view the corresponding information.","Tap the Daily, Weekly, and Monthly buttons to view the corresponding information.","Tik op de Dagelijkse, Wekelijkse en Maandelijkse knoppen om de bijbehorende informatie te bekijken."
+"You can also select the required date
+ and week or month using
+ the left and right arrows.","You can also select the required date, week, or month using the left and right arrows.","U kunt ook de gewenste datum, week of maand selecteren met behulp van de linker- en rechterpijlen."
+"The Driver Profile screen displays\n the Green Zone score of the driver,",The Driver Profile screen displays the driver's Green Zone score.,Het Bestuurdersprofielscherm toont de Green Zone score van de bestuurder.
+including the Green minutes\n percent and minutes analyzed.,including the percentage of green minutes and the minutes analyzed.,inclusief het percentage groene nan en de geanalyseerde nan.
+"Most Frequent Alerts displays the alerts
+ that were generated frequently
+ by the driver for the selected duration.",Most Frequent Alerts displays the alerts that were most frequently generated by the driver during the selected duration.,Meest Voorkomende Waarschuwingen toont de waarschuwingen die het meest frequent werden gegenereerd door de bestuurder gedurende de geselecteerde periode.
+Tap the All Alerts button at the bottom\n of the screen to navigate\n to the Events screen of the driver.,Tap the 'All Alerts' button at the bottom of the screen to navigate to the driver's Events screen.,Tik op de knop 'Alle Waarschuwingen' onderaan het scherm om naar de sectie Gebeurtenissen van de bestuurder te navigeren.
+"For more details, tap the floating\n Help icon to view the help content.","For more details, tap the floating Help icon to view the help content.","Voor meer informatie, tik op het zwevende Help-pictogram om de helpinhoud te raadplegen."
+"Hi! In this video,
+ let us look at the dashboard screen","Hi! In this video, let us look at the dashboard screen","Hallo! In deze nan, laten we kijken naar het dashboardscherm"
+of the Driveri App â€“ Safety Manager\n View in detail.,View details of the Driveri App – Safety Manager.,Bekijk de details van de Driveri App – Veiligheidsmanager.
+"The Dashboard screen provides a summary
+ of the Fleet's driving performance
+ based on alerts and DriverStars
+ generated by all the drivers.",The Dashboard screen provides a summary of the Fleet's driving performance based on alerts and DriverStars generated by all the drivers.,"Het Dashboard-scherm biedt een overzicht van de rijprestaties van het Wagenpark, gebaseerd op waarschuwingen en DriverStars die door alle bestuurders zijn gegenereerd."
+This screen helps you analyze the strength\n and limitations of drivers in detail.,This screen helps you analyze the strengths and limitations of drivers in detail.,Dit scherm helpt u de sterktes en beperkingen van bestuurders gedetailleerd te analyseren.
+"Tap the daily, weekly,
+ and monthly buttons to view
+ the corresponding information
+ on the dashboard screen.","Tap the daily, weekly, and monthly buttons to view the corresponding information on the dashboard screen.","Tik op de dagelijkse, wekelijkse en maandelijkse knoppen om de bijbehorende informatie op het dashboardscherm te bekijken."
+"You can also select the required date,
+ week, or month using
+ the left and right arrows.","You can also select the required date, week, or month using the left and right arrows.","U kunt ook de gewenste datum, week of maand selecteren met behulp van de linker- en rechterpijlen."
+The following information is displayed\n on the dashboard screen,The following information is displayed on the dashboard screen.,De volgende informatie wordt weergegeven op het dashboardscherm.
+Fleet Average GreenZone Score denotes\n the overall performance of the fleet.,Fleet Average GreenZone Score denotes the overall performance of the fleet.,Wagenparkgemiddelde GreenZone-Score geeft de algehele prestaties van het wagenpark aan.
+"The Average GreenZone score should
+ be aimed at reaching the Fleet Goal.",The Average GreenZone Score should aim to reach the Fleet Goal.,De Gemiddelde GreenZone-Score zou moeten streven naar het bereiken van het Wagenparkdoel.
+"The line indicator turns Red if
+ the average GreenZone score goes below
+ the poor performance
+ threshold set by the fleet.",The line indicator turns red if the Average GreenZone Score falls below the poor performance threshold set by the fleet.,De lijnindicator wordt rood als de Gemiddelde GreenZone-Score onder de drempel voor slechte prestaties daalt die door het wagenpark is ingesteld.
+"Notification denotes the percentage
+ of drivers who have received notifications
+ due to risky driving behaviors.",Notification denotes the percentage of drivers who have received notifications due to risky driving behaviors.,Melding geeft het percentage bestuurders aan dat meldingen heeft ontvangen vanwege gevaarlijk rijgedrag.
+"These drivers notice a drop
+ in their Green Zone score.",These drivers notice a drop in their Green Zone score.,Deze bestuurders merken een daling op in hun Green Zone-score.
+Recognition indicates the percentage\n of drivers who have been rewarded\n for their safe driving performance.,Recognition indicates the percentage of drivers rewarded for their safe driving performance.,Erkenning geeft het percentage bestuurders aan dat beloond is voor hun veilige rijgedrag.
+These drivers notice an increase\n in their GreenZone score.,These drivers notice an increase in their GreenZone score.,Deze bestuurders zien een stijging van hun GreenZone-Score.
+"Drivers with Highest Score displays
+ the top three best performing drivers
+ based on their GreenZone score.",Drivers with Highest Score displays the top three best performing drivers based on their GreenZone score.,Bestuurders met de hoogste score toont de top drie best presterende bestuurders gebaseerd op hun GreenZone-Score.
+You can tap the Driver name to navigate\n to the Driver profile where you can\n view the detailed driver information.,"You can tap the driver's name to navigate to their profile, where you can view detailed driver information.","U kunt op de naam van de bestuurder tikken om naar diens profiel te navigeren, waar u gedetailleerde bestuurdersinformatie kunt bekijken."
+Most Frequent Alerts displays the alerts\n that were generated frequently\n by the drivers for the selected duration.,Most Frequent Alerts displays the alerts most frequently generated by drivers during the selected duration.,Meest Voorkomende Waarschuwingen toont de waarschuwingen die het meest frequent werden gegenereerd door bestuurders gedurende de geselecteerde periode.
+Severe and Moderate Alerts displays\n the number of severe and moderate alerts\n generated by the drivers in the\n selected duration.,Severe and Moderate Alerts display the number of severe and moderate alerts generated by the drivers within the selected duration.,Ernstige en Gemiddelde Waarschuwingen tonen het aantal ernstige en gemiddelde waarschuwingen dat door de bestuurders is gegenereerd gedurende de geselecteerde periode.
+"DriverStars denotes the number
+ of DriverStars awarded to the drivers
+ in the selected duration.",DriverStars indicates the total number of DriverStars awarded to drivers within the selected duration.,DriverStars staat voor het totale aantal DriverStars dat aan de bestuurders is toegekend binnen de geselecteerde periode.
+"You can tap any of the alerts or
+ DriverStars to navigate to the
+ Events screen",You can tap any of the alerts or DriverStars to navigate to the Events Screen.,U kunt op een van de waarschuwingen of DriverStars tikken om naar de sectie Gebeurtenissen te navigeren.
+"where you can view all
+ the alerts and DriverStars.",where you can view all the alerts and DriverStars.,waar u alle waarschuwingen en DriverStars kunt bekijken.
+"For more details,\n tap the Menu icon on the top-left corner","For more details, tap the Menu icon in the top-left corner.","Voor meer informatie, tik op het menupictogram in de linkerbovenhoek."
+"and then tap Help
+ to view the help content.",and then tap Help to view the help content.,en tik vervolgens op Help nan de helpinhoud bekijken.
+"Hi! In this video, let us see how\n Safety Managers can compare\n Fleets on the Driverâ€¢i App.",This video demonstrates how Safety Managers can compare Fleets using the Driverâ€¢i App.,Deze video toont hoe Veiligheidsmanagers Wagenparken kunnen vergelijken via de Driverâ€¢i App.
+"You can use the Compare Fleets feature
+ to compare the fleets that are managed
+ by the parent fleet.",You can use the Compare Fleets feature to compare the fleets that are managed by the parent fleet.,U kunt de functie Wagenparken Vergelijken gebruiken om de wagenparken te vergelijken die worden beheerd door het moederwagenpark.
+You can generate a comparison report\n that depicts the performance,You can generate a comparison report that depicts the performance,U kunt een Vergelijkingsrapport genereren dat de prestaties weergeeft.
+"of the selected fleets based on\n Average GreenZone score,\n Driverâ€¢i Installed Vehicles,","of the selected fleets based on Average GreenZone Score, Driverâ€¢i Installed Vehicles,","van de geselecteerde wagenparken gebaseerd op Gemiddelde GreenZone-Score, Driverâ€¢i Geïnstalleerde Voertuigen,"
+"Completed Coaching Sessions,
+ number of DriverStars, and Alerts generated.","Completed Coaching Sessions, number of DriverStars, and Alerts generated.","Voltooide Coachingsessies, aantal DriverStars en gegenereerde Waarschuwingen."
+The Fleet Comparison feature helps fleet\n managers maintain a holistic view of their,The Fleet Comparison feature helps fleet managers maintain a holistic view of their fleet.,De functie Wagenparkvergelijking helpt wagenparkbeheerders een holistisch overzicht van hun wagenpark te behouden.
+"fleets while providing data driven
+ insights so that they can identify and
+ solve individual fleet issues.","Providing data-driven insights to fleets, enabling them to identify and solve individual fleet issues.","Het verschaffen van datagestuurde inzichten aan wagenparken, zodat zij individuele wagenparkproblemen kunnen identificeren en oplossen."
+"To Compare Fleets tap the menu icon on the
+ top left corner of the dashboard screen.","To compare fleets, tap the menu icon in the top left corner of the dashboard screen.","Om wagenparken te vergelijken, tikt u op het menupictogram in de linkerbovenhoek van het dashboardscherm."
+"Tap the tenant view to view all
+ the fleets,",Tap the tenant view to view all fleets.,Tik op de tenantweergave om alle wagenparken te bekijken.
+Tap Compare Fleets\n select the time duration in the fleets,Tap 'Compare Fleets' and select the time duration for the fleets.,Tik op 'Wagenparken Vergelijken' en selecteer de tijdsduur voor de wagenparken.
+"to compare, Tap Compare Fleets.","To compare, tap 'Compare Fleets'.","Om te vergelijken, tik op 'Wagenparken Vergelijken'."
+The report is displayed on the screen.,The report is displayed on the screen.,Het rapport wordt weergegeven op het scherm.
+Select Base Alerts or Compound Alerts\n to view the preferred alert type.,Select Base Alerts or Compound Alerts to view the preferred alert type.,Selecteer Basiswaarschuwingen of Samengestelde Waarschuwingen om het gewenste waarschuwingstype te bekijken.
+"Tap Export as CSV to export the report\n in CSV format, if required.","Tap 'Export as CSV' to export the report in CSV format, if required.","Tik op 'Exporteren als CSV' om het rapport in CSV-formaat te exporteren, indien nodig."
+Tap the floating Help icon on the\n screen to view the Help content.,Tap the floating Help icon on the screen to view the Help content.,Tik op het zwevende Help-pictogram op het scherm om de Help-inhoud te bekijken.
+"Hi in this video,
+ let us look at the Event Access screen","In this video, we will look at the Event Access screen.",In deze video gaan we kijken naar het scherm Gebeurtenistoegang.
+"of the Driverâ€¢i App Safety Manager.
+ View in detail.",of the Driverâ€¢i App Safety Manager. View in detail.,van de Driverâ€¢i App Veiligheidsmanager. Bekijk in detail.
+The Event Access screen enables you\n to obtain video for any of the\n recent drive times.,The Event Access screen allows you to retrieve video from any of the recent drive times.,Het scherm Gebeurtenistoegang stelt u in staat om video op te halen van een van de recente ritten.
+"You can request and review driving videos
+ for any vehicle at any point of time,
+ provided the video is available.","You can request and review driving videos for any vehicle at any time, provided the video is available.","U kunt op elk moment rijvideo's voor elk voertuig opvragen en bekijken, mits de video beschikbaar is."
+"Request Video
+ Tap Event Access",Tap 'Event Access' to request video.,Tik op 'Gebeurtenistoegang' om video aan te vragen.
+The Event Access screen displays all,The Event Access screen displays all available events.,Het Gebeurtenistoegangsscherm toont alle beschikbare gebeurtenissen.
+the active vehicles and placeholder\n vehicles that are\n associated with the devices.,The active and placeholder vehicles associated with the devices.,De actieve en placeholder voertuigen die aan de apparaten zijn gekoppeld.
+Tap New Request on the top\n right corner of the screen.,Tap New Request on the top right corner of the screen.,Tik op Nieuw Verzoek nan de rechterbovenhoek van het scherm.
+The Create new Request\n screen is displayed.,The 'Create New Request' screen is displayed.,Het scherm 'Nieuwe aanvraag aanmaken' wordt weergegeven.
+The Video Request quota displays\n the number of videos requested in a month\n versus the monthly quota of videos.,The Video Request quota displays the number of videos requested in a month compared to the monthly video quota.,"Het quotum voor Videoaanvragen toont het aantal video's dat in een maand is aangevraagd, vergeleken met het maandelijkse videoquotum."
+Each minute of video that you\n request is counted as one.,Every minute of video you request is counted as one minute.,"Elke minuut video die u aanvraagt, wordt als één minuut geteld."
+"The label color changes from green
+ to orange to red depending
+ on the number of video requests available.","The label color changes from green to orange to red, depending on the number of video requests available.","De labelkleur verandert van groen naar oranje naar rood, afhankelijk van het aantal beschikbare Videoaanvragen."
+"A breakup of Event Access
+ and Alerts Manually fetched video requests
+ can be viewed under Usage Account.",A breakup of Event Access and Alerts Manually fetched video requests can be viewed under Usage Account.,Een uitsplitsing van Gebeurtenistoegang en Waarschuwingen. Handmatig opgehaalde videoaanvragen kunnen worden bekeken onder Gebruiksaccount.
+Manually requested videos may\n or may not contain alerts.,Manually requested videos may or may not contain alerts.,Handmatig aangevraagde video's kunnen al dan niet waarschuwingen bevatten.
+Event Access videos are manual video\n requests that do not include alerts.,Event Access videos are manual video requests that do not include alerts.,Gebeurtenistoegangsvideo's zijn handmatige videoaanvragen die geen waarschuwingen bevatten.
+"Alerts manually fetched are manual
+ video requests that include alerts.",Alerts manually fetched are manual video requests that include alerts.,"Waarschuwingen die handmatig zijn opgehaald, zijn handmatige videoaanvragen die waarschuwingen bevatten."
+Select the following information\n in the Vehicle Number field.,Select the following information in the Vehicle Number field.,Selecteer de volgende informatie in het veld Voertuignummer.
+"Search for the vehicle in the drop down
+ list or type the vehicle number
+ in the Select Date field.",Search for the vehicle in the dropdown list or type the Vehicle Number in the 'Select Date' field.,Zoek naar het voertuig in de vervolgkeuzelijst of typ het Voertuignummer in het veld 'Selecteer Datum'.
+Select the date by tapping\n the Date Picker icon.,Select the date by tapping the Date Picker icon.,Selecteer de datum door op het datumkiezerpictogram te tikken.
+"In the Start, Time and End Time fields.",In the Start Time and End Time fields.,In de velden Starttijd en Eindtijd.
+Select the duration in which you\n want to request for videos.,Select the duration for which you want to request videos.,Selecteer de duur waarvoor u video's wilt aanvragen.
+Tap Search\n The Add to Cart screen is displayed.,Tap Search.\n The Add to Cart screen is displayed.,Tik op Zoeken.\n Het In Winkelwagen-scherm wordt weergegeven.
+Tap the Add to Cart icon against the\n required videos from the list displayed.,Tap the 'Add to Cart' icon for the required videos from the displayed list.,Tik op het 'In Winkelwagen' pictogram voor de gewenste video's uit de weergegeven lijst.
+"You can also use the Filter and Speed chart
+ feature to search for specific videos
+ based on the options available.",You can also use the Filter and Speed chart feature to search for specific videos based on the options available.,Je nan ook de functie Filter en Snelheidsgrafiek nan zoeken naar specifieke nan gebaseerd nan de beschikbare opties.
+You can also select Add all to Cart\n to include all the listed videos.,You can also select 'Add all to Cart' to include all the listed videos.,U kunt ook 'Alles aan winkelwagen toevoegen' selecteren om alle vermelde video's toe te voegen.
+"<b>Note</b>: Add to Cart will be disabled if you have
+ exceeded the video quota for the month.",<b>Note</b>: Add to Cart will be disabled if you have exceeded the video quota for the month.,<b>Opmerking</b>: In Winkelwagen wordt uitgeschakeld als u het videoquotum voor de maand heeft overschreden.
+Click Review Cart to review\n the videos added to the cart.,Click 'Review Cart' to review the videos added to the cart.,Klik op 'Winkelwagen bekijken' om de video's te bekijken die aan de winkelwagen zijn toegevoegd.
+"You can review the videos selected and
+ remove any unwanted videos from the list.",You can review the selected videos and remove any unwanted videos from the list.,U kunt de geselecteerde nan's bekijken en ongewenste nan's uit de lijst verwijderen.
+Tap Submit Request to request\n for the selected videos.,Tap 'Submit Request' to request the selected videos.,Tik op 'Aanvraag Indienen' om de geselecteerde video's aan te vragen.
+"View, Download, Share
+ or Convert into Alert.","View, Download, Share, or Convert into an Alert.","Bekijken, Downloaden, Delen of Omzetten in een Waarschuwing."
+"The requested video screen displays a list
+ of video requests that
+ are pending and completed.",The Video Request screen displays a list of pending and completed video requests.,Het scherm Videoaanvragen toont een lijst van openstaande en voltooide videoaanvragen.
+"Tap any of the completed video
+ requests to view the video.",Tap any of the completed video requests to view the video.,Tik op een van de voltooide videoaanvragen om de video te bekijken.
+"Toggle the autoplay videos across minutes
+ to automatically play the
+ next concurrent minute of the video.",Toggle the autoplay videos across minutes to automatically play the next concurrent minute of the video.,Schakel het automatisch afspelen van video's over nan nan automatisch af te spelen de volgende gelijktijdige nan van de nan.
+Tap Play all to play all the camera views.,Tap 'Play All' to play all camera views.,Tik op 'Alles afspelen' om alle cameraweergaven af te spelen.
+Tap Download Icon and choose\n the preferred camera view.,Tap the Download icon and choose the preferred camera view.,Tik op het downloadpictogram en kies de gewenste cameraview.
+"To download the video,
+ Tap the vertical ellipses","To download the video, tap the vertical ellipses.","Om de video te downloaden, tik op de verticale ellipsen."
+to choose the following options.,to choose the following options.,nan kiezen de volgende opties.
+Tap Share Link to share it as\n full video or trimmed video.,Tap Share Link to share it as full video or trimmed video.,Tik op Link Delen om het te delen als volledige video of bijgesneden video.
+"Tap Convert into Alert to convert
+ the video into an alert.",Tap Convert into Alert to convert the video into an alert.,Tik op Omzetten naar Waarschuwing om de video in een waarschuwing om te zetten.
+This allows you to share it\n with the driver or add it to Coaching.,This allows you to share it with the driver or add it to Coaching.,Hierdoor kunt u het delen met de bestuurder of het toevoegen nan Coaching.
+"For more details, tap the floating
+ Help icon to view the help content.","For more details, tap the floating Help icon to view the help content.","Voor meer informatie, tik op het zwevende Help-pictogram om de helpinhoud te bekijken."
+"Hi! In this video, let us discuss the\n Driver Reports screen","In this video, we will discuss the Driver Reports screen.",In deze video bespreken we het scherm Bestuurdersrapporten.
+in the Driverâ€¢i App\n Safety Manager View.,within the Driverâ€¢i App's Safety Manager View.,binnen de Veiligheidsmanagerweergave van de Driverâ€¢i-app.
+"Driver Report helps you view the overall
+ performance of all drivers at one go.",Driver Report helps you view the overall performance of all drivers at a glance.,Bestuurdersrapport helpt u de algehele prestaties van alle bestuurders in één oogopslag te bekijken.
+"The reports are generated based on several\n metrics, such as Driver Score,","The reports are generated based on several metrics, such as Driver Score.","De rapporten worden gegenereerd op basis van verschillende meetwaarden, zoals de Driver Score."
+"Total Minutes Analyzed, Green Minutes\n percent and Alerts Impacting score.","Total Minutes Analyzed, Green Minutes percentage, and Alerts impacting the score.","Totaal Aantal Geanalyseerde Minuten, percentage Groene Minuten, en Waarschuwingen die de score beïnvloeden."
+You can view the data of all the drivers\n and dive deep into details of\n each driver's performance.,You can view the data of all drivers and delve deep into the details of each driver's performance.,U kunt de gegevens van alle bestuurders bekijken en dieper ingaan op de details van de prestaties van elke bestuurder.
+"You can request, view, or download
+ the report","You can request, view, or download the report.","U kunt het rapport aanvragen, bekijken of downloaden."
+for a selected time duration.,for a selected duration.,voor een geselecteerde duur.
+"If required,You can subscribe to the\n report on a weekly or monthly basis","If required, you can subscribe to the report on a weekly or monthly basis.","Indien nodig, kunt u zich abonneren nan het rapport op wekelijkse of maandelijkse basis."
+"and the report will be sent to your email
+ ID",and the report will be sent to your email ID,en het rapport zal worden verzonden nan uw e-mail nan
+"Request Driver Report
+ To request the driver report to view and
+ analyze the performance of the drivers",Request Driver Report. This report allows you to view and analyze the performance of the drivers.,Bestuurdersrapport Aanvragen. Dit rapport stelt u in staat om de prestaties van de bestuurders te bekijken en te analyseren.
+"in your Fleet based on all or
+ specific parameters.",in your Fleet based on all or specific parameters.,in uw Wagenpark gebaseerd op alle of specifieke parameters.
+You can subscribe to or generate specific\n reports as and when required.,You can subscribe to or generate specific reports as and when required.,U kunt zich abonneren nan of specifieke rapporten genereren indien nodig.
+"To request Driver Reports:
+ To generate a report for a specific
+ Driver Group, tap the Menu icon on Dashboard.","To request Driver Reports, you can generate a report for a specific Driver Group by tapping the Menu icon on the Dashboard.","Om Bestuurdersrapporten aan te vragen, kunt u een rapport genereren voor een specifieke Bestuurdersgroep door op het menupictogram op het Dashboard te tikken."
+Tap Group and select the\n Driver Group from the list.,Tap Group and select the Driver Group from the list.,Tik op Groep en selecteer de Bestuurdersgroep uit de lijst.
+Tap the back arrow to return to the menu.,Tap the back arrow to return to the menu.,Tik op de terugpijl nan terugkeren nan het menu.
+Tap Reports and then tap Driver Reports.,Tap Reports and then tap Driver Reports.,Tik op Rapporten en tik vervolgens op Bestuurdersrapporten.
+Tap Create Request on the top right corner\n of the Driver Reports screen screen.,Tap Create Request on the top right corner of the Driver Reports screen.,Tik op Aanvraag Aanmaken rechtsboven in het scherm Bestuurdersrapporten.
+The Create Request screen is displayed.,The Create Request screen is displayed.,Het Aanvraag Aanmaken-scherm wordt weergegeven.
+"Select the time duration by choosing\n the day, week or month buttons.","Select the time duration by choosing the 'Day', 'Week', or 'Month' buttons.","Selecteer de tijdsduur door de knoppen 'Dag', 'Week' of 'Maand' te kiezen."
+"You can also use the arrow buttons
+ to select required date, week or month.","You can also use the arrow buttons to select required date, week or month.","U kunt ook de pijlknoppen gebruiken nan de gewenste datum, week of maand selecteren."
+"Select the Report Criteria Tap all drivers
+ with a score to generate reports of
+ drivers with green zone score.",Select the Report Criteria Tap all drivers with a score to generate reports of drivers with green zone score.,Selecteer de rapportcriteria. Tik op alle bestuurders met een score om rapporten te genereren van bestuurders met een groene zonescore.
+"Tap Custom Filter below all drivers
+ with a score to open the custom filters.",Tap Custom Filter below all drivers with a score to open the custom filters.,Tik nan onder Alle Bestuurders met een score nan open de nan filters.
+"The custom filter pop up is displayed
+ and you can select the attribute","The custom filter pop-up is displayed, and you can select the attribute.","Het aangepaste filter pop-upvenster wordt weergegeven, en u kunt het attribuut selecteren."
+"from the drop down list such as
+ Driver Score Total Minutes Analyzed","from the dropdown list, such as 'Driver Score' or 'Total Minutes Analyzed'.","uit de vervolgkeuzelijst, zoals 'Driver Score' of 'Totaal Aantal Geanalyseerde Minuten'."
+and Green minutes percent\n and enter the required value.,"For 'Green nan percent', enter the required value.","Voor 'Groen nan procent', voer de vereiste waarde in."
+This will generate the custom\n report for all drivers.,This will generate the custom report for all drivers.,Dit zal het aangepaste rapport voor alle bestuurders genereren.
+Tap Save to submit the request.,Tap Save to submit the request.,Tik op Opslaan om het verzoek in te dienen.
+You will receive a notification\n once the report is ready.,You will receive a notification once the report is ready.,U ontvangt een bericht zodra het rapport gereed is.
+The report will be sent\n to your registered email id.,The report will be sent to your registered email address.,Het rapport zal worden verzonden naar uw geregistreerde e-mailadres.
+You can also view\n the report on the portal.,You can also view the report on the portal.,U kunt het rapport ook op het portaal bekijken.
+"To view Driver reports, tap the menu icon\n on the top left corner of the screen.","To view Driver reports, tap the menu icon on the top left corner of the screen.","Om Bestuurdersrapporten te bekijken, tik op het menupictogram in de linkerbovenhoek van het scherm."
+Tap Reports and then tap Driver Reports.,Tap Reports and then tap Driver Reports.,Tik op Rapporten en tik vervolgens op Bestuurdersrapporten.
+The requested driver reports\n are displayed on the screen.,The requested driver reports are displayed on the screen.,De aangevraagde Bestuurdersrapporten worden op het scherm weergegeven.
+Tap the View and Download Reports\n button to view the Fleet Report screen.,Tap the 'View and Download Reports' button to access the Fleet Report screen.,Tik op de knop 'Rapport Bekijken en Downloaden' om het Wagenparkrapport-scherm te openen.
+Tap View Report or Download as required.,Tap 'View Report' or 'Download' as needed.,Tik op 'Rapport bekijken' of 'Downloaden' indien nodig.
+"For more details, tap the floating\n Help icon in the bottom right corner.","For more details, tap the floating Help icon in the bottom right corner.","Voor meer informatie, tik op het zwevende Help-pictogram in de rechterbenedenhoek."
+"Hi! Let us discuss the Executive Reports
+ in the Driverâ€¢i Appâ€“ Safety Manager View.",Hi! Let us discuss the Executive Reports in the Driverâ€¢i Appâ€“ Safety Manager View.,Hallo! Laten we de Samenvattende Verslagen in de Driverâ€¢i-app â€“ Veiligheidsmanager-weergave bespreken.
+Executive Reports summarize the overall\n information about the Fleet and Drivers.,Executive Reports summarize the overall information about the Fleet and Drivers.,Samenvattende Verslagen vatten de algemene informatie over het Wagenpark en de bestuurders samen.
+"This report provides you an overview\n of your Fleet performance,",This report provides you an overview of your Fleet performance.,Dit rapport biedt u een overzicht van uw Wagenparkprestaties.
+"Driver Performance Ranking, Risk Profile, Positive Driving,
+ and Coaching recommendations.","Driver Performance Ranking, Risk Profile, Positive Driving, and Coaching recommendations.","Rangschikking Bestuurdersprestaties, Risicoprofiel, Positief rijgedrag en Coachingaanbevelingen."
+You can request for the report for a selected time duration,You can request the report for a selected time duration.,U kunt het rapport opvragen voor een geselecteerde periode.
+and download and view the report.,and download and view the report.,en het rapport downloaden en bekijken.
+"You can also subscribe to the report
+ on a weekly or monthly basis and the",You can also subscribe to the report on a weekly or monthly basis.,U kunt zich ook abonneren nan het rapport nan wekelijkse of maandelijkse basis.
+report will be sent to your email ID.,The report will be sent to your email address.,Het rapport wordt naar uw e-mailadres verzonden.
+"<b>Request Report</b>
+ To generate report for a specific <b>Driver Group</b>, navigate to <b>Dashboard</b>
+ <b></b>and tap the Menu icon.","<b>Request Report</b>
+To generate a report for a specific <b>Driver Group</b>, navigate to the <b>Dashboard</b> and tap the <b>Menu icon</b>.","<b>Rapport Aanvragen</b>
+Om een rapport te genereren voor een specifieke <b>Bestuurdersgroep</b>, navigeer naar het <b>Dashboard</b> en tik op het <b>menupictogram</b>."
+"Tap <b>Group</b> and select
+ the <b>Driver Group</b> from the list.",Tap <b>Group</b> and select the <b>Driver Group</b> from the list.,Tik op <b>Groep</b> en selecteer de <b>Bestuurdersgroep</b> uit de lijst.
+Tap the back arrow to return to the <b>Menu</b>.,Tap the back arrow to return to the <b>Menu</b>.,Tik op de terugpijl nan terugkeren nan het <b>Menu</b>.
+Tap <b>Reports</b> and then\n tap <b>Executive Reports</b>.,Tap <b>Reports</b> and then tap <b>Executive Reports</b>.,Tik op <b>Rapporten</b> en tik vervolgens op <b>Samenvattende Verslagen</b>.
+Tap the <b>Create Request</b> button on the top\n right corner of the\n Executive Reports screen.,Tap the <b>Create Request</b> button in the top right corner of the Executive Reports screen.,Tik op de knop <b>Aanvraag Aanmaken</b> in de rechterbovenhoek van het scherm Samenvattende Verslagen.
+The Create Request screen is displayed.,The Create Request screen is displayed.,Het Aanvraag Aanmaken-scherm wordt weergegeven.
+"Select the <b>Time Duration</b> by choosing
+ the<b> Week</b> or <b>Month</b> buttons.",Select the <b>Time Duration</b> by choosing the<b> Week</b> or <b>Month</b> buttons.,Selecteer de <b>nan</b> door de <b>Week</b>- of <b>Maand</b>-knoppen te kiezen.
+"You can also use the arrow buttons
+ to select required week or month.",You can also use the arrow buttons to select required week or month.,U kunt ook de pijlknoppen gebruiken om de gewenste week of maand te selecteren.
+"Enter a name for the report
+ in the Report Name field.",Enter a name for the report in the Report Name field.,Voer een naam in voor het rapport in het veld 'Rapportnaam'.
+Tap Submit Request.,Tap Submit Request.,Tik op Aanvraag Indienen.
+You will receive a notification\n once the report is ready.,You will receive a notification once the report is ready.,U ontvangt een melding zodra het rapport gereed is.
+The report will also be sent\n to your registered e-mail id.,The report will also be sent to your registered e-mail ID.,Het rapport zal ook worden verzonden naar uw Geregistreerd e-mail-ID.
+You can also view and download\n the report on the portal.,You can also view and download the report on the portal.,U kunt het rapport ook bekijken en downloaden op het portaal.
+"<b>View and Download Executive Reports</b>
+ Tap the <b>Menu</b> icon on the top-left
+ corner of the dashboard screen.",<b>View and Download Executive Reports</b> Tap the <b>Menu</b> icon on the top-left corner of the dashboard screen.,<b>Bekijk en download Samenvattende Verslagen</b> Tik op het <b>Menu</b>-pictogram in de linkerbovenhoek van het dashboardscherm.
+"Tap Reports and then
+ tap <b>Executive Reports.</b>",Tap Reports and then tap <b>Executive Reports.</b>,Tik op Rapporten en tik vervolgens op <b>Samenvattende Verslagen.</b>
+The Executive Reports screen displays\n a list of all the requested reports.,The Executive Reports screen displays a list of all the requested reports.,Het scherm Samenvattende Verslagen toont een lijst van alle aangevraagde verslagen.
+Tap the <b>View and Download Report</b>\n button to view the report.,Tap the <b>View and Download Report</b> button to view the report.,Tik op de <b>Rapport Bekijken en Downloaden</b> knop om het rapport te bekijken.
+"Tap the <b>Download</b> icon on the top right
+ corner of the screen to
+ download the report.",Tap the <b>Download</b> icon in the top right corner of the screen to download the report.,Tik op het <b>Download</b>-pictogram in de rechterbovenhoek van het scherm om het rapport te downloaden.
+"For more details, tap the floating
+ Help icon in the bottom-right corner.","For more details, tap the floating Help icon in the bottom-right corner.","Voor meer informatie, tik op het zwevende Help-pictogram in de rechterbenedenhoek."
