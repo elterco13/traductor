@@ -134,23 +134,53 @@ Task: Verify and correct the Dutch translation below.
 Source English: "{source_text}"
 Candidate Dutch: "{candidate_translation}"
 
-CHECKLIST:
-1. **Capitalization (STRICT)**: MIRROR English casing EXACTLY. (e.g. "feedback" -> "feedback", "Feedback" -> "Feedback"). Do NOT capitalize nouns mid-sentence.
-2. **Branding (INVIOLABLE)**: Ensure 'Driver-i' is NEVER translated to 'Bestuurder-i'. It must remain 'Driver-i'.
-3. **Compound Words**: Are nouns combined? (e.g. 'Account Meldingen' -> 'Accountmeldingen').
-4. **Variables**: Are `{{count}}` or `[text]` placeholders correctly placed?
-5. **Ellipsis**: Is the hyphen used correctly? (e.g. 'Bestuurders- en Voertuiggroepen').
+🔍 VERIFICATION CHECKLIST (STRICT):
+
+1. **FORMALITY (CRITICAL)**:
+   - Is "u/uw/uzelf" used consistently? (NOT "je/jouw/jou")
+   - ❌ "je feedback" -> ✅ "uw feedback"
+   - ❌ "voordat je begint" -> ✅ "voordat u begint"
+
+2. **BRANDING (INVIOLABLE)**:
+   - Is 'Driver•i' or 'Driver-i' preserved EXACTLY?
+   - ❌ "Bestuurder-i" -> ✅ "Driver•i"
+   - ❌ "Driver i" -> ✅ "Driver•i"
+   - ❌ "Driveri" -> ✅ "Driver•i"
+
+3. **COMPOUND WORDS**:
+   - Are brand + noun compounds hyphenated?
+     ❌ "Driver•i app" -> ✅ "Driver•i-app"
+     ❌ "Driver•i Assistent" -> ✅ "Driver•i-assistent"
+   - Are regular noun compounds joined?
+     ❌ "Account Meldingen" -> ✅ "Accountmeldingen"
+
+4. **TRANSLATIONISMS (Most Important!)**:
+   - Does this sound like natural Dutch or a word-by-word translation?
+   - Are subordinate clauses in natural Dutch position?
+   - Are there phrases that don't exist in Dutch?
+     ❌ "voor de dag" (doesn't exist) -> ✅ Remove or rephrase
+     ❌ "Voordat u begint, zorg ervoor dat..." -> ✅ "Zorg ervoor dat... voordat u begint"
+
+5. **CAPITALIZATION (STRICT)**:
+   - Mirror English casing EXACTLY
+   - ❌ "Beschrijf uw Feedback" (if source is "feedback") -> ✅ "Beschrijf uw feedback"
+
+6. **VARIABLES & PLACEHOLDERS**:
+   - Are `{{count}}` or `[text]` placeholders preserved?
+
+7. **ELLIPSIS**:
+   - ❌ "Bestuurders en Voertuiggroepen" -> ✅ "Bestuurders- en Voertuiggroepen"
 
 EXAMPLES OF CORRECTIONS:
-- Input: "Bestuurders en Voertuiggroepen" -> Output: "Bestuurders- en Voertuiggroepen"
-- Input: "Hallo, ik ben Bestuurder-i Assistent" -> Output: "Hallo, ik ben de Driver-i-assistent"
-- Input: "Beschrijf uw Feedback" (Source: "Describe your feedback") -> Output: "Beschrijf uw feedback"
-- Input: "Meer pagina's toevoegen" (Source: "Add More Pages") -> Output: "Meer Pagina's Toevoegen"
+- Input: "Voordat je begint, zorg ervoor dat..." -> Output: "Zorg ervoor dat... voordat u begint"
+- Input: "Driver i app" -> Output: "Driver•i-app"
+- Input: "je feedback" -> Output: "uw feedback"
+- Input: "Het scherm voor de dag" -> Output: "Het scherm" (remove translationsim)
 
 Instruction:
 - If the Candidate Dutch is perfect, output it EXACTLY as is.
 - If there are errors, output the CORRECTED version only.
-- Output ONLY the final Dutch string.
+- Output ONLY the final Dutch string, no explanations.
 """
     try:
         response = model.generate_content(verification_prompt)
@@ -165,17 +195,36 @@ def _post_process_enforcement(dutch_text, source_english):
     """
     if not dutch_text: return ""
     
-    # 1. BRANDING: Force "Driver-i" (Kill 'Bestuurder-i', 'Bestuurder i', 'Bestuurderi')
+    # 1. BRANDING: Force "Driver•i" or "Driver-i" (Kill 'Bestuurder-i', 'Bestuurder i', 'Bestuurderi')
     # Regex matches: Bestuurder followed by optional dash/space and 'i' (case insensitive)
     branding_regex = r"(?i)\bbestuurder[-\s]*i\b"
-    dutch_text = re.sub(branding_regex, "Driver-i", dutch_text)
+    dutch_text = re.sub(branding_regex, "Driver•i", dutch_text)
     
-    # 1.5. BRANDING: Ensure 'Driver-i' has an article if it looks like a noun phrase being introduced
-    # "Ik ben Driver-i" -> "Ik ben de Driver-i"
-    # We look for "ben Driver-i" or "is Driver-i" without "de"
-    dutch_text = re.sub(r"(?i)\b(ben|is)\s+Driver-i\b", r"\1 de Driver-i", dutch_text)
+    # 1.5. BRANDING: Ensure 'Driver•i' or 'Driver-i' has an article if it looks like a noun phrase being introduced
+    # "Ik ben Driver•i" -> "Ik ben de Driver•i"
+    # We look for "ben Driver•i" or "is Driver•i" without "de"
+    dutch_text = re.sub(r"(?i)\b(ben|is)\s+Driver[•-]i\b", r"\1 de Driver•i", dutch_text)
+    
+    # 1.6. COMPOUND WORDS: Brand + noun should be hyphenated
+    # "Driver•i app" -> "Driver•i-app", "Driver•i Assistent" -> "Driver•i-assistent"
+    # Match "Driver•i" or "Driver-i" followed by space and a capitalized word
+    dutch_text = re.sub(r"\b(Driver[•-]i)\s+([A-Z][a-z]+)", r"\1-\2", dutch_text)
+    # Also handle lowercase after brand (less common but possible)
+    dutch_text = re.sub(r"\b(Driver[•-]i)\s+(app|assistent|scherm|functie)\b", r"\1-\2", dutch_text, flags=re.IGNORECASE)
 
-    # 2. CASING: Mirror Source strictly for shared words
+    # 2. FORMALITY: Force formal pronouns
+    # Replace informal "je/jouw/jou" with formal "u/uw/u"
+    # This is tricky because we need to preserve "je" in compound words like "projecten"
+    # We use word boundaries to match standalone pronouns
+    
+    # "je " at start or after space/punctuation -> "u "
+    dutch_text = re.sub(r"\bje\b", "u", dutch_text)
+    # "jouw " -> "uw "
+    dutch_text = re.sub(r"\bjouw\b", "uw", dutch_text)
+    # "jou " -> "u "
+    dutch_text = re.sub(r"\bjou\b", "u", dutch_text)
+
+    # 3. CASING: Mirror Source strictly for shared words
     # If English has "feedback" (lower) and Dutch has "Feedback" (Title), force lower.
     source_words = set(re.findall(r'\b[a-z]{4,}\b', source_english)) # strict lowercase words >3 chars
     
@@ -207,30 +256,76 @@ def translate_row_robust(source_text, glossary_text, reference_examples=""):
     prompt_json = f"""
 You are an expert technical translator converting English to Dutch.
 
+🎯 YOUR MISSION: Produce IDIOMATIC Dutch that a native speaker would write, NOT a word-by-word translation.
+
 STRICT INSTRUCTIONS:
 1. Output JSON ONLY. No markdown.
 2. Structure: {{ "original_english": "...", "improved_english": "...", "dutch_translation": "..." }}
 3. Rephrase 'Input Text' to be grammatically correct (improved_english).
-   - **CRITICAL:** Add missing articles (the, a) e.g. "I am Driver-i" -> "I am THE Driver-i".
-   - **IMMUTABLE TERMS:** DO NOT change, split, or 'fix' the following terms in the English text: ['Driver•i', 'Driver-i', 'Netradyne']. Treat 'Driver•i' as a valid proper noun, NOT a typo.
-4. Translate to Dutch using the Glossary (dutch_translation).
+   - **CRITICAL:** Add missing articles (the, a) e.g. "I am Driver•i" -> "I am THE Driver•i".
+   - **IMMUTABLE TERMS:** DO NOT change, split, or 'fix' the following terms: ['Driver•i', 'Driver-i', 'Netradyne']. These are proper nouns.
+4. Translate to Dutch (dutch_translation) following the rules below.
 
-LINGUISTIC RULES (CRITICAL):
-- **BRANDING (INVIOLABLE)**: NEVER translate 'Driver-i' or 'Driver•i'. It is ALWAYS 'Driver-i'/'Driver•i'.
-- **PUNCTUATION**: You MAY add commas or semicolons if it improves natural Dutch flow/readability.
-- **CAPITALIZATION (STRICT)**: MIRROR English casing EXACTLY.
-    - If English is "feedback" (lowercase), Dutch MUST be "feedback" (lowercase).
-    - If English is "Feedback" (Title), Dutch MUST be "Feedback".
-    - DO NOT capitalize nouns mid-sentence (German style) unless they are capitalized in English.
-- **Compound Words**: ALWAYS combine nouns in Dutch. (e.g., 'Account Meldingen' -> 'Accountmeldingen').
-- **Word Order**: Use natural Dutch syntax (SOV).
-- **Ellipsis**: Use 'koppelteken' correctly (e.g., 'Bestuurders- en Voertuiggroepen').
+═══════════════════════════════════════════════════════════════════
+🔴 CRITICAL LINGUISTIC RULES (NON-NEGOTIABLE)
+═══════════════════════════════════════════════════════════════════
+
+1. **FORMALITY (ABSOLUTE RULE)**:
+   - ALWAYS use formal address: "u", "uw", "uzelf"
+   - NEVER use informal: "je", "jouw", "jou"
+   - Example: "your feedback" -> "uw feedback" (NOT "je feedback")
+
+2. **BRANDING (INVIOLABLE)**:
+   - NEVER translate 'Driver•i' or 'Driver-i'. Keep as-is.
+   - When forming compounds with brand names, use HYPHEN:
+     ✅ "Driver•i-app" (NOT "Driver•i app" or "Driveri-app")
+     ✅ "Driver•i-assistent" (NOT "Driver•i Assistent")
+
+3. **COMPOUND WORDS (Dutch Standard)**:
+   - Combine nouns WITHOUT spaces: "Account Meldingen" -> "Accountmeldingen"
+   - Use hyphen for brand + noun: "Driver•i-app", "USB-C-kabel"
+   - Ellipsis with hyphen: "Bestuurders- en Voertuiggroepen"
+
+4. **CAPITALIZATION (MIRROR ENGLISH)**:
+   - If English is "feedback" (lowercase), Dutch MUST be "feedback"
+   - If English is "Feedback" (Title), Dutch MUST be "Feedback"
+   - DO NOT capitalize nouns mid-sentence unless capitalized in English
+
+5. **AVOID TRANSLATIONISMS** (This is the most important rule!):
+   - DO NOT translate word-by-word following English structure
+   - RETHINK the sentence in natural Dutch word order
+   - Move subordinate clauses to natural Dutch positions
+   
+   ❌ BAD (translationsim): "Voordat u begint met registreren, zorg ervoor dat..."
+   ✅ GOOD (natural Dutch): "Zorg ervoor dat... voordat u begint met registreren"
+   
+   ❌ BAD: "voor de dag" (literal translation, doesn't exist in Dutch)
+   ✅ GOOD: Omit or rephrase naturally
+   
+   ❌ BAD: "Het scherm stelt u in staat om uw status voor de dag te bevestigen"
+   ✅ GOOD: "Het scherm stelt u in staat om uw status te bevestigen"
+
+6. **WORD ORDER (Dutch SOV)**:
+   - Main clause: Subject-Verb-Object
+   - Subordinate clause: Subject-Object-Verb (verb at end)
+   - Time/Manner/Place order
+   - Ask yourself: "Would a Dutch person say this?"
+
+7. **GLOSSARY TERMS (SACRED)**:
+   - Terms from the glossary are MANDATORY and EXACT
+   - Do not modify, translate, or "improve" glossary terms
 
 GLOSSARY:
 {glossary_text}
 
 EXAMPLES:
 {reference_examples}
+
+🧠 BEFORE YOU TRANSLATE: Ask yourself:
+   1. Is this formal (u/uw)?
+   2. Are compound words joined correctly?
+   3. Does this sound natural in Dutch, or is it a word-by-word translation?
+   4. Are brand names preserved exactly?
 
 Input Text: "{safe_json_source}"
 """
