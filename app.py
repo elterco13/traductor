@@ -250,6 +250,12 @@ if source_file:
         results_placeholder = st.empty()
         
         try:
+            # AUTOSAVE INIT
+            autosave_file = "TRANSLATION_RESULTS_REALTIME.csv"
+            # Initialize/Clear the file with headers
+            pd.DataFrame(columns=["original_english", "improved_english", "dutch_translation"]).to_csv(autosave_file, index=False)
+            st.info(f"💾 Autosave active. Saving real-time to: `{autosave_file}`")
+
             for index, row in df_source.iterrows():
                 try:
                     text = row[source_col]
@@ -260,19 +266,29 @@ if source_file:
                         with log_container:
                             st.write(f"⏱️ {status_msg}")
 
+                    current_result = None
                     if pd.isna(text) or str(text).strip() == "":
                         # Handle empty
-                        results.append({
+                        current_result = {
                             "original_english": text,
                             "improved_english": "",
                             "dutch_translation": ""
-                        })
+                        }
                     else:
                         # Find terms
                         relevant_terms = backend.find_relevant_terms(str(text), glossary_dict)
                         # Translate
-                        translation = backend.translate_row_robust(str(text), relevant_terms)
-                        results.append(translation)
+                        current_result = backend.translate_row_robust(str(text), relevant_terms)
+                    
+                    results.append(current_result)
+                    
+                    # --- REAL-TIME AUTOSAVE ---
+                    # Append this single row to the CSV immediately
+                    # We utilize a temporary DF to append safely with quotes/escaping handled by pandas
+                    pd.DataFrame([current_result])[["original_english", "improved_english", "dutch_translation"]].to_csv(
+                        autosave_file, mode='a', header=False, index=False
+                    )
+                    # --------------------------
                     
                     # Update Progress
                     progress = (index + 1) / total_rows
@@ -289,15 +305,24 @@ if source_file:
                         st.error(err_msg)
                     errors.append(err_msg)
                     # Create a dummy failed row so we don't lose alignment
-                    results.append({
+                    failed_row = {
                         "original_english": str(row[source_col]),
                         "improved_english": "ERROR",
                         "dutch_translation": "ERROR_FAILED_PROCESSING"
-                    })
+                    }
+                    results.append(failed_row)
+                    
+                    # Try to autosave the error too so alignment is kept
+                    try:
+                        pd.DataFrame([failed_row])[["original_english", "improved_english", "dutch_translation"]].to_csv(
+                            autosave_file, mode='a', header=False, index=False
+                        )
+                    except:
+                        pass # If saving fails here, we can't do much
 
             # LOOP FINISHED
             progress_bar.progress(1.0)
-            status_text.success("✅ Translation Process Finished Completely!")
+            status_text.success(f"✅ Translation Finished! All data saved to {autosave_file}")
             
             # Store Final Results
             st.session_state['translation_df'] = pd.DataFrame(results)
