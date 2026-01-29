@@ -405,13 +405,16 @@ if source_file:
 
         with d_col1:
             # Download Button CSV (Fixed with BOM for Excel)
-            csv = img_df.to_csv(index=False).encode('utf-8-sig')
-            st.download_button(
-                label="📥 Download Results (CSV)",
-                data=csv,
-                file_name="translated_results.csv",
-                mime="text/csv",
-            )
+            try:
+                csv = img_df.to_csv(index=False, encoding='utf-8-sig')
+                st.download_button(
+                    label="📥 Download Results (CSV)",
+                    data=csv.encode('utf-8-sig'),
+                    file_name="translated_results.csv",
+                    mime="text/csv",
+                )
+            except Exception as e:
+                st.error(f"Could not generate CSV file: {e}")
 
         with d_col2:
             # Download Button Excel (.xlsx)
