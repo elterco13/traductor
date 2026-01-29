@@ -164,6 +164,9 @@ st.markdown("<h3 style='text-align: center;'>Work Smart, not hard, bb. Love U</h
 st.sidebar.header("Configuration")
 api_key_input = st.sidebar.text_input("Google API Key", type="password", help="Enter your Gemini API Key")
 
+# Encoding Selector
+encoding_opt = st.sidebar.selectbox("File Encoding", ["utf-8", "latin1", "cp1252"], index=0, help="Change this if you see weird characters (Ã¢â‚¬Â¢) in the preview.")
+
 # Use environment variable or Streamlit secrets if available
 if not api_key_input:
     if "GOOGLE_API_KEY" in st.secrets:
@@ -193,7 +196,7 @@ with col2:
 if source_file:
     try:
         if source_file.name.endswith('.csv'):
-            df_source = pd.read_csv(source_file)
+            df_source = pd.read_csv(source_file, encoding=encoding_opt)
         else:
             df_source = pd.read_excel(source_file)
         

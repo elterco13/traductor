@@ -186,16 +186,25 @@ EXAMPLES:
 
 Input Text: "{safe_json_source}"
 """
-        retries = 2
+        retries = 3
+        last_error = None
+        
         for attempt in range(retries):
             try:
+                # Exponential backoff for rate limits
+                if attempt > 0:
+                    time.sleep(2 ** attempt)
+                    
                 response = self.model.generate_content(prompt_json)
                 if not response.parts:
-                    raise ValueError("Empty response")
+                    raise ValueError("Blocked by safety filters or empty response")
                 
                 txt = response.text.strip()
                 if "```" in txt:
                     txt = re.sub(r"```json\s*", "", txt, flags=re.IGNORECASE).replace("```", "")
+                
+                # Sanitize newlines inside JSON strings if they break parsing
+                # (Simple approach: assume strict JSON structure from model)
                 
                 data = json.loads(txt)
                 
@@ -203,14 +212,12 @@ Input Text: "{safe_json_source}"
                     raise ValueError("Missing JSON keys")
                 
                 # --- VERIFICATION STEP (New) ---
-                # We perform a quick self-correction pass on the result
                 verified_dutch = self._verify_and_correct(data["dutch_translation"], source_text)
 
-                # --- POST-PROCESSING ENFORCEMENT (The "Iron Fist") ---
+                # --- POST-PROCESSING ENFORCEMENT ---
                 final_dutch = self._post_process_enforcement(verified_dutch, source_text)
 
-                # --- CRITICAL: ALL CAPS ENFORCEMENT ---
-                # If source is 100% CAPS (and length > 1 to avoid 'A'), force output to be CAPS.
+                # --- ALL CAPS ENFORCEMENT ---
                 if source_text.isupper() and len(source_text) > 1:
                     data["improved_english"] = data["improved_english"].upper()
                     final_dutch = final_dutch.upper()
@@ -221,9 +228,16 @@ Input Text: "{safe_json_source}"
                     "dutch_translation": final_dutch
                 }
             except Exception as e:
-                time.sleep(1)
+                last_error = e
+                # If it's a 429/ResourceExhausted, we really want to retry/wait
+                err_str = str(e).lower()
+                if "429" in err_str or "quota" in err_str or "exhausted" in err_str:
+                    time.sleep(5) # Extra wait for quota
+                continue
 
         # --- STRATEGY B: Fallback Text-Only ---
+        # If we are here, Strategy A failed all retries.
+        
         prompt_text = f"""
 Role: Technical Translator (English -> Dutch).
 Task: Translate the following English text to Dutch.
@@ -234,13 +248,13 @@ Input: "{clean_noline_source}"
 Return ONLY the Dutch translation. do not include any other text.
 """
         try:
+            # Short pause before fallback attempt
+            time.sleep(1)
             response = self.model.generate_content(prompt_text)
             dutch_text = response.text.strip()
             
-            # Even in fallback, apply Iron Fist
             final_dutch = self._post_process_enforcement(dutch_text, source_text)
 
-            # --- CRITICAL: ALL CAPS ENFORCEMENT ---
             if source_text.isupper() and len(source_text) > 1:
                 clean_noline_source = clean_noline_source.upper()
                 final_dutch = final_dutch.upper()
@@ -251,10 +265,15 @@ Return ONLY the Dutch translation. do not include any other text.
                 "dutch_translation": final_dutch
             }
         except Exception as e:
+            # FINAL FAIL
+            error_msg = f"ERROR: {str(e)}"
+            if last_error:
+               error_msg += f" | JSON Error: {str(last_error)}"
+               
             return {
                 "original_english": source_text,
-                "improved_english": "ERROR_FAILED",
-                "dutch_translation": ""
+                "improved_english": error_msg[:1000],  # Limit length
+                "dutch_translation": "ERROR_FAILED"
             }
 
     @staticmethod
