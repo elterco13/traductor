@@ -169,9 +169,13 @@ encoding_opt = st.sidebar.selectbox("File Encoding", ["utf-8", "latin1", "cp1252
 
 # Use environment variable or Streamlit secrets if available
 if not api_key_input:
-    if "GOOGLE_API_KEY" in st.secrets:
-        api_key_input = st.secrets["GOOGLE_API_KEY"]
-    elif "GOOGLE_API_KEY" in os.environ:
+    try:
+        if "GOOGLE_API_KEY" in st.secrets:
+            api_key_input = st.secrets["GOOGLE_API_KEY"]
+    except:
+        pass
+    
+    if not api_key_input and "GOOGLE_API_KEY" in os.environ:
         api_key_input = os.environ["GOOGLE_API_KEY"]
 
 if not api_key_input:
