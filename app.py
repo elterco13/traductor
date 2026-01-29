@@ -376,10 +376,14 @@ if source_file:
                 with open(xliff_path, "w", encoding="utf-8") as f:
                     f.write(_quick_xliff_gen(pd.DataFrame(results)))
                 
-                st.success(f"✅ AUTO-SAVE SUCCESS: Files saved to '/{output_dir}/' folder:\n- {base_filename}.csv\n- {base_filename}.xlsx\n- {base_filename}.xlf")
+                with st.expander("✅ AUTO-SAVE SUCCESS", expanded=True):
+                    st.success(f"Files saved to '/{output_dir}/' folder:")
+                    st.code(f"- {base_filename}.csv\n- {base_filename}.xlsx\n- {base_filename}.xlf")
                 
             except Exception as save_error:
                 st.error(f"⚠️ Auto-save failed: {save_error}")
+                import traceback
+                st.code(traceback.format_exc())
             
             if errors:
                 st.warning(f"Process finished with {len(errors)} errors. Check the log above.")
@@ -406,10 +410,10 @@ if source_file:
         with d_col1:
             # Download Button CSV (Fixed with BOM for Excel)
             try:
-                csv = img_df.to_csv(index=False, encoding='utf-8-sig')
+                csv = img_df.to_csv(index=False).encode('utf-8-sig')
                 st.download_button(
                     label="📥 Download Results (CSV)",
-                    data=csv.encode('utf-8-sig'),
+                    data=csv,
                     file_name="translated_results.csv",
                     mime="text/csv",
                 )
