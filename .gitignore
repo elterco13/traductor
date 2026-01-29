@@ -16,3 +16,5 @@ translated_results.csv
 
 # Logs
 *.log
+
+output/

@@ -326,6 +326,57 @@ if source_file:
             
             # Store Final Results
             st.session_state['translation_df'] = pd.DataFrame(results)
+
+            # --- AUTO-SAVE TO DISK ---
+            try:
+                # 1. Create output directory
+                output_dir = "output"
+                if not os.path.exists(output_dir):
+                    os.makedirs(output_dir)
+                
+                # 2. Generate Timestamped Filenames
+                timestamp = time.strftime("%Y%m%d_%H%M%S")
+                base_filename = f"translation_results_{timestamp}"
+                
+                # 3. Save CSV
+                csv_path = os.path.join(output_dir, f"{base_filename}.csv")
+                pd.DataFrame(results).to_csv(csv_path, index=False, encoding='utf-8-sig')
+                
+                # 4. Save Excel
+                excel_path = os.path.join(output_dir, f"{base_filename}.xlsx")
+                with pd.ExcelWriter(excel_path, engine='openpyxl') as writer:
+                    pd.DataFrame(results).to_excel(writer, index=False, sheet_name='Translations')
+                    
+                # 5. Save XLIFF
+                # We need the generate_xliff function here, but it's defined inside the column scope later. 
+                # Let's extract the XLIFF generation logic to be reusable or define it here.
+                # For simplicity, we define a quick helper here or move the function up. 
+                # Since we are editing inside the block, let's define it here locally for the auto-save.
+                def _quick_xliff_gen(df):
+                    xliff = ['<?xml version="1.0" encoding="UTF-8"?>']
+                    xliff.append('<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">')
+                    xliff.append('  <file source-language="en" target-language="nl" datatype="plaintext" original="translation_job">')
+                    xliff.append('    <body>')
+                    for i, r in df.iterrows():
+                        src = str(r.get("original_english", "")).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+                        tgt = str(r.get("dutch_translation", "")).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+                        xliff.append(f'      <trans-unit id="{i+1}">')
+                        xliff.append(f'        <source>{src}</source>')
+                        xliff.append(f'        <target>{tgt}</target>')
+                        xliff.append('      </trans-unit>')
+                    xliff.append('    </body>')
+                    xliff.append('  </file>')
+                    xliff.append('</xliff>')
+                    return "\n".join(xliff)
+
+                xliff_path = os.path.join(output_dir, f"{base_filename}.xlf")
+                with open(xliff_path, "w", encoding="utf-8") as f:
+                    f.write(_quick_xliff_gen(pd.DataFrame(results)))
+                
+                st.success(f"✅ AUTO-SAVE SUCCESS: Files saved to '/{output_dir}/' folder:\n- {base_filename}.csv\n- {base_filename}.xlsx\n- {base_filename}.xlf")
+                
+            except Exception as save_error:
+                st.error(f"⚠️ Auto-save failed: {save_error}")
             
             if errors:
                 st.warning(f"Process finished with {len(errors)} errors. Check the log above.")
