@@ -258,10 +258,21 @@ if source_file:
         
         try:
             # AUTOSAVE INIT
-            autosave_file = "TRANSLATION_RESULTS_REALTIME.csv"
+            # AUTOSAVE INIT
+            # 1. Create output directory immediately
+            output_dir = "output"
+            if not os.path.exists(output_dir):
+                os.makedirs(output_dir)
+            
+            # 2. Generate Timestamped Filename for Auto-save
+            timestamp = time.strftime("%Y%m%d_%H%M%S")
+            base_filename = f"translation_results_{timestamp}"
+            autosave_file = os.path.join(output_dir, f"{base_filename}.csv")
+            
             # Initialize/Clear the file with headers
-            pd.DataFrame(columns=["original_english", "improved_english", "dutch_translation"]).to_csv(autosave_file, index=False)
-            st.info(f"💾 Autosave active. Saving real-time to: `{autosave_file}`")
+            pd.DataFrame(columns=["original_english", "improved_english", "dutch_translation"]).to_csv(autosave_file, index=False, encoding='utf-8-sig')
+            abs_path = os.path.abspath(autosave_file)
+            st.info(f"💾 Autosave active. Saving real-time to:\n`{abs_path}`")
 
             for index, row in df_source.iterrows():
                 try:
@@ -293,7 +304,7 @@ if source_file:
                     # Append this single row to the CSV immediately
                     # We utilize a temporary DF to append safely with quotes/escaping handled by pandas
                     pd.DataFrame([current_result])[["original_english", "improved_english", "dutch_translation"]].to_csv(
-                        autosave_file, mode='a', header=False, index=False
+                        autosave_file, mode='a', header=False, index=False, encoding='utf-8-sig'
                     )
                     # --------------------------
                     
@@ -322,7 +333,7 @@ if source_file:
                     # Try to autosave the error too so alignment is kept
                     try:
                         pd.DataFrame([failed_row])[["original_english", "improved_english", "dutch_translation"]].to_csv(
-                            autosave_file, mode='a', header=False, index=False
+                            autosave_file, mode='a', header=False, index=False, encoding='utf-8-sig'
                         )
                     except:
                         pass # If saving fails here, we can't do much
@@ -334,20 +345,11 @@ if source_file:
             # Store Final Results
             st.session_state['translation_df'] = pd.DataFrame(results)
 
-            # --- AUTO-SAVE TO DISK ---
+            # --- AUTO-SAVE TO DISK (Finalize) ---
             try:
-                # 1. Create output directory
-                output_dir = "output"
-                if not os.path.exists(output_dir):
-                    os.makedirs(output_dir)
-                
-                # 2. Generate Timestamped Filenames
-                timestamp = time.strftime("%Y%m%d_%H%M%S")
-                base_filename = f"translation_results_{timestamp}"
-                
-                # 3. Save CSV
-                csv_path = os.path.join(output_dir, f"{base_filename}.csv")
-                pd.DataFrame(results).to_csv(csv_path, index=False, encoding='utf-8-sig')
+                # The CSV is already saved row-by-row in autosave_file, so we don't need to re-save it
+                # unless we want to ensure it matches the final list exactly (which it should).
+                # We will keep the reference to it.
                 
                 # 4. Save Excel
                 excel_path = os.path.join(output_dir, f"{base_filename}.xlsx")
